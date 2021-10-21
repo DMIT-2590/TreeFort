@@ -1,0 +1,72 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #7addb2;
+  --ifm-color-primary-dark: #5fd6a2;
+  --ifm-color-primary-darker: #51d39a;
+  --ifm-color-primary-darkest: #31bf81;
+  --ifm-color-primary-light: #95e4c2;
+  --ifm-color-primary-lighter: #a3e7ca;
+  --ifm-color-primary-lightest: #ccf2e1;
+  --ifm-code-font-size: 95%;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+html[data-theme='dark'] .docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.center {
+  text-align: center;
+}
+
+#search {
+  width: 25rem;
+  border-radius: 0.5rem;
+  border-color: #ccf2e1;
+  padding: 0.5rem;
+}
+
+.navbar {
+  padding: 0 1rem;
+}
+
+.navbar__items {
+  justify-content: space-between;
+}
+
+.navbar__brand {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.navbar__brand:hover {
+  background-color: #7addb2;
+  color: #1c1e21;
+}
+
+.navbar__item {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.navbar__item:hover{
+  background-color: #7addb2;
+  color: #1c1e21;
+}

@@ -1,9 +1,33 @@
-# First Steps
+# Website
 
-1. Create an appropriate **`.gitignore`** file for your repository. You can use [https://gitignore.io](https://gitignore.io) to help you in selecting the type of items to ignore.
-    - Here is a [sample group of settings](https://www.toptal.com/developers/gitignore/api/macos,windows,visualstudio,visualstudiocode,microsoftoffice) commonly used in various DMIT classes for those in the *Computer Software Development* path.
+This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
-      ![sample](./sample-gitignore.png)
+### Installation
 
-1. Create an appropriate **`.gitattributes`** file for your repository. You can use [https://gitattributes.io](https://gitattributes.io) to select the appropriate content for this file.
-1. Identify the members of your team by their GitHub usernames and send the information to your **GitHub Campus Advisor** or your course instructor who will add them as contributors to this repository.
+```
+$ yarn
+```
+
+### Local Development
+
+```
+$ yarn start
+```
+
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+
+### Build
+
+```
+$ yarn build
+```
+
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
+
+### Deployment
+
+```
+$ GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
+```
+
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
