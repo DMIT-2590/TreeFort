@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'TreeFort',
   tagline: 'TreeFort Knowledge Base',
-  url: 'https://treefort.tech',
+  url: 'https://treefort.netlify.app/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -76,6 +76,11 @@ const config = {
             position: 'left',
           },
         ],
+      },
+      algolia: {
+        apiKey: '9110916aefd88fba0ab1b95c10f4d2f8',
+        indexName: 'TreeFort',
+        appId: 'J276OQO1RA',
       },
       footer: {
         style: 'dark',

@@ -1,8 +1,9 @@
 import React from "react";
+import styles from './HomepageFAQs.module.css'
 
 const HomepageFAQs = () => {
     return ( 
-        <div className="home-page-faqs">
+        <div className={styles.faqs}>
             <h1 className="center">Home Page FAQs</h1>
         </div>
     );
