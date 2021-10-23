@@ -1,3 +1,10 @@
 .documents {
     margin: 3rem 0;
 }
+
+.pageColor {
+    color: purple;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
