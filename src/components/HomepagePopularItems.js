@@ -5,7 +5,7 @@ const HomepagePopularItems = () => {
     return ( 
         <div className={styles.popularItems}>
             <h1 className="center">Home Page Popular Items</h1>
-            <p>I just changed it @6.35</p>
+            <p className={styles.item}>I just changed it @6.35</p>
         </div>
     );
 }

@@ -5,7 +5,7 @@ const HomepageSupportRequest = () => {
     return ( 
         <div className={styles.supportRequest}>
             <h1 className="center">Home Page Support Request</h1>
-            <p>This is Ranbir's component</p>
+            <p className={styles.request}>This is Ranbir's component</p>
         </div>
     );
 }

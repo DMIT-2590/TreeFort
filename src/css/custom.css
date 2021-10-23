@@ -28,6 +28,15 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 }
 
 /* GENERIC STYLES */
+.sr-only{
+  position: absolute;
+  left: -1000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
 .center {
   text-align: center;
 }
@@ -64,12 +73,4 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 .navbar__item:hover{
   background-color: #7addb2;
   color: #1c1e21;
-}
-
-/* SEARCH BAR STYLES */
-#search {
-  width: 25rem;
-  border-radius: 0.5rem;
-  border-color: #ccf2e1;
-  padding: 0.5rem;
 }

@@ -4,7 +4,6 @@ import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
-import SearchBar from '../theme/SearchBar';
 import HomepageFeatures from '../components/HomepageFeatures';
 import HomepageDocumentations from '../components/HomepageDocumentations';
 import HomepageFAQs from '../components/HomepageFAQs';
@@ -19,7 +18,6 @@ function HomepageHeader() {
       <div className="container">
         <p className="hero__subtitle">How can we help you?</p>
         <MainSearchBar />
-        <SearchBar />
       </div>
     </header>
   );
