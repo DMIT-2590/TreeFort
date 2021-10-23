@@ -1,10 +1,45 @@
 .supportRequest {
     margin: 3rem 0;
+    background-color:#8ccfb5;
+    height: auto;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+    
+    
 }
-
-.request {
-    color: purple;
-    font-style: italic;
-    font-weight: bold;
+.supportRequest>h2{
+    font-size: 35px;
+    color: #655A56 ;
     text-align: center;
 }
+
+.supportRequest>button{  
+  background-color:#31bf81 ; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 10px;
+  width: auto;
+  margin: auto; 
+  transition: all 0.5s;
+}
+.supportRequest>button:hover{  
+    background-color:#398864 ; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 10px;
+    width: auto;
+    margin: auto; 
+    transition: all 0.5s;
+  }
