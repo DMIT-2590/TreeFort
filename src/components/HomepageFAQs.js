@@ -5,6 +5,7 @@ const HomepageFAQs = () => {
     return ( 
         <div className={styles.faqs}>
             <h1 className="center">Home Page FAQs</h1>
+            <p>This is Jahmali's component</p>
         </div>
     );
 }
