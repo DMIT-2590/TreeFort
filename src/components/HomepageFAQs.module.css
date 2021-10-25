@@ -1,10 +1,24 @@
-.faqs {
-    margin: 3rem 0;
+.faqContainer {
+    margin: 0 auto;
+    max-width: 1200px;
 }
 
-.item {
-    color: purple;
-    font-style: italic;
-    font-weight: bold;
-    text-align: center;
+.faqMenu {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+}
+
+.faqMenuItem {
+    color: #7addb2;
+    border: 2px solid #7addb2;
+    border-radius: 0.5rem;
+    padding: 0.20rem 1.75rem;
+    cursor: pointer;
+}
+
+.faqMenuItem:hover, .faqMenuItemActive {
+    background-color: #7addb2;
+    color: #fcfcfc;
 }

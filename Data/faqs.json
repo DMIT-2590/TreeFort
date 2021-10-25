@@ -1,0 +1,62 @@
+{
+    "pricing": [
+        {
+            "question" : "What is the price of this item?",
+            "answer": "This item consist of a lot of this so it cost $00.00.",
+            "id": 1
+        },
+        {
+            "question": "Why is this item so much money?",
+            "answer": "This item is so much money because I said so.",
+            "id": 2
+        }
+    ],
+    "support": [
+        {
+            "question" : "Where can I find support for my problem?",
+            "answer": "I'm not sure, have you checked our home page.",
+            "id": 1
+        },
+        {
+            "question": "Who should I contact when I need help?",
+            "answer": "You can find our contact page here.",
+            "id": 2
+        }
+    ],
+    "returns": [
+        {
+            "question" : "Where can I return this product?",
+            "answer": "This product is nun-refundable.",
+            "id": 1
+        },
+        {
+            "question": "Can I return this online?",
+            "answer": "Some products can be returned online, but some can't.",
+            "id": 2
+        }
+    ],
+    "technical": [
+        {
+            "question" : "Where can I find in-person technical help?",
+            "answer": "You can find that on our home page.",
+            "id": 1
+        },
+        {
+            "question": "Why can I find the technical help page?",
+            "answer": "Please call us here for help.",
+            "id": 2
+        }
+    ],
+    "license": [
+        {
+            "question" : "Why is the site not available in my location?",
+            "answer": "This is because of license.",
+            "id": 1
+        },
+        {
+            "question": "Where did you get your license?",
+            "answer": "We got it from the place right here.",
+            "id": 2
+        }
+    ]
+}
