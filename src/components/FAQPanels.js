@@ -3,13 +3,12 @@ import Collapsible from 'react-collapsible';
 import styles from './FAQPanels.module.css';
 
 const FAQPanels = ({panels}) => {
-    const handelOpenClose = () => {}
     return (
-        <div className={styles.faqPanelContainer}>
+        <div>
             {panels.map((panel) => (
                 <div className={styles.faqItemContainer} key={panel.id}>
-                    <h4>{panel.question}</h4>
-                    <Collapsible className={styles.trigger} trigger="press">
+                    <h4 className={styles.faqItemQuestion}>{panel.question}</h4>
+                    <Collapsible trigger="">
                         <p className={styles.faqItemAnswer}>{panel.answer}</p>
                     </Collapsible>
                 </div>

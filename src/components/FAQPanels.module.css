@@ -1,36 +1,21 @@
+:root {
+    --faqColor: #848484;
+}
+
 .faqItemContainer {
-    border: 1px solid #000000;
+    border: 1px solid var(--faqColor);
     padding: 1rem;
     margin-bottom: 2rem;
 }
 
 .faqItemQuestion {
-    font-weight: bold;
     position: absolute;
+    font-weight: bold;
+    color: var(--faqColor);
 }
 
 .faqItemAnswer {
+    color: var(--faqColor);
     padding-top: 1rem;
-}
-
-.faqItemHeader {
-    display: flex;
-    justify-content: space-between;
-}
-
-.trigger {
-    cursor: pointer;
-    /* position: relative;    
-    left: 96%;
-    bottom: 46px; */
-}
-
-.openCloseIcon span {
-    width: 2.5rem;
-    height: 0.25rem;
-    display: block;
-    margin-bottom: 0.375rem;
-    border-radius: 6.25rem;
-    background-color: #F9E9D2;
-    transition: all 0.5s ease;
+    width: 75%;
 }

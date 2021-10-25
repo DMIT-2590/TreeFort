@@ -74,3 +74,19 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: #7addb2;
   color: #1c1e21;
 }
+
+/* FAQ Collapse */
+.Collapsible__trigger {
+  cursor: pointer;
+  position: relative;    
+  left: calc(96.5%);
+  padding: 0.75rem 7.5rem 0.75rem 3rem;
+  background-image: url(../../static/Assets/svg/plus-lg.svg);
+  background-repeat: no-repeat;
+  background-size: 1.5rem;
+  background-position: center left 1rem;
+}
+
+.Collapsible__trigger.is-open{
+  background-image: url(../../static/Assets/svg/dash-lg.svg);
+}

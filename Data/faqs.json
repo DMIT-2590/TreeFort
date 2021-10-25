@@ -9,6 +9,16 @@
             "question": "Why is this item so much money?",
             "answer": "This item is so much money because I said so.",
             "id": 2
+        },
+        {
+            "question" : "Do you accept international credit cards?",
+            "answer": "We accept all credits except for some so be careful.",
+            "id": 3
+        },
+        {
+            "question": "What can cause my order to be delayed?",
+            "answer": "Orders can be delayed from all sorts of reasons.",
+            "id": 4
         }
     ],
     "support": [
@@ -21,18 +31,38 @@
             "question": "Who should I contact when I need help?",
             "answer": "You can find our contact page here.",
             "id": 2
+        },
+        {
+            "question" : "Where are you located?",
+            "answer": "We are location in this region.",
+            "id": 3
+        },
+        {
+            "question": "How do I make sure I order the right thing?",
+            "answer": "You can check right here to make sure.",
+            "id": 4
         }
     ],
     "returns": [
         {
-            "question" : "Where can I return this product?",
-            "answer": "This product is nun-refundable.",
+            "question" : "What is the return policy?",
+            "answer": "We have a type of return policy but we don't.",
             "id": 1
         },
         {
             "question": "Can I return this online?",
             "answer": "Some products can be returned online, but some can't.",
             "id": 2
+        },
+        {
+            "question" : "Where can I return this product?",
+            "answer": "This product is nun-refundable.",
+            "id": 3
+        },
+        {
+            "question": "When will be get my return?",
+            "answer": "You will receive an email right here.",
+            "id": 4
         }
     ],
     "technical": [
@@ -45,6 +75,16 @@
             "question": "Why can I find the technical help page?",
             "answer": "Please call us here for help.",
             "id": 2
+        },
+        {
+            "question" : "When are your maintenance schedules?",
+            "answer": "We will notify you so be on the look out.",
+            "id": 3
+        },
+        {
+            "question": "I have trouble watching the video, what should I do?",
+            "answer": "Please refresh your browser and clear your cookies and try again.",
+            "id": 4
         }
     ],
     "license": [
@@ -57,6 +97,16 @@
             "question": "Where did you get your license?",
             "answer": "We got it from the place right here.",
             "id": 2
+        },
+        {
+            "question" : "What is a product key?",
+            "answer": "The product key is here on our licensing.",
+            "id": 3
+        },
+        {
+            "question": "I need more information about installing your services?",
+            "answer": "You can find all that information here.",
+            "id": 4
         }
     ]
 }
