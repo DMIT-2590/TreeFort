@@ -10,7 +10,7 @@ const HomepageDocumentations = () => {
         <div class="row">
           <div class="col-sm-4">
             <div class="card text-dark bg-light mb-5">
-            <div class="card-header bg-info text-center text-white"><h4>Knowledege Base</h4></div>
+            <div className="documentationsH3"><h4>Knowledege Base</h4></div>
               <div class="card-body ">
                 <ul>
                   <li class="card-text text-left">Place some text for Knowledege Base here.</li>
@@ -21,7 +21,7 @@ const HomepageDocumentations = () => {
           </div>
           <div class="col-sm-4">
             <div class="card text-dark bg-light mb-5">
-            <div class="card-header bg-info text-center text-white"><h4>Resources</h4></div>
+            <div className="documentationsH3"><h4>Resources</h4></div>
               <div class="card-body ">
               <ul>
                   <li class="card-text text-left">Place some text for Resources here.</li>
@@ -35,7 +35,7 @@ const HomepageDocumentations = () => {
           </div>
           <div class="col-sm-4">
             <div class="card text-dark bg-light mb-5">
-            <div class="card-header bg-info text-center text-white"><h4>Developer API</h4></div>
+            <div className="documentationsH3"><h4>Developer API</h4></div>
               <div class="card-body ">
               <ul>
                   <li class="card-text text-left">Place some text for Developer API here.</li>
@@ -48,7 +48,7 @@ const HomepageDocumentations = () => {
           
           <div class="col-sm-4 mb-5">
             <div class="card text-dark bg-light">
-            <div class="card-header bg-info text-center text-white"><h4>Support Request</h4></div>
+            <div className="documentationsH3"><h4>Support Request</h4></div>
               <div class="card-body ">
               <ul>
                   <li class="card-text text-left">Place some text for Support Request here.</li>
@@ -60,7 +60,7 @@ const HomepageDocumentations = () => {
           </div>
           <div class="col-sm-4 mb-50">
             <div class="card text-dark bg-light ">
-            <div class="card-header bg-info text-center text-white"><h4>FAQ</h4></div>
+            <div className="documentationsH3"><h4>FAQ</h4></div>
               <div class="card-body ">
               <ul>
                   <li class="card-text text-left">Place some text for the FAQ here.</li>

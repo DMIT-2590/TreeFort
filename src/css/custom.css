@@ -32,6 +32,12 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 margin:0 auto;
 padding:5rem 0;
 }
+.documentationsH3{
+background-color: #7addb2;
+text-align:center;
+padding:0.5rem;
+color: #fff;
+}
 .sr-only{
   position: absolute;
   left: -1000px;
