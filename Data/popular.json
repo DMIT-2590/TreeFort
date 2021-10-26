@@ -1,0 +1,70 @@
+{
+    "popular": [
+        {
+            "logo" : "popular-articles.svg",
+            "title": "Popular Articles",
+            "links": [
+                {
+                    "src": "#",
+                    "title": "Finding Your TreeFort Administrator",
+                    "id": 11
+                },
+                {
+                    "src": "#",
+                    "title": "Manage Your User Settings",
+                    "id": 22
+                },
+                {
+                    "src": "#",
+                    "title": "Forgot Account Number",
+                    "id": 33
+                }
+            ],
+            "id": 1
+        },
+        {
+            "logo" : "popular-resources.svg",
+            "title": "Popular Resources",
+            "links": [
+                {
+                    "src": "#",
+                    "title": "Identified Risks Quick Reference",
+                    "id": 11
+                },
+                {
+                    "src": "#",
+                    "title": "Client Information Sheet",
+                    "id": 22
+                },
+                {
+                    "src": "#",
+                    "title": "Identified Risks Quick Reference",
+                    "id": 33
+                }
+            ],
+            "id": 2
+        },
+        {
+            "logo" : "popular-videos.svg",
+            "title": "Popular Videos",
+            "links": [
+                {
+                    "src": "#",
+                    "title": "Create a New Client",
+                    "id": 11
+                },
+                {
+                    "src": "#",
+                    "title": "Suggested Clients",
+                    "id": 22
+                },
+                {
+                    "src": "#",
+                    "title": "Search and Attach an Existing Client",
+                    "id": 33
+                }
+            ],
+            "id": 3
+        }
+    ]
+}

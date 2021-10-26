@@ -1,0 +1,32 @@
+.popularItemsGrid {
+    display: grid;
+    width: var(--default-container-width);
+    margin: 0 auto;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.popularItemsHeader, .popularItemsContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.popularItemsTitle {
+    font-weight: bold;
+    color: var(--dark-brown);
+}
+
+.popularItemsContent {
+    padding: 1rem;
+}
+
+.popularItemsLogo img {
+    width: 3.5rem;
+}
+
+.popularItemsLinks {
+    display: block;
+    padding: 0.5rem 0.25rem;
+}

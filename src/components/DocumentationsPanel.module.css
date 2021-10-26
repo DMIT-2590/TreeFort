@@ -1,0 +1,46 @@
+.documentGrid {
+    display: grid;
+    width: var(--default-container-width);
+    margin: 0 auto;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.documentContainer {
+    border: 1px solid var(--off-white);
+}
+
+.documentHeader {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--ifm-color-primary);
+    padding: 1rem;
+}
+
+.documentTitle {
+    color: var(--dark-brown);
+    font-weight: bold;
+}
+
+.documentationLinks {
+    display: block;
+    padding: 0.5rem 0;
+}
+
+.documentationLinks span:first-child {
+    padding: 2rem 1rem;
+}
+
+.documentLogo img {
+    width: 1.75rem;
+}
+
+.documentCount {
+    background-color: var(--dark-brown);
+    color: var(--off-white);
+    padding: 0.2rem 0.7rem;
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+}

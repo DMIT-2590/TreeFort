@@ -1,0 +1,104 @@
+{
+    "documentations": [
+        {
+            "logo" : "knowledge-base.svg",
+            "title": "Knowledge Base",
+            "documentLinks": [
+                {
+                    "icon": "doc.svg",
+                    "link": "Section Introduction",
+                    "id": 11
+                },
+                {
+                    "icon": "doc.svg",
+                    "link": "Articles",
+                    "id": 22
+                },
+                {
+                    "icon": "doc.svg",
+                    "link": "Video Walk-through",
+                    "id": 33
+                }
+            ],
+            "id": 1
+        },
+        {
+            "logo" : "resources.svg",
+            "title": "Resources Base",
+            "documentLinks": [
+                {
+                    "icon": "doc.svg",
+                    "link": "Section Introduction",
+                    "id": 12
+                },
+                {
+                    "icon": "doc.svg",
+                    "link": "Team Resources",
+                    "id": 21
+                },
+                {
+                    "icon": "doc.svg",
+                    "link": "Client Resources",
+                    "id": 31
+                }
+            ],
+            "id": 2
+        },
+        {
+            "logo" : "developer-api.svg",
+            "title": "Developer API",
+            "documentLinks": [
+                {
+                    "icon": "doc.svg",
+                    "link": "Section Introduction",
+                    "id": 14
+                },
+                {
+                    "icon": "doc.svg",
+                    "link": "API Documentations",
+                    "id": 24
+                }
+            ],
+            "id": 3
+        },
+        {
+            "logo" : "support-request.svg",
+            "title": "Support Request",
+            "documentLinks": [
+                {
+                    "icon": "doc.svg",
+                    "link": "Send a Message",
+                    "id": 16
+                },
+                {
+                    "icon": "doc.svg",
+                    "link": "Chat with us",
+                    "id": 26
+                }
+            ],
+            "id": 4
+        },
+        {
+            "logo" : "faq.svg",
+            "title": "FAQ",
+            "documentLinks": [
+                {
+                    "icon": "doc.svg",
+                    "link": "Section Introduction",
+                    "id": 18
+                },
+                {
+                    "icon": "doc.svg",
+                    "link": "Team Resources",
+                    "id": 28
+                },
+                {
+                    "icon": "doc.svg",
+                    "link": "Client Resources",
+                    "id": 38
+                }
+            ],
+            "id": 5
+        }
+    ]
+}

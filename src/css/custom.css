@@ -28,6 +28,11 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 }
 
 /* GENERIC STYLES */
+:root {
+  --default-container-width: 1200px;
+  --dark-brown: #434343;
+  --off-white: #fcfcfc;
+}
 .documentations{ width:1200px;
 margin:0 auto;
 padding:5rem 0;

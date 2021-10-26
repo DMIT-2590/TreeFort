@@ -1,78 +1,20 @@
 import React from "react";
-import styles from './HomepageDocumentations.module.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { Card, Button } from 'react-bootstrap';
-
+import styles from './HomepageDocumentations.module.css';
+import DocumentationsPanel from './DocumentationsPanel'
+import useFetch from './useFetch';
 
 const HomepageDocumentations = () => {
+    const {data: documentations, isPendingDocumentations, errorDocumentations} = useFetch('http://localhost:9000/documentations');
     return (
-      <section class='header mb-10 documentations'>
-        <div class="row">
-          <div class="col-sm-4">
-            <div class="card text-dark bg-light mb-5">
-            <div className="documentationsH3"><h4>Knowledege Base</h4></div>
-              <div class="card-body ">
-                <ul>
-                  <li class="card-text text-left">Place some text for Knowledege Base here.</li>
-                  <li class="card-text text-left">Place some text for Knowledege Base here.</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="card text-dark bg-light mb-5">
-            <div className="documentationsH3"><h4>Resources</h4></div>
-              <div class="card-body ">
-              <ul>
-                  <li class="card-text text-left">Place some text for Resources here.</li>
-                  <li class="card-text text-left">Place some text for Resources here.</li>
-                  <li class="card-text text-left">Place some text for Resources here.</li>
-                  <li class="card-text text-left">Place some text for Resources here.</li>
-                </ul>
-              </div>
-              
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="card text-dark bg-light mb-5">
-            <div className="documentationsH3"><h4>Developer API</h4></div>
-              <div class="card-body ">
-              <ul>
-                  <li class="card-text text-left">Place some text for Developer API here.</li>
-                  <li class="card-text text-left">Place some text for Developer API here.</li>
-                </ul>
-              </div>
-              
-            </div>
-          </div>
-          
-          <div class="col-sm-4 mb-5">
-            <div class="card text-dark bg-light">
-            <div className="documentationsH3"><h4>Support Request</h4></div>
-              <div class="card-body ">
-              <ul>
-                  <li class="card-text text-left">Place some text for Support Request here.</li>
-                  
-                </ul>
-              </div>
-              
-            </div>
-          </div>
-          <div class="col-sm-4 mb-50">
-            <div class="card text-dark bg-light ">
-            <div className="documentationsH3"><h4>FAQ</h4></div>
-              <div class="card-body ">
-              <ul>
-                  <li class="card-text text-left">Place some text for the FAQ here.</li>
-                  <li class="card-text text-left">Place some text for the FAQ here.</li>
-                </ul>
-              </div>
-              
-            </div>
-          </div>
-        </div>
-      </section>
-    )
+      <div className={styles.documentationsContainer}>
+        {errorDocumentations && <div>{errorDocumentations}</div>}
+        {isPendingDocumentations && <div>Loading...</div>}
+        {documentations && <DocumentationsPanel panels={documentations} />}
+        {console.log(documentations)}
+      </div>
+    );
   }
 
 export default HomepageDocumentations;
+
+//To run and test api locally: npx json-server --watch data/documentations.json --port 9000

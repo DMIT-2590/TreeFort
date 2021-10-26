@@ -11,14 +11,15 @@
 }
 .supportRequest>h2{
     font-size: 35px;
-    color: #655A56 ;
+    color: var(--dark-brown) ;
     text-align: center;
 }
 
 .supportRequest>button{  
-  background-color:#31bf81 ; 
+  background-color:#31bf81 ;
+  cursor: pointer;
   border: none;
-  color: white;
+  color: var(--off-white);
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -32,7 +33,7 @@
 .supportRequest>button:hover{  
     background-color:#398864 ; 
     border: none;
-    color: white;
+    color: var(--off-white);
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
