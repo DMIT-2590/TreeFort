@@ -28,6 +28,10 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 }
 
 /* GENERIC STYLES */
+.documentations{ width:1200px;
+margin:0 auto;
+padding:5rem 0;
+}
 .sr-only{
   position: absolute;
   left: -1000px;
