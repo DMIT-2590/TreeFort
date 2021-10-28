@@ -1,0 +1,64 @@
+# type Link {
+#     url: String!
+#     name: String!
+#     description: String!
+#     archived: Boolean
+# }
+
+# type Query {
+#     allLinks: [Link!]!
+# }
+
+type FAQs {
+    question: String
+    answer: String
+    faqType: FAQType
+}
+
+type FAQType {
+    faqType: String
+    faqs: [FAQs!] @relation
+}
+
+type Docs {
+    title: String
+    description: String
+    url: String
+    docType: DocType!
+}
+
+type DocType {
+    docType: String
+    logo: String
+    docs: [Docs!] @relation
+    urlLogo: String
+}
+
+type HelpDeskSections {
+    sectionName: String
+    sectionLogo: String
+    sectionUrlLogo: String
+    helpDeskSectionIntroLinks: [HelpDeskSectionIntroLinks!] @relation
+}
+
+type HelpDeskSectionIntroLinks {
+    url: String
+    helpDeskSection: HelpDeskSections!
+}
+
+type PopularItemType {
+    popularType: String
+    popularTypeLogo: String
+    popularUrls: [PopularUrls!] @relation
+}
+
+type PopularUrls {
+    url: String
+    popularItemType: PopularItemType!
+}
+
+type Query {
+    allHelpDeskSections: [HelpDeskSections!]!
+    allPopularItemType: [PopularItemType!]!
+    allFAQType: [FAQType!]!
+}

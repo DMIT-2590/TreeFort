@@ -1,4 +1,5 @@
 import React from "react";
+import { useState, useEffect } from "react";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import styles from './HomepageFAQs.module.css';
 import useFetch from './useFetch';
@@ -10,7 +11,16 @@ const HomepageFAQs = () => {
     const {data: returns, isPendingReturns, errorReturns} = useFetch('http://localhost:8000/returns');
     const {data: technical, isPendingTechnical, errorTechnical} = useFetch('http://localhost:8000/technical');
     const {data: license, isPendingLicense, errorLicense} = useFetch('http://localhost:8000/license');
-    return ( 
+
+    const LoadLinks = async () => {
+        const res = await fetch('/api/getFAQs');
+        const links = await res.json();
+        console.log(links)
+    }
+    useEffect(() => {
+        LoadLinks();
+    }, [])
+    return (
         <div className={styles.faqContainer}>
             <Tabs selectedTabClassName={styles.faqMenuItemActive}>
                 <TabList className={styles.faqMenu}>
@@ -23,7 +33,7 @@ const HomepageFAQs = () => {
                 <TabPanel>
                     {errorPrice && <div>{errorPrice}</div>}
                     {isPendingPrice && <div>Loading...</div>}
-                    {pricing && <FAQPanels panels={pricing} />}
+                    {pricing && <FAQPanels panels={pricing} />}                    
                 </TabPanel>
                 <TabPanel>
                     {errorSupport && <div>{errorSupport}</div>}

@@ -17,4 +17,4 @@ const HomepageDocumentations = () => {
 
 export default HomepageDocumentations;
 
-//To run and test api locally: npx json-server --watch data/documentations.json --port 9000
+//To run and test api locally: npx json-server --watch data/documents.json --port 9000
