@@ -1,59 +1,53 @@
 import React from "react";
-import { useState, useEffect } from "react";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import styles from './HomepageFAQs.module.css';
-import useFetch from './useFetch';
 import FAQPanels from "./FAQPanels";
+import getData from "./getData";
 
 const HomepageFAQs = () => {
-    const {data: pricing, isPendingPrice, errorPrice} = useFetch('http://localhost:8000/pricing');
-    const {data: support, isPendingSupport, errorSupport} = useFetch('http://localhost:8000/support');
-    const {data: returns, isPendingReturns, errorReturns} = useFetch('http://localhost:8000/returns');
-    const {data: technical, isPendingTechnical, errorTechnical} = useFetch('http://localhost:8000/technical');
-    const {data: license, isPendingLicense, errorLicense} = useFetch('http://localhost:8000/license');
-
-    const LoadLinks = async () => {
-        const res = await fetch('/api/getFAQs');
-        const links = await res.json();
-        console.log(links)
-    }
-    useEffect(() => {
-        LoadLinks();
-    }, [])
+    const {data, isPending, error} = getData('/api/getfaqs');
+    const faqTypes = []
+    const faqs = []
+    data.map((faq) => (
+        faqTypes.push(faq.faqType)
+    ))
+    data.map((faq) => (
+        faqs.push(faq.faqs.data)
+    ))
     return (
         <div className={styles.faqContainer}>
             <Tabs selectedTabClassName={styles.faqMenuItemActive}>
                 <TabList className={styles.faqMenu}>
-                    <Tab className={styles.faqMenuItem}>Pricing</Tab>
-                    <Tab className={styles.faqMenuItem}>Support</Tab>
-                    <Tab className={styles.faqMenuItem}>Return</Tab>
-                    <Tab className={styles.faqMenuItem}>Technical</Tab>
-                    <Tab className={styles.faqMenuItem}>License</Tab>
+                    <Tab className={styles.faqMenuItem}>{faqTypes[0]}</Tab>
+                    <Tab className={styles.faqMenuItem}>{faqTypes[1]}</Tab>
+                    <Tab className={styles.faqMenuItem}>{faqTypes[2]}</Tab>
+                    <Tab className={styles.faqMenuItem}>{faqTypes[3]}</Tab>
+                    <Tab className={styles.faqMenuItem}>{faqTypes[4]}</Tab>
                 </TabList>
                 <TabPanel>
-                    {errorPrice && <div>{errorPrice}</div>}
-                    {isPendingPrice && <div>Loading...</div>}
-                    {pricing && <FAQPanels panels={pricing} />}                    
+                    {error && <div>{error}</div>}
+                    {isPending && <div>Loading...</div>}
+                    {faqs[0] !== undefined && <FAQPanels faqs={faqs[0]} />}                    
                 </TabPanel>
                 <TabPanel>
-                    {errorSupport && <div>{errorSupport}</div>}
-                    {isPendingSupport && <div>Loading...</div>}
-                    {support && <FAQPanels panels={support} />}
+                    {error && <div>{error}</div>}
+                    {isPending && <div>Loading...</div>}
+                    {faqs[1] !== undefined && <FAQPanels faqs={faqs[1]} />}                    
                 </TabPanel>
                 <TabPanel>
-                    {errorReturns && <div>{errorReturns}</div>}
-                    {isPendingReturns && <div>Loading...</div>}
-                    {returns && <FAQPanels panels={returns} />}
+                    {error && <div>{error}</div>}
+                    {isPending && <div>Loading...</div>}
+                    {faqs[2] !== undefined && <FAQPanels faqs={faqs[2]} />}                    
                 </TabPanel>
                 <TabPanel>
-                    {errorTechnical && <div>{errorTechnical}</div>}
-                    {isPendingTechnical && <div>Loading...</div>}
-                    {technical && <FAQPanels panels={technical} />}
+                    {error && <div>{error}</div>}
+                    {isPending && <div>Loading...</div>}
+                    {faqs[3] !== undefined && <FAQPanels faqs={faqs[3]} />}                    
                 </TabPanel>
                 <TabPanel>
-                    {errorLicense && <div>{errorLicense}</div>}
-                    {isPendingLicense && <div>Loading...</div>}
-                    {license && <FAQPanels panels={license} />}
+                    {error && <div>{error}</div>}
+                    {isPending && <div>Loading...</div>}
+                    {faqs[4] !== undefined && <FAQPanels faqs={faqs[4]} />}                    
                 </TabPanel>
             </Tabs>
         </div>

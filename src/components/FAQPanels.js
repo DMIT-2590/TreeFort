@@ -2,14 +2,14 @@ import React from "react";
 import Collapsible from 'react-collapsible';
 import styles from './FAQPanels.module.css';
 
-const FAQPanels = ({panels}) => {
+const FAQPanels = ({faqs}) => {
     return (
         <div>
-            {panels.map((panel) => (
-                <div className={styles.faqItemContainer} key={panel.id}>
-                    <h4 className={styles.faqItemQuestion}>{panel.question}</h4>
+            {faqs.map((faq) => (
+                <div className={styles.faqItemContainer}>
+                    <h4 className={styles.faqItemQuestion}>{faq.question}</h4>
                     <Collapsible trigger="">
-                        <p className={styles.faqItemAnswer}>{panel.answer}</p>
+                        <p className={styles.faqItemAnswer}>{faq.answer}</p>
                     </Collapsible>
                 </div>
             ))}

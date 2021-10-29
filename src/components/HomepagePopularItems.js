@@ -11,7 +11,6 @@ const HomepagePopularItems = () => {
         {errorPopular && <div>{errorPopular}</div>}
         {isPendingPopular && <div>Loading...</div>}
         {popular && <PopularItemsPanel panels={popular} />}
-        {console.log(popular)}
     </div>
   );
 }

@@ -10,7 +10,6 @@ const HomepageDocumentations = () => {
         {errorDocumentations && <div>{errorDocumentations}</div>}
         {isPendingDocumentations && <div>Loading...</div>}
         {documentations && <DocumentationsPanel panels={documentations} />}
-        {console.log(documentations)}
       </div>
     );
   }
