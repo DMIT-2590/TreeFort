@@ -4,11 +4,11 @@ import DocumentationsPanel from './DocumentationsPanel'
 import getData from "./getData";
 
 const HomepageDocumentations = () => {
-    const {data, isPending, error} = getData('/api/gethelpdesksections');
+    const {data, isPending, error} = getData('/.netlify/functions/gethelpdesksections');
     return (
       <div className={styles.documentationsContainer}>
-        {error && <div>{error}</div>}
-        {isPending && <div>Loading...</div>}
+        {error && <div className="center">{error}</div>}
+        {isPending && <div className="center">Loading...</div>}
         {data && <DocumentationsPanel helpDeskSections={data} />}
       </div>
     );

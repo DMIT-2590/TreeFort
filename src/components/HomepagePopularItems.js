@@ -5,11 +5,11 @@ import getData from "./getData";
 
 
 const HomepagePopularItems = () => {
-  const {data, isPending, error} = getData('/api/getpopularitems');
+  const {data, isPending, error} = getData('/.netlify/functions/getpopularitems');
   return (
     <div className={styles.popularContainer}>
-        {error && <div>{error}</div>}
-        {isPending && <div>Loading...</div>}
+        {error && <div className="center">{error}</div>}
+        {isPending && <div className="center">Loading...</div>}
         {data && <PopularItemsPanel popularItems={data} />}
     </div>
   );

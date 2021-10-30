@@ -5,7 +5,7 @@ import FAQPanels from "./FAQPanels";
 import getData from "./getData";
 
 const HomepageFAQs = () => {
-    const {data, isPending, error} = getData('/api/getfaqs');
+    const {data, isPending, error} = getData('/.netlify/functions/getfaqs');
     const faqTypes = []
     const faqs = []
     data.map((faq) => (
@@ -25,28 +25,28 @@ const HomepageFAQs = () => {
                     <Tab className={styles.faqMenuItem}>{faqTypes[4]}</Tab>
                 </TabList>
                 <TabPanel>
-                    {error && <div>{error}</div>}
-                    {isPending && <div>Loading...</div>}
+                    {error && <div className="center">{error}</div>}
+                    {isPending && <div className="center">Loading...</div>}
                     {faqs[0] !== undefined && <FAQPanels faqs={faqs[0]} />}                    
                 </TabPanel>
                 <TabPanel>
-                    {error && <div>{error}</div>}
-                    {isPending && <div>Loading...</div>}
+                    {error && <div className="center">{error}</div>}
+                    {isPending && <div className="center">Loading...</div>}
                     {faqs[1] !== undefined && <FAQPanels faqs={faqs[1]} />}                    
                 </TabPanel>
                 <TabPanel>
-                    {error && <div>{error}</div>}
-                    {isPending && <div>Loading...</div>}
+                    {error && <div className="center">{error}</div>}
+                    {isPending && <div className="center">Loading...</div>}
                     {faqs[2] !== undefined && <FAQPanels faqs={faqs[2]} />}                    
                 </TabPanel>
                 <TabPanel>
-                    {error && <div>{error}</div>}
-                    {isPending && <div>Loading...</div>}
+                    {error && <div className="center">{error}</div>}
+                    {isPending && <div className="center">Loading...</div>}
                     {faqs[3] !== undefined && <FAQPanels faqs={faqs[3]} />}                    
                 </TabPanel>
                 <TabPanel>
-                    {error && <div>{error}</div>}
-                    {isPending && <div>Loading...</div>}
+                    {error && <div className="center">{error}</div>}
+                    {isPending && <div className="center">Loading...</div>}
                     {faqs[4] !== undefined && <FAQPanels faqs={faqs[4]} />}                    
                 </TabPanel>
             </Tabs>
