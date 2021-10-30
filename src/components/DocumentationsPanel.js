@@ -8,14 +8,14 @@ const DocumentationsPanel = ({helpDeskSections}) => {
             {helpDeskSections.map((helpDeskSection) => (
                 <div className={styles.documentContainer} key={helpDeskSection.id}>
                     <div className={styles.documentHeader}>
-                        <span className={styles.documentLogo}><img src={`/static/Assets/svg/${helpDeskSection.sectionLogo}`} alt={helpDeskSection.sectionName} /></span>
+                        <span className={styles.documentLogo}><img src={`static/Assets/svg/${helpDeskSection.sectionLogo}`} alt={helpDeskSection.sectionName} /></span>
                         <span className={styles.documentTitle}>{helpDeskSection.sectionName}</span>
                         <span className={styles.documentCount}>{helpDeskSection.helpDeskSectionIntroLinks.data.length}</span>
                     </div>
                     <div className={styles.documentContent}>
                         {helpDeskSection.helpDeskSectionIntroLinks.data.map((sectionIntroLink) => (
                             <Link className={styles.documentationLinks} to={`#`}>
-                                <span><img src={`/static/Assets/svg/${helpDeskSection.sectionUrlLogo}`} alt={sectionIntroLink.url} /></span>
+                                <span><img src={`static/Assets/svg/${helpDeskSection.sectionUrlLogo}`} alt={sectionIntroLink.url} /></span>
                                 <span>{sectionIntroLink.url}</span>
                             </Link>
                         ))}
