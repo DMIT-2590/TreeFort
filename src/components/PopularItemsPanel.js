@@ -2,19 +2,19 @@ import React from "react";
 import styles from './PopularItemsPanel.module.css';
 import { Link } from "react-router-dom";
 
-const PopularItemsPanel = ({panels}) => {
+const PopularItemsPanel = ({popularItems}) => {
     return (
         <div className={styles.popularItemsGrid}>
-            {panels.map((panel) => (
-                <div className={styles.popularItemsContainer} key={panel.id}>
+            {popularItems.map((popularItem) => (
+                <div className={styles.popularItemsContainer} key={popularItem.id}>
                     <div className={styles.popularItemsHeader}>
-                        <div className={styles.popularItemsLogo}><img src={`/static/Assets/svg/${panel.logo}`} alt={panel.title} /></div>
-                        <div className={styles.popularItemsTitle}>{panel.title}</div>
+                        <div className={styles.popularItemsLogo}><img src={`/static/Assets/svg/${popularItem.popularTypeLogo}`} alt={popularItem.popularType} /></div>
+                        <div className={styles.popularItemsTitle}>{popularItem.popularType}</div>
                     </div>
                     <div className={styles.popularItemsContent}>
-                        {panel.links.map((link) => (
-                            <Link className={styles.popularItemsLinks} to={`${link.src}`}>
-                                <span>{link.title}</span>
+                        {popularItem.popularUrls.data.map((urls) => (
+                            <Link className={styles.popularItemsLinks} to={`#`}>
+                                <span>{urls.url}</span>
                             </Link>
                         ))}
                     </div>

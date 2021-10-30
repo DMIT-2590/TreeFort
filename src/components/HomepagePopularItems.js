@@ -1,20 +1,18 @@
 import React from "react";
 import styles from './HomepagePopularItems.module.css';
 import PopularItemsPanel from "./PopularItemsPanel";
-import useFetch from './useFetch';
+import getData from "./getData";
 
 
 const HomepagePopularItems = () => {
-  const {data: popular, isPendingPopular, errorPopular} = useFetch('http://localhost:7000/popular');
+  const {data, isPending, error} = getData('/api/getpopularitems');
   return (
     <div className={styles.popularContainer}>
-        {errorPopular && <div>{errorPopular}</div>}
-        {isPendingPopular && <div>Loading...</div>}
-        {popular && <PopularItemsPanel panels={popular} />}
+        {error && <div>{error}</div>}
+        {isPending && <div>Loading...</div>}
+        {data && <PopularItemsPanel popularItems={data} />}
     </div>
   );
 }
 
 export default HomepagePopularItems;
-
-//To run and test api locally: npx json-server --watch data/popular.json --port 7000

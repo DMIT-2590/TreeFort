@@ -1,19 +1,17 @@
 import React from "react";
 import styles from './HomepageDocumentations.module.css';
 import DocumentationsPanel from './DocumentationsPanel'
-import useFetch from './useFetch';
+import getData from "./getData";
 
 const HomepageDocumentations = () => {
-    const {data: documentations, isPendingDocumentations, errorDocumentations} = useFetch('http://localhost:9000/documentations');
+    const {data, isPending, error} = getData('/api/gethelpdesksections');
     return (
       <div className={styles.documentationsContainer}>
-        {errorDocumentations && <div>{errorDocumentations}</div>}
-        {isPendingDocumentations && <div>Loading...</div>}
-        {documentations && <DocumentationsPanel panels={documentations} />}
+        {error && <div>{error}</div>}
+        {isPending && <div>Loading...</div>}
+        {data && <DocumentationsPanel helpDeskSections={data} />}
       </div>
     );
   }
 
 export default HomepageDocumentations;
-
-//To run and test api locally: npx json-server --watch data/documents.json --port 9000

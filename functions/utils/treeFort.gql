@@ -1,39 +1,3 @@
-# type Link {
-#     url: String!
-#     name: String!
-#     description: String!
-#     archived: Boolean
-# }
-
-# type Query {
-#     allLinks: [Link!]!
-# }
-
-type FAQs {
-    question: String
-    answer: String
-    faqType: FAQType
-}
-
-type FAQType {
-    faqType: String
-    faqs: [FAQs!] @relation
-}
-
-type Docs {
-    title: String
-    description: String
-    url: String
-    docType: DocType!
-}
-
-type DocType {
-    docType: String
-    logo: String
-    docs: [Docs!] @relation
-    urlLogo: String
-}
-
 type HelpDeskSections {
     sectionName: String
     sectionLogo: String
@@ -43,6 +7,7 @@ type HelpDeskSections {
 
 type HelpDeskSectionIntroLinks {
     url: String
+    urlName: String
     helpDeskSection: HelpDeskSections!
 }
 
@@ -54,11 +19,39 @@ type PopularItemType {
 
 type PopularUrls {
     url: String
+    urlName: String
     popularItemType: PopularItemType!
+}
+
+type FAQType {
+    faqType: String
+    faqs: [FAQs!] @relation
+}
+
+type FAQs {
+    question: String
+    answer: String
+    faqType: FAQType
+}
+
+type DocType {
+    docType: String
+    docLogo: String
+    urlLogo: String
+    docs: [Docs!] @relation
+}
+
+type Docs {
+    title: String
+    description: String
+    url: String
+    urlName: String
+    docType: DocType!
 }
 
 type Query {
     allHelpDeskSections: [HelpDeskSections!]!
     allPopularItemType: [PopularItemType!]!
     allFAQType: [FAQType!]!
+    allDocType: [DocType!]!
 }

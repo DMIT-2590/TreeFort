@@ -2,21 +2,21 @@ import React from "react";
 import styles from './DocumentationsPanel.module.css';
 import { Link } from "react-router-dom";
 
-const DocumentationsPanel = ({panels}) => {
+const DocumentationsPanel = ({helpDeskSections}) => {
     return (
         <div className={styles.documentGrid}>
-            {panels.map((panel) => (
-                <div className={styles.documentContainer} key={panel.id}>
+            {helpDeskSections.map((helpDeskSection) => (
+                <div className={styles.documentContainer} key={helpDeskSection.id}>
                     <div className={styles.documentHeader}>
-                        <span className={styles.documentLogo}><img src={`/static/Assets/svg/${panel.logo}`} alt={panel.title} /></span>
-                        <span className={styles.documentTitle}>{panel.title}</span>
-                        <span className={styles.documentCount}>{panel.documentLinks.length}</span>
+                        <span className={styles.documentLogo}><img src={`/static/Assets/svg/${helpDeskSection.sectionLogo}`} alt={helpDeskSection.sectionName} /></span>
+                        <span className={styles.documentTitle}>{helpDeskSection.sectionName}</span>
+                        <span className={styles.documentCount}>{helpDeskSection.helpDeskSectionIntroLinks.data.length}</span>
                     </div>
                     <div className={styles.documentContent}>
-                        {panel.documentLinks.map((documentLink) => (
+                        {helpDeskSection.helpDeskSectionIntroLinks.data.map((sectionIntroLink) => (
                             <Link className={styles.documentationLinks} to={`#`}>
-                                <span><img src={`/static/Assets/svg/${documentLink.icon}`} alt={documentLink.link} /></span>
-                                <span>{documentLink.link}</span>
+                                <span><img src={`/static/Assets/svg/${helpDeskSection.sectionUrlLogo}`} alt={sectionIntroLink.url} /></span>
+                                <span>{sectionIntroLink.url}</span>
                             </Link>
                         ))}
                     </div>
