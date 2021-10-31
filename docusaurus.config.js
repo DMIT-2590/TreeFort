@@ -86,46 +86,67 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'ABOUT TREEFORT',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'TreeFort',
+                to: 'https://treefort.tech/'
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'QUICK LINKS',
             items: [
               {
-                label: 'Stack Overflow',
+                label: 'Home',
+                to: '/docs/intro',
+              },
+              {
+                label: 'Our Service',
+                to: '/docs/intro',
+              },
+              {
+                label: 'Contact Us',
+                to: '/docs/intro',
+              }
+            ],
+          },
+          {
+            title: 'INFORMATION',
+            items: [
+              {
+                label: 'Terms & Conditions',
                 href: 'https://stackoverflow.com/questions/tagged/docusaurus',
               },
               {
-                label: 'Discord',
+                label: 'Privacy Policy',
                 href: 'https://discordapp.com/invite/docusaurus',
               },
               {
-                label: 'Twitter',
+                label: 'Users Documentation',
                 href: 'https://twitter.com/docusaurus',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'SUPPORT',
             items: [
               {
-                label: 'Blog',
+                label: 'Forum: Ask a question',
                 to: '/blog',
               },
               {
-                label: 'GitHub',
+                label: 'Email: info@treefort.ca',
+                href: 'https://github.com/facebook/docusaurus',
+              },
+              {
+                label: 'Chat: Offline',
                 href: 'https://github.com/facebook/docusaurus',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} TreeFort Technologies Inc.`,
       },
       prism: {
         theme: lightCodeTheme,

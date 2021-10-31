@@ -24,7 +24,7 @@ const HomepageFAQs = () => {
                     <Tab className={styles.faqMenuItem}>{faqTypes[3]}</Tab>
                     <Tab className={styles.faqMenuItem}>{faqTypes[4]}</Tab>
                 </TabList>
-                <TabPanel>
+                <TabPanel className={styles.tabPanel}>
                     {error && <div className="center">{error}</div>}
                     {isPending && <div className="center">Loading...</div>}
                     {faqs[0] !== undefined && <FAQPanels faqs={faqs[0]} />}                    

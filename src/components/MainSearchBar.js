@@ -5,7 +5,7 @@ const MainSearchBar = () => {
     return ( 
         <form className={styles.searchBar} name="search-form" role="search">
             <label htmlFor="searchBar" className="sr-only">Search</label>
-            <input type="search" name="searchBar" id="searchBar" className={styles.searchInput} placeholder="Search by typing your question or keyword" />
+            <input type="search" name="searchBar" id="searchBar" className={styles.searchInput} placeholder="Search our help desk here" />
         </form>
     );
 }

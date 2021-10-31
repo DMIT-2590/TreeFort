@@ -1,11 +1,15 @@
 .faqContainer {
     margin: 5rem auto;
+    padding: 1rem;
     max-width: 1200px;
 }
 
 .faqMenu {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: repeat(5, 125px);
+    grid-template-columns: repeat(auto-fit, 125px);
+    grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
     list-style: none;
     padding: 0;
 }
@@ -15,10 +19,15 @@
     border: 2px solid #7addb2;
     border-radius: 0.5rem;
     padding: 0.20rem 1.75rem;
+    text-align: center;
     cursor: pointer;
 }
 
 .faqMenuItem:hover, .faqMenuItemActive {
     background-color: #7addb2;
     color: #fcfcfc;
+}
+
+.tabPanel {
+    margin-top: 3rem;
 }

@@ -33,16 +33,7 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   --dark-brown: #434343;
   --off-white: #fcfcfc;
 }
-.documentations{ width:1200px;
-margin:0 auto;
-padding:5rem 0;
-}
-.documentationsH3{
-background-color: #7addb2;
-text-align:center;
-padding:0.5rem;
-color: #fff;
-}
+
 .sr-only{
   position: absolute;
   left: -1000px;
@@ -80,9 +71,7 @@ color: #fff;
   height: 100%;
   width: 100%;
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  padding-top: 1rem;
 }
 
 .navbar__item:hover{
@@ -95,7 +84,7 @@ color: #fff;
   cursor: pointer;
   position: relative;    
   left: calc(96.5%);
-  padding: 0.75rem 7.5rem 0.75rem 3rem;
+  padding: 1.5rem;
   background-image: url(../../static/Assets/svg/plus-lg.svg);
   background-repeat: no-repeat;
   background-size: 1.5rem;

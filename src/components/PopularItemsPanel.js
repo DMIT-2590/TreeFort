@@ -18,7 +18,7 @@ const PopularItemsPanel = ({popularItems}) => {
                             </Link>
                         ))}
                     </div>
-                </div>
+                </div> 
             ))}
         </div>
     );
