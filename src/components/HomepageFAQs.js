@@ -5,7 +5,7 @@ import FAQPanels from "./FAQPanels";
 import getData from "./getData";
 
 const HomepageFAQs = () => {
-    const {data, isPending, error} = getData('/.netlify/functions/getfaqs');
+    const {data, isPending, error} = getData('/.netlify/functions/getFaqs');
     const faqTypes = []
     const faqs = []
     data.map((faq) => (

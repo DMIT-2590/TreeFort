@@ -8,7 +8,7 @@ const PopularItemsPanel = ({popularItems}) => {
             {popularItems.map((popularItem) => (
                 <div className={styles.popularItemsContainer} key={popularItem.id}>
                     <div className={styles.popularItemsHeader}>
-                        <div className={styles.popularItemsLogo}><img src={`static/img/${popularItem.popularTypeLogo}`} alt={popularItem.popularType} /></div>
+                        <div className={styles.popularItemsLogo}><img src={`assets/svg/${popularItem.popularTypeLogo}`} alt={popularItem.popularType} /></div>
                         <div className={styles.popularItemsTitle}>{popularItem.popularType}</div>
                     </div>
                     <div className={styles.popularItemsContent}>
