@@ -10,18 +10,7 @@ import HomepageFAQs from '../components/HomepageFAQs';
 import HomepagePopularItems from '../components/HomepagePopularItems';
 import HomepageSupportRequest from '../components/HomepageSupportRequest';
 import MainSearchBar from '../components/MainSearchBar';
-
-function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
-  return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <p className="hero__subtitle">How can we help you?</p>
-        <MainSearchBar />
-      </div>
-    </header>
-  );
-}
+import HomepageHeader from '../components/HomepageHeader';
 
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();

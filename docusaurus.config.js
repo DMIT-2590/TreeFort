@@ -50,28 +50,27 @@ const config = {
         },
         items: [
           {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
+            to: '/knowledge-base',
             label: 'Knowledge Base',
+            position: 'left',
           },
           {
-            to: '/blog',
+            to: '/resources',
             label: 'Resources',
             position: 'left',
           },
           {
-            to: '/blog',
+            to: '/developer-api',
             label: 'Developer API',
             position: 'left',
           },
           {
-            to: '/blog',
+            to: '/faqs',
             label: 'FAQs',
             position: 'left',
           },
           {
-            to: '/blog',
+            to: '/support-request',
             label: 'Support Request',
             position: 'left',
           },

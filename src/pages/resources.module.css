@@ -1,0 +1,10 @@
+.resourcesContainer {
+    max-width: var(--default-container-width);
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.resourcesContainer > h1 {
+    text-align: center;
+    color: var(--dark-brown);
+}

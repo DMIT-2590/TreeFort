@@ -14,7 +14,7 @@ const DocumentationsPanel = ({helpDeskSections}) => {
                     </div>
                     <div className={styles.documentContent}>
                         {helpDeskSection.helpDeskSectionIntroLinks.data.map((sectionIntroLink) => (
-                            <Link className={styles.documentationLinks} to={`#`}>
+                            <Link className={styles.documentationLinks} to={`/docs/account-setup-and-management/section-introduction/`}>
                                 <span><img src={`assets/svg/${helpDeskSection.sectionUrlLogo}`} alt={sectionIntroLink.url} /></span>
                                 <span>{sectionIntroLink.url}</span>
                             </Link>
