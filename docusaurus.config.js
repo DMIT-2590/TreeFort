@@ -98,15 +98,15 @@ const config = {
             items: [
               {
                 label: 'Home',
-                to: '/docs/intro',
+                to: '/',
               },
               {
                 label: 'Our Service',
-                to: '/docs/intro',
+                to: '/resources',
               },
               {
                 label: 'Contact Us',
-                to: '/docs/intro',
+                to: '/support-request',
               }
             ],
           },
