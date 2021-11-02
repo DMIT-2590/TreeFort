@@ -9,14 +9,3 @@ The [Account Setup and Management](#) section will go into detail about how to s
 If you have already set up your account in the TreeFort portal, you can skip ahead to the [Getting Started](#) section for more information on navigating and using the TreeFort portal.
 
 If you are an administrator at your organization and want more information on managing your organization’s account, you can find this information in the [Managing Your Organization](#) section.
-
-
-### Data From DataBase
-
-import getData from "../../src/components/getData";
-export const DocumentationsPanel = () => {
-    const {data, isPending, error} = getData('/.netlify/functions/gethelpdesksections');
-    return JSON.stringify(data);
-}
-
-<DocumentationsPanel />
