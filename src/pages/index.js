@@ -1,6 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
 import Layout from '@theme/Layout';
+import Head from '@docusaurus/Head';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
@@ -18,6 +19,9 @@ export default function Home() {
     <Layout
       title="Help Desk"
       description="TreeFort provides a completely digital process for verifying the identity of individuals, and a secure, encrypted online video conference service for lawyers...">
+      <Head>
+        <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=adfc0002-0afe-45a5-ad11-f4d68f129afb"></script>
+      </Head>
       <HomepageHeader />
       <main>
         <HomepageDocumentations />
