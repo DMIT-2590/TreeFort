@@ -1,39 +1,38 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require("prism-react-renderer/themes/github");
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'TreeFort',
-  tagline: 'TreeFort Knowledge Base',
-  url: 'https://treefort.netlify.app/',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon_treefort.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  title: "TreeFort",
+  tagline: "TreeFort Knowledge Base",
+  url: "https://treefort.netlify.app/",
+  baseUrl: "/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/favicon_treefort.ico",
+  organizationName: "facebook", // Usually your GitHub org/user name.
+  projectName: "docusaurus", // Usually your repo name.
 
   presets: [
     [
-      '@docusaurus/preset-classic',
+      "@docusaurus/preset-classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
+          //editUrl: "https://github.com/DMIT-2590/TreeFort",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/main/website/blog/',
+          //editUrl: "https://github.com/DMIT-2590/TreeFort",
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       }),
     ],
@@ -43,104 +42,108 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Home',
+        title: "Home",
         logo: {
-          alt: 'TreeFort Logo',
-          src: 'img/logo_treefort.svg',
+          alt: "TreeFort Logo",
+          src: "img/logo_treefort.svg",
         },
         items: [
           {
-            to: '/knowledge-base',
-            label: 'Knowledge Base',
-            position: 'left',
+            to: "/knowledge-base",
+            label: "Knowledge Base",
+            position: "left",
           },
           {
-            to: '/resources',
-            label: 'Resources',
-            position: 'left',
+            to: "/resources",
+            label: "Resources",
+            position: "left",
           },
           {
-            to: '/developer-api',
-            label: 'Developer API',
-            position: 'left',
+            to: "/developer-api",
+            label: "Developer API",
+            position: "left",
           },
           {
-            to: '/faqs',
-            label: 'FAQs',
-            position: 'left',
+            to: "/faqs",
+            label: "FAQs",
+            position: "left",
           },
           {
-            to: '/support-request',
-            label: 'Support Request',
-            position: 'left',
+            to: "/support-request",
+            label: "Support Request",
+            position: "left",
           },
         ],
       },
+      colorMode: {
+        defaultMode: "light",
+        disableSwitch: true,
+      },
       algolia: {
-        apiKey: '9110916aefd88fba0ab1b95c10f4d2f8',
-        indexName: 'TreeFort',
-        appId: 'J276OQO1RA',
+        apiKey: "9110916aefd88fba0ab1b95c10f4d2f8",
+        indexName: "TreeFort",
+        appId: "J276OQO1RA",
       },
       footer: {
-        style: 'dark',
+        style: "dark",
         links: [
           {
-            title: 'ABOUT TREEFORT',
+            title: "ABOUT TREEFORT",
             items: [
               {
-                label: 'TreeFort',
-                to: 'https://treefort.tech/'
+                label: "TreeFort",
+                to: "https://treefort.tech/",
               },
             ],
           },
           {
-            title: 'QUICK LINKS',
+            title: "QUICK LINKS",
             items: [
               {
-                label: 'Home',
-                to: '/',
+                label: "Home",
+                to: "/",
               },
               {
-                label: 'Our Service',
-                to: '/resources',
+                label: "Our Service",
+                to: "/resources",
               },
               {
-                label: 'Contact Us',
-                to: '/support-request',
-              }
-            ],
-          },
-          {
-            title: 'INFORMATION',
-            items: [
-              {
-                label: 'Terms & Conditions',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Privacy Policy',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Users Documentation',
-                href: 'https://twitter.com/docusaurus',
+                label: "Contact Us",
+                to: "/support-request",
               },
             ],
           },
           {
-            title: 'SUPPORT',
+            title: "INFORMATION",
             items: [
               {
-                label: 'Forum: Ask a question',
-                to: '/blog',
+                label: "Terms & Conditions",
+                href: "https://stackoverflow.com/questions/tagged/docusaurus",
               },
               {
-                label: 'Email: info@treefort.ca',
-                href: 'https://github.com/facebook/docusaurus',
+                label: "Privacy Policy",
+                href: "https://discordapp.com/invite/docusaurus",
               },
               {
-                label: 'Chat: Offline',
-                href: 'https://github.com/facebook/docusaurus',
+                label: "Users Documentation",
+                href: "https://twitter.com/docusaurus",
+              },
+            ],
+          },
+          {
+            title: "SUPPORT",
+            items: [
+              {
+                label: "Forum: Ask a question",
+                to: "/blog",
+              },
+              {
+                label: "Email: info@treefort.ca",
+                href: "https://github.com/facebook/docusaurus",
+              },
+              {
+                label: "Chat: Offline",
+                href: "https://github.com/facebook/docusaurus",
               },
             ],
           },
