@@ -94,3 +94,8 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 .Collapsible__trigger.is-open{
   background-image: url(../../static/Assets/svg/dash-lg.svg);
 }
+
+video {
+  width: 100%;
+  max-width: 100%;
+}
