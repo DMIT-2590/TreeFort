@@ -13,8 +13,8 @@ const config = {
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon_treefort.ico",
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "TreeFort", // Usually your GitHub org/user name.
+  projectName: "TreeFort", // Usually your repo name.
 
   presets: [
     [
@@ -23,6 +23,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
+          docItemComponent: "@theme/DocItem",
           // Please change this to your repo.
           //editUrl: "https://github.com/DMIT-2590/TreeFort",
         },
@@ -54,7 +55,7 @@ const config = {
             position: "left",
           },
           {
-            to: "/resources",
+            to: "/docs/account-setup-and-management/section-introduction",
             label: "Resources",
             position: "left",
           },
@@ -82,6 +83,8 @@ const config = {
       algolia: {
         apiKey: "9110916aefd88fba0ab1b95c10f4d2f8",
         indexName: "TreeFort",
+        contextualSearch: true,
+        placeholder: "Search here",
         appId: "J276OQO1RA",
       },
       footer: {
