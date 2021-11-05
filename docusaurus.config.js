@@ -74,6 +74,10 @@ const config = {
             label: "Support Request",
             position: "left",
           },
+          {
+            type: 'search',
+            position: 'right',
+          }
         ],
       },
       colorMode: {
