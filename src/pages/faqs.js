@@ -14,7 +14,7 @@ export default function FAQs() {
             <HomepageHeader />
             <main>
                 <div className={styles.FAQContainer}>
-                    <HomepageFAQs />
+                <HomepageFAQs />
                     <div className={styles.additionalHelpGrid}>
                         <Link className={styles.forgotAccountInfo} to="/docs/account-setup-and-management/forgot-account-number-or-password/">
                             <img src="assets/svg/knowledge-base.svg" alt="" />
