@@ -3,3 +3,91 @@ sidebar_position: 3
 ---
 
 # Managing Clients
+Once you have created a new file or navigated to an existing file, you can associate clients to your file and initiate an ID verification for each client. You have two options for associating clients to files: **create a new client** or **search and attach an existing client**. Both options are detailed in the following sections.
+
+### Create a New Client
+If you are adding a new client who has not been created in the system yet, you can select the **Create New Client** button. This will open a popup allowing you to enter the client information required to complete an ID verification through TreeFort.
+<video autoplay="" controls="" loop="" muted="" src="https://treefort.tech/wp-content/uploads/2020/12/12.webm"></video>
+
+You will be prompted to enter the following information to create a new client:
+
+**Name:** you must enter a first name and last name for a client, however the middle name field is optional. If the client has only one name, select the **Client only has one name** checkbox.
+
+**Address:** you must enter the client’s street address, city, province, country, and postal code. **Note:** this address will be compared against the client’s government-issued photo ID (e.g. driver’s license or passport), and with other reliable sources (e.g. an account they hold at a financial institution). Therefore, the address entered here should be the same address as found on their government-issued photo ID and associated to their account with their financial institution.
+
+**Email Address:** you must enter the client’s email address. This email address will be used to send the client a link to begin the ID verification process, and will also be used for any subsequent notifications and communications sent to the client.
+
+**Phone Number (cellphone):** you must enter the client’s cell phone number. The client must have access to a cell phone with a camera and the ability to receive SMS messages, as security codes will be sent via SMS to the client, and the client will be required to take photos of their government-issued ID and complete a face scan using the camera on their cellphone.
+
+Note that date of birth is not a required field, as the client’s date of birth will be pulled from their government-issued ID during the ID verification process.
+
+When you are finished entering your client’s information, select **Save** to add your client to the file. Once created, a client can be added to any files in the system by searching and attaching the client to that file, as outlined later in this article in the **Search and Attach an Existing Client** section.
+
+#### Suggested Clients
+
+As you enter client information, TreeFort will automatically suggest clients that match the information entered, as there may be cases where you are creating a client that has already been added to the system by yourself or another team member at your organization. If you want to add a suggested client to your file instead of creating a new client, simply select the “attach” icon beside the client you want to associate to the file from the suggested clients list, as shown below. The client will be added to your client list in the file.
+<video autoplay="" controls="" loop="" muted="" src="https://treefort.tech/wp-content/uploads/2020/12/13.webm"></video>
+
+### Search and Attach an Existing Client
+If you want to associate a client to a file and the client has already been created in TreeFort, you can select the **Search & Attach Client** button. This will open a popup allowing you to search for the client you want to add to the file. By selecting the “attach” icon beside the client you want to associate to the file from the suggested clients list, the client will be added to your client list in the file, as shown below.
+<video autoplay="" controls="" loop="" muted="" src="https://treefort.tech/wp-content/uploads/2020/12/14.webm"></video>
+
+### Editing Clients
+
+If you want to edit a client’s information for any reason (e.g. some information was entered incorrectly, the client’s information has changed, etc.), you can edit the client’s information by selecting the **Edit** icon beside the client you want to edit and selecting the **Edit** option, as shown below.
+<video autoplay="" controls="" loop="" muted="" src="https://treefort.tech/wp-content/uploads/2021/01/15.webm"></video>
+
+Selecting this option will open a popup allowing you to edit any client information. When you are finished editing information, select **Save** to save the updated client information.
+
+**Note:** if you edit information for a client who has already been verified through TreeFort, that client will no longer be marked as “verified” in TreeFort and will have to complete the ID verification process once again, as shown below.
+<video autoplay="" controls="" loop="" muted="" src="https://treefort.tech/wp-content/uploads/2021/01/16.webm"></video>
+
+### Removing Clients from a File
+
+If you want to remove a client from a file, you can remove the client by selecting the **edit** icon beside the client you want to remove from the file and selecting the **Remove** option, as shown below. The client will be removed from this file, but can be re-attached to this file (or any other file) by searching and attaching the client as outlined earlier in this article in the **Search and Attach an Existing Client** section.
+<video autoplay="" controls="" loop="" muted="" src="https://treefort.tech/wp-content/uploads/2021/01/17.webm"></video>
+
+### Understanding the Client Table
+All clients associated to a file will be visible in the client table, as shown below.
+![img alt](/img/getting-started/getting-started-3.png)
+
+Each column in the client table is outlined below.
+
+**Client Name –** the name of the client related to the information in that row. **Note:** clients who have been verified will have a green shield icon beside their name, as shown in the above image.
+
+**Last Verified –** the date when the client was last verified using TreeFort. **Note:** if the client has not been verified using TreeFort, there will be no date.
+
+**Expiry Date –** the date when the client’s TreeFort ID verification will expire. **Note:** the time limit for a client’s ID verification is set by an administrator at your organization, up to a maximum of 1 year from the date of the most recent ID verification for that client (i.e. the **Last Verified** date). **Note:** if the client has not been verified using TreeFort, there will be no date.
+
+**Status –** the current status for that client’s ID verification. File statuses are explained in the next section of this article titled Client Status and Report Expiration.
+
+**Downloaded –** the downloaded icon will appear if the client’s report has already been downloaded by any member at your organization.
+
+**Report –** the report icon will appear if there is a TreeFort report available for download for that client. Selecting this icon will download the corresponding TreeFort report for that client to your computer, and the downloaded icon will appear in the **Downloaded** column. You can download the report as many times as required. **Note:** depending on your organization’s settings, the report may expire and be unavailable for download after a **maximum of 14 days**. After the report has expired, the report will only be made available in the case of an audit. You can determine the time limit on a report by the **Status** column, which is explained in the next section of this article titled **Client Status and Report Expiration**. There will be no report icon if the client does not have a TreeFort ID report available for review, or if the report has expired.
+
+**Action –** if there is a possible action you can take relating to a client, it will be available for selection in this column. Examples include “Send ID Verification” which will initiate the ID verification process with a client, “Cancel ID Verification” which will cancel a pending ID verification request that has been sent to a client, as well as options to “Approve” or “Reject” a report once the ID verification process is complete. All these actions are covered in **The ID Verification Process** article.
+
+### Client Status and Report Expiration
+
+The **Status** column in the client table refers to the current status for a client’s ID verification, and depending on the status, may indicate when a TreeFort report will expire. The client statuses are outlined below.
+
+**Request Not Sent –** this status indicates that an ID verification has not been completed for this client. An ID verification request can be sent to the client by selecting the **Send ID Verification** button from the **Action** column.
+![img alt](/img/getting-started/getting-started-4.png)
+
+**Pending –** this status indicates that an ID verification request has been sent to the client, however the client has not completed the ID verification process. **Note:** the client has a **maximum of 3 days** to complete the ID verification process, otherwise the link sent to the client will expire and a member of your organization will have to initiate the ID verification process again. The ID verification request can also be cancelled at any point prior to completion by selecting the **Cancel ID Verification** from the **Action** column. More information on initiating an ID verification with a client can be found in [**The ID Verification Process**](/docs/getting-started/the-id-verification-process/) article.
+![img alt](/img/getting-started/getting-started-5.png)
+
+**Review Report –** this status indicates that a TreeFort Report for the client has been returned and is available for review. To review the report, select the report icon in the **Report** column and the report will be downloaded to your computer. Once you review the report, you may have the option to “Approve” or “Reject” the client’s ID verification from the **Action** column. Approving the report will mark the client as verified within TreeFort. Rejecting the report will allow you to re-initiate the ID verification process with the client, if desired.
+![img alt](/img/getting-started/getting-started-6.png)
+
+**Near Expiry (i.e. Expires in X Days) –** once a client’s TreeFort Report has been approved and they are marked as verified in the system, the client’s status will reflect the amount of time until the report expires and is no longer available for download. Depending on your organization’s settings, the TreeFort Report may be available for download for a **maximum of 14 days**.
+![img alt](/img/getting-started/getting-started-7.png)
+
+**Expires in 1 Day –** if a client’s TreeFort Report only has 1 day until expiry, the status will change to **Expires in 1 Day**. Once this time expires, the client’s status will change to **Verified**, and the TreeFort Report will no longer be available to download.
+![img alt](/img/getting-started/getting-started-8.png)
+
+**Verified –** if a client has been successfully verified and the TreeFort Report is no longer available for review, the client’s status will be set to **Verified**. This status will remain until the date in the **Expiry Date** column. After this date, the client’s status will be reset to **Request Not Sent** and the ID verification process will have to be completed once again for further interactions with that client using TreeFort.
+![img alt](/img/getting-started/getting-started-9.png)
+
+**Cancelled –** if a client’s ID verification was cancelled by someone at your organization, or the client did not complete the ID verification process within 3 days, the client’s status will be marked as **Cancelled**. You will have the option to reset the ID verification and re-initiate the ID verification process with the client by selecting the **Reset ID Verification** button from the **Action** column.
+![img alt](/img/getting-started/getting-started-10.png)
