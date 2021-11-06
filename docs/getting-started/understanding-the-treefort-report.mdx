@@ -3,3 +3,48 @@ sidebar_position: 5
 ---
 
 # Understanding The TreeFort Report
+Once the report is downloaded and opened on your computer, you will see a TreeFort Report that looks similar to the sample report below. Each section of the report is explained in further detail in next sections of this article.
+<video autoplay    controls    loop    muted    src="https://treefort.tech/wp-content/uploads/2021/01/25-1.webm"></video>
+
+### Report Details
+
+The following section outlines the various sections of the TreeFort Report in greater detail.
+![img alt](/img/getting-started/getting-started-15.png)
+
+### Section 1 – Organization Information
+This section provides basic information to help your organization manage reports, including: the date and time that the report was generated; the individual who initiated the ID verification with the client; and your organization’s internal file number for billing and tracking purposes. A unique TreeFort Report Number is also assigned to each report to assist in support and audit investigations.
+
+### Section 2 – ID Verification Result
+This section provides the overall result (success vs failure) of the client’s ID verification.
+
+A **Successful TreeFort Identity Verification** means that TreeFort is confident that the individual being verified is who they say they are, as the client has met certain standards to prove their identity.
+![img alt](/img/getting-started/validation-successful.png)
+
+A **Failed TreeFort Identity Verification** means that TreeFort is **not** confident that the individual being verified is who they say they are, as the client **did not** meet certain standards to prove their identity. The reason for the client’s failure is provided later in the report in the **Identified Risks** section, covered later in this article (Section 6).
+![img alt](/img/getting-started/validation-failed.png)
+
+### Section 3 – Input Information
+This section details the client information that was used in the ID verification process. This information may have been entered by a team member at your organization into the TreeFort platform, or may have been pulled directly from the client’s government-issued ID.
+![img alt](/img/getting-started/input-information.png)
+
+### Section 4 – Sources Successfully Matched
+This section details the sources that the client’s information was successfully matched against. There may be zero, one, or more sources depending on how many sources were used to identify the client’s information, and whether the client’s information was successfully matched against those sources.
+
+**Note:** one or more sources listed in this section of the client’s report does not necessarily mean that they will have received a successful TreeFort ID verification. If there are any significant indications of a potential fraud (e.g. fraudulent ID document, inability to match the client’s face with their ID document, etc.), the client may receive a failed ID verification even though TreeFort was able to verify the client’s information with other sources of information.
+
+### Section 5 – Conclusion
+This section provides more detail on the overall result of the TreeFort ID verification (i.e. success or fail). If the ID verification requirements for your organization have been set up to comply with specific legislation (e.g. law society client model rules, FINTRAC compliance, etc.), the conclusion will reference how the TreeFort ID verification process has complied with that legislation (or in the case of a failed TreeFort Report, that the specific legislation could not be met). The reference to specific legislation may also change depending on the jurisdiction of the individual who requested the ID verification (**Note:** the jurisdiction of a user can be changed from their [User Settings](/docs/account-setup-and-management/user-settings/)). Any reference to specific legislation will also be detailed on the final page of the TreeFort report, explained later in this article in Section 8.
+
+### Section 6 – Identified Risks
+This section details any risks identified by TreeFort during the ID verification process. Depending on the severity of the risk identified, TreeFort will indicate whether the risk is **Low Risk, Medium Risk, High Risk,** or an **Automatic Failure**. If a client has any identified risks marked as **Automatic Failure** associated with their ID verification, the TreeFort Report will indicate that they failed the ID verification process (see Section 2 of this article). You can view all the identified risks that you may encounter, as well as common causes for each identified risk, by using the [Identified Risks Quick Reference]((/docs/resources/user-settings/identified-risks-quick-reference/)). This can also be used as a helpful reference when reviewing client reports to provide insight into why a client failed the TreeFort ID verification or why a certain identified risk is present on a client’s TreeFort Report.
+
+It is important to note that risks outlined in this section **do not** necessarily mean that a fraud is being perpetrated by the client, but depending on the severity of the risks identified, you may want to ask for a satisfactory explanation from the client before continuing to interact with the client. This also applies to identified risks that are marked as **Automatic Failure** and result in a failed TreeFort ID verification report. In certain cases, it is possible that the client simply did not complete the process correctly, or that the data used in the ID verification process was inputted incorrectly by a team member at your organization. A full list of common reasons for each identified risk is outlined in the **Identified Risks Quick Reference** mentioned above.
+![img alt](/img/getting-started/identify-risk.png)
+
+### Section 7 – ID Document and Face Scan
+This section will display images of the client’s ID document (e.g. driver’s license or passport) that was uploaded by the client and used in the ID verification process. An image of the individual that was captured during the face scan process is also included.
+![img alt](/img/getting-started/id-doc.png)
+
+
+### Section 8 – Reference to Applicable Legislation
+As mentioned previously in Section 5 of this article, if the ID verification requirements for your organization have been set up to comply with specific legislation (e.g. law society client model rules, FINTRAC compliance, etc.) and the **Conclusion** (section 5) of the TreeFort Report references how the TreeFort ID verification process has complied with that legislation (or in the case of a failed TreeFort Report, that the specific legislation could not be met), then the exact wording of the legislation will be included in this section. The specific legislation may also change depending on the jurisdiction of the individual who requested the ID verification (**Note:** the jurisdiction of a user can be changed from their [User Settings](/docs/account-setup-and-management/user-settings)).
