@@ -48,7 +48,7 @@
   padding:3rem 0;
   
 }
-.nameLabel input, .otherLabel input, textarea{
+.nameLabel input, .otherLabel input[type=text], .otherLabel input[type=file], textarea{
   width:100%;
   line-height:5;
     margin-bottom: 1.25rem;
@@ -71,7 +71,19 @@ textarea{
 }
 .formHeader
 {text-align: center;}
-
+.submit{cursor:pointer;
+  width:50%;
+  margin:0 auto;
+  line-height:1;
+    margin-bottom: 1.25rem;
+    border: 1px solid #a2adb7;
+    border-radius:5px;
+    padding: 0.8rem;
+    border:none;
+    background-color: white;
+    outline:none;
+    color: black;
+  background-color:aquamarine}
 @media(min-width: 750px) {
   .container
   {
@@ -101,6 +113,7 @@ textarea{
       padding: 0.8rem;
         
     }
+    
 }
 @media(min-width: 1200px) {
   
@@ -128,6 +141,7 @@ textarea{
      
         
     }
+    
 
 }
   

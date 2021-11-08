@@ -9,8 +9,9 @@ const contactForm = () => {
       <div className={styles.formHeader}><h1>Contact Form</h1></div>
       <form className={styles.addForm}>
                         <div className={styles.nameLabel}>
-                            <label>Name:</label>
+                            <label>Lastname:</label>
                             <input type='text' placeholder='Surname' />
+                            <label>Firstname:</label>
                             <input type='text' placeholder='Firstname'/>
                         </div>
                         <div className={styles.otherLabel}>
@@ -26,7 +27,7 @@ const contactForm = () => {
                         
                             <label>Attachment:</label>
                             <input type="file" id="myfile" name="myfile" />
-                            <input type="submit" value="Submit" />
+                            <input type="submit" value="Submit" className={styles.submit} />
                         </div>
                     </form>
                     </div>
