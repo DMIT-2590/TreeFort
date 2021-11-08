@@ -28,6 +28,7 @@ query {
                 data {
                     _id
                     url
+                    urlName
                 }
             }
         }
@@ -47,6 +48,27 @@ query {
                 data {
                     _id
                     url
+                    urlName
+                }
+            }
+        }
+    }
+}`;
+
+/* DOC TYPE QUERIES */
+const GET_DOC_TYPES = `
+query {
+    allDocType {
+        data {
+            _id
+            docType
+            docLogo
+            urlLogo
+            docs {
+                data {
+                    _id
+                    url
+                    urlName
                 }
             }
         }
@@ -57,4 +79,5 @@ module.exports = {
     GET_FAQS,
     GET_POPULAR_ITEMS,
     GET_HELP_DESK_SECTIONS,
+    GET_DOC_TYPES,
 };
