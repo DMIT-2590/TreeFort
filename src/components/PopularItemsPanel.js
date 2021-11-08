@@ -13,8 +13,8 @@ const PopularItemsPanel = ({popularItems}) => {
                     </div>
                     <div className={styles.popularItemsContent}>
                         {popularItem.popularUrls.data.map((urls) => (
-                            <Link className={styles.popularItemsLinks} to={`#`}>
-                                <span>{urls.url}</span>
+                            <Link className={styles.popularItemsLinks} to={urls.url}>
+                                <span>{urls.urlName}</span>
                             </Link>
                         ))}
                     </div>

@@ -8,3 +8,16 @@
     text-align: center;
     color: var(--dark-brown);
 }
+.contactContainer
+{
+    display: flex;
+}
+.contactImage
+{
+    display:block;
+}
+
+.Banner{
+    background-color: var(--ifm-color-primary);
+    margin: 0
+}

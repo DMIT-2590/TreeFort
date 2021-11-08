@@ -31,7 +31,7 @@ type FAQType {
 type FAQs {
     question: String
     answer: String
-    faqType: FAQType
+    faqType: FAQType!
 }
 
 type DocType {
@@ -42,8 +42,6 @@ type DocType {
 }
 
 type Docs {
-    title: String
-    description: String
     url: String
     urlName: String
     docType: DocType!
