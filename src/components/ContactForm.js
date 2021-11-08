@@ -4,9 +4,9 @@ import styles from './HomepageSupportRequest.module.css'
 const contactForm = () => {
   return (
     <div className={styles.container}>
-    <div className={styles.contactImage}><img src="./static/Assets/svg/contact.svg" alt="" className={styles.imgCenter} /></div>
+    <div className={styles.contactImage}><img src="http://localhost:3000/static/Assets/svg/contact.svg" alt="" className={styles.imgCenter} /></div>
     <div className={styles.contactForm}>
-
+      <div className={styles.formHeader}><h1>Contact Form</h1></div>
       <form className={styles.addForm}>
                         <div className={styles.nameLabel}>
                             <label>Name:</label>

@@ -50,16 +50,18 @@
 }
 .nameLabel input, .otherLabel input, textarea{
   width:100%;
-  line-height:2;
+  line-height:5;
     margin-bottom: 1.25rem;
     border: 1px solid #a2adb7;
     border-radius:5px;
     padding: 0.8rem;
+    border:none;
+    background-color: white;
+    outline:none;
     
 }
-.contactImage{
-  
-  
+textarea{
+  height:150px;
 }
 .imgCenter{
   display: block;
@@ -67,6 +69,8 @@
 
   width: 30%;
 }
+.formHeader
+{text-align: center;}
 
 @media(min-width: 750px) {
   .container
