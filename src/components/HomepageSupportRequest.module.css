@@ -42,3 +42,118 @@
   margin: auto; 
   transition: all 0.5s;
 }
+.container
+{
+  margin:0 1rem;
+  padding:3rem 0;
+  
+}
+.nameLabel input, .otherLabel input, textarea{
+  width:100%;
+  line-height:2;
+    margin-bottom: 1.25rem;
+    border: 1px solid #a2adb7;
+    border-radius:5px;
+    padding: 0.8rem;
+    
+}
+.contactImage{
+  
+  
+}
+.imgCenter{
+  display: block;
+  margin:1rem auto;
+
+  width: 30%;
+}
+
+@media(min-width: 750px) {
+  .container
+  {
+    display:flex;
+    justify-content: space-between;
+    flex-wrap:nowrap;
+    flex-basis: 100%;
+  }
+  .contactImage{
+  width:100%;
+  
+  }
+  .contactImage img{
+    width:70%;
+    
+    }
+    .contactForm{
+      width:70%;
+      margin:0 1rem;
+    }
+    .nameLabel input, .otherLabel input, textarea{
+      width:100%;
+      line-height:1;
+      margin-bottom: 1.25rem;
+      border: 1px solid #a2adb7;
+      border-radius:5px;
+      padding: 0.8rem;
+        
+    }
+}
+@media(min-width: 1200px) {
+  
+  .container{margin:0 8rem;}
+  .contactImage img{
+    width:50%;
+    padding:0;
+    
+    }
+    .contactForm{
+      width:70%;
+      margin-right:9rem;
+      
+    }
+    .nameLabel input{
+      width:10%;
+    }
+    .nameLabel input, .otherLabel input, textarea{
+      width:100%;
+      line-height:1;
+      margin-bottom: 1.25rem;
+      border: 1px solid #a2adb7;
+      border-radius:5px;
+      padding: 0.8rem;
+     
+        
+    }
+
+}
+  
+
+
+/*.addForm
+{display:block;}
+
+.nameLabel{
+  padding:1rem;
+}
+.nameLabel input{
+  padding:0.7rem;
+  margin:0.5rem;}
+  
+  .otherLabel{
+    display:grid;
+    padding:1rem;
+    margin:0 5rem;
+}
+
+.otherLabel input, .otherLabel textarea{
+  padding:1rem;
+  margin:0 3rem;
+}
+
+
+ @media(min-width: 1200px) {
+  .container
+  {
+    padding: 6rem 30rem;
+  }
+} */
