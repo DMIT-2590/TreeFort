@@ -47,6 +47,11 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   text-align: center;
 }
 
+video {
+  width: 100%;
+  max-width: 100%;
+}
+
 /* NAVBAR STYLES */
 .navbar {
   padding: 0 1rem;
@@ -95,7 +100,25 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-image: url(../../static/Assets/svg/dash-lg.svg);
 }
 
-video {
+/* DOC SEARCH STYLES */
+.navbar__items button.DocSearch {
+  display: none;
+}
+
+.main-wrapper button.DocSearch {
+  margin: 0 auto;
   width: 100%;
-  max-width: 100%;
+  height: 3rem;
+}
+
+@media(min-width: 996px) {
+  .navbar__items button.DocSearch {
+    display: flex;
+  }
+}
+
+@media(min-width: 1200px) {
+  .main-wrapper button.DocSearch {
+    width: 30rem;
+  }
 }
