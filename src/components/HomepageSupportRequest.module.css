@@ -71,9 +71,10 @@ textarea{
 }
 .formHeader
 {text-align: center;}
-.submit{cursor:pointer;
-  width:50%;
-  margin:0 auto;
+.otherLabel input[type=submit]
+{cursor:pointer;
+  width:150px;
+  margin:auto;
   line-height:1;
     margin-bottom: 1.25rem;
     border: 1px solid #a2adb7;

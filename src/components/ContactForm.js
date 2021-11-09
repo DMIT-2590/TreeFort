@@ -4,7 +4,7 @@ import styles from './HomepageSupportRequest.module.css'
 const contactForm = () => {
   return (
     <div className={styles.container}>
-    <div className={styles.contactImage}><img src="http://localhost:3000/static/Assets/svg/contact.svg" alt="" className={styles.imgCenter} /></div>
+    <div className={styles.contactImage}><img src="assets/svg/contact.svg" alt="" className={styles.imgCenter} /></div>
     <div className={styles.contactForm}>
       <div className={styles.formHeader}><h1>Contact Form</h1></div>
       <form className={styles.addForm}>
@@ -27,7 +27,7 @@ const contactForm = () => {
                         
                             <label>Attachment:</label>
                             <input type="file" id="myfile" name="myfile" />
-                            <input type="submit" value="Submit" className={styles.submit} />
+                            <input type="submit" value="Submit" />
                         </div>
                     </form>
                     </div>
