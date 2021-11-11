@@ -87,9 +87,9 @@ const config = {
       algolia: {
         apiKey: "9110916aefd88fba0ab1b95c10f4d2f8",
         indexName: "TreeFort",
-        contextualSearch: true,
-        placeholder: "Search here",
         appId: "J276OQO1RA",
+        contextualSearch: true,
+        placeholder: "Search our help desk here",
       },
       footer: {
         style: "dark",

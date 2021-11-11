@@ -8,7 +8,6 @@ import KnowledgeBasePanel from '../components/KnowledgeBasePanel';
 
 export default function KnowledgeBase() {
     const {data, isPending, error} = getData('/.netlify/functions/getdoctypes');
-    console.log(data)
     return (
         <Layout
             title="Knowledge Base"
