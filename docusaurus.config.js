@@ -46,7 +46,7 @@ const config = {
         title: "Home",
         logo: {
           alt: "TreeFort Logo",
-          src: "img/logo_treefort.svg",
+          src: "img/logo_treefort.png",
         },
         items: [
           {
@@ -60,7 +60,7 @@ const config = {
             position: "left",
           },
           {
-            to: "/developer-api",
+            to: "https://treefort-api.readme.io/reference/getting-started-with-your-api",
             label: "Developer API",
             position: "left",
           },
@@ -111,7 +111,7 @@ const config = {
                 to: "/",
               },
               {
-                label: "Our Service",
+                label: "Resources",
                 to: "/resources",
               },
               {
@@ -125,15 +125,15 @@ const config = {
             items: [
               {
                 label: "Terms & Conditions",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
+                href: "#",
               },
               {
-                label: "Privacy Policy",
-                href: "https://discordapp.com/invite/docusaurus",
+                label: "Website Privacy Statement",
+                href: "https://treefort.tech/website-privacy-statement/",
               },
               {
-                label: "Users Documentation",
-                href: "https://twitter.com/docusaurus",
+                label: "API Documentation",
+                href: "https://treefort-api.readme.io/reference/getting-started-with-your-api",
               },
             ],
           },
@@ -142,15 +142,15 @@ const config = {
             items: [
               {
                 label: "Forum: Ask a question",
-                to: "/blog",
+                to: "#",
               },
               {
                 label: "Email: info@treefort.ca",
-                href: "https://github.com/facebook/docusaurus",
+                href: "mailto:info@treefort.ca",
               },
               {
                 label: "Chat: Offline",
-                href: "https://github.com/facebook/docusaurus",
+                href: "#",
               },
             ],
           },

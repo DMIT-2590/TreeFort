@@ -11,7 +11,7 @@ export default function FAQs() {
         <Layout
             title="FAQs"
             description="">
-            <HomepageHeader />
+            <HomepageHeader title="View our most frequently asked questions here" cssBackgroundClass="resourcePageBanner" />
             <main>
                 <div className={styles.FAQContainer}>
                 <HomepageFAQs />

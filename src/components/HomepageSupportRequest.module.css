@@ -1,6 +1,6 @@
 .supportRequest {
   margin: 3rem 0;
-  background-color:#8ccfb5;
+  background-color: var(--ifm-color-primary-light);
   height: auto;
   padding: 5rem 2rem;
   display: flex;
@@ -9,7 +9,7 @@
 }
 .supportRequest>h2{
   font-size: 2rem;
-  color: var(--dark-brown) ;
+  color: var(----text-for-on-green) ;
   text-align:left;
 }
 
