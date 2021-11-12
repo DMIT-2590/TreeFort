@@ -9,7 +9,7 @@ const contactForm = () => {
       </div>
       <div className={styles.contactForm}>
         <div className={styles.formHeader}><h1>Contact Us</h1></div>
-        <form className={styles.addForm}>
+        <form className={styles.addForm} action="mailto:support@treefort.tech">
           <div className={styles.nameLabel}>
             <div>
               <label>Lastname:</label>
