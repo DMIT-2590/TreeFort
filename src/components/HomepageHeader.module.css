@@ -1,4 +1,12 @@
 .heroBanner {
+    --ifm-hero-background-color: #d3ede3;
+    --ifm-hero-text-color: var(--ifm-font-color-base-inverse);
+    background-color: var(--ifm-hero-background-color);
+    color: var(--ifm-hero-text-color);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
     padding: 6rem 0;
     text-align: center;
     position: relative;

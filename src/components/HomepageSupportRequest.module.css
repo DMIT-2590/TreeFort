@@ -10,8 +10,8 @@
 
 .supportRequest>h2 {
   font-size: 2rem;
-  color: var(--dark-brown);
-  text-align: left;
+  color: var(----text-for-on-green) ;
+  text-align:center;
 }
 
 .supportRequest>button {

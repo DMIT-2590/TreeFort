@@ -20,9 +20,11 @@ export default function Home() {
       title="Help Desk"
       description="TreeFort provides a completely digital process for verifying the identity of individuals, and a secure, encrypted online video conference service for lawyers...">
       <Head>
-        <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=adfc0002-0afe-45a5-ad11-f4d68f129afb"></script>
+        {/* Start of treeforthelp Zendesk Widget script */}
+        <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=0ebd3c6b-4cc4-477e-a0bf-0a4c226458f1"> </script>
+        {/* End of treeforthelp Zendesk Widget script */}
       </Head>
-      <HomepageHeader />
+      <HomepageHeader title="How can we help you?" cssBackgroundClass="homePageBanner" />
       <main>
         <HomepageDocumentations />
         <HomepagePopularItems />
