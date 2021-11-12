@@ -25,14 +25,25 @@
     color: var(--dark-brown);
     font-weight: bold;
 }
-
+.documentContent{
+    padding: 1.5rem;
+}
 .documentationLinks {
     display: block;
     padding: 0.5rem 0;
+    
 }
 
 .documentationLinks span:first-child {
     padding: 2rem 1rem;
+}
+.documentationLinks span:last-child{
+    color:var(--dark-brown);
+    
+}
+.documentationLinks span:last-child:hover{
+    color: var(--ifm-color-primary);
+    
 }
 
 .documentLogo img {
@@ -42,7 +53,7 @@
 .documentCount {
     background-color: var(--dark-brown);
     color: var(--off-white);
-    padding: 0.2rem 0.7rem;
+    padding: 0.1rem 0.75rem;
     border-radius: 50%;
     height: 2rem;
     width: 2rem;
