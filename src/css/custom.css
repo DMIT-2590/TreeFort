@@ -32,6 +32,12 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   --default-container-width: 1200px;
   --dark-brown: #434343;
   --off-white: #fcfcfc;
+  --primary-green: #709f40;
+  --dark-green: #417136;
+  --light-green: #a1ce60;
+  --primary-grey: #5a5b5b;
+  --text-for-on-green: #313232;
+  --text-for-on-white: #878888;
 }
 
 .sr-only{
@@ -57,31 +63,24 @@ video {
   padding: 0 1rem;
 }
 
+.navbar__item {
+  padding-top: 1rem;
+}
+
 .navbar__items {
   justify-content: space-between;
 }
 
-.navbar__brand {
+.navbar__item, .navbar__brand {
+  color: var(--text-for-on-white);
   height: 100%;
   width: 100%;
   text-align: center;
 }
 
-.navbar__brand:hover {
-  background-color: #7addb2;
-  color: #1c1e21;
-}
-
-.navbar__item {
-  height: 100%;
-  width: 100%;
-  text-align: center;
-  padding-top: 1rem;
-}
-
-.navbar__item:hover{
-  background-color: #7addb2;
-  color: #1c1e21;
+.navbar__item:hover, .navbar__brand:hover{
+  background-color: var(--ifm-color-primary);
+  color: var(--off-white);
 }
 
 /* FAQ Collapse */
@@ -121,4 +120,17 @@ video {
   .main-wrapper button.DocSearch {
     width: 30rem;
   }
+}
+
+/* BANNER STYLES */
+.homePageBanner {
+  background-image: url(../../static/Assets/svg/homePageBanner.png);
+}
+
+.homePageBannerOther {
+  background-image: url(../../static/Assets/svg/homePageBannerOther.svg);
+}
+
+.resourcePageBanner {
+  background-image: url(../../static/Assets/svg/resourcePageBanner.svg);
 }

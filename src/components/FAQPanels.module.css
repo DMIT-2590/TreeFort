@@ -1,7 +1,3 @@
-:root {
-    --faqColor: #848484;
-}
-
 .faqItemContainer {
     border: 1px solid #e0e0e0;
     box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.05);
@@ -12,12 +8,19 @@
 .faqItemQuestion {
     position: absolute;
     font-weight: bold;
-    color: var(--faqColor);
+    color: var(--text-for-on-white);
     width: 65%;
 }
 
 .faqItemAnswer {
-    color: var(--faqColor);
+    color: var(--text-for-on-green);
     padding-top: 1rem;
     width: 75%;
+}
+
+/* HOVER STYLES */
+.faqItemContainer:hover {
+    cursor: pointer;
+    color: var(--text-for-on-green);
+    background-color: var(--ifm-color-primary-lightest);
 }

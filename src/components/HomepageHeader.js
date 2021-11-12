@@ -5,12 +5,12 @@ import styles from './HomepageHeader.module.css';
 import { DocSearch } from '@docsearch/react';
 import '@docsearch/css';
 
-export default function HomepageHeader() {
+export default function HomepageHeader(props) {
     const {siteConfig} = useDocusaurusContext();
     return (
-        <header className={clsx('hero hero--primary', styles.heroBanner)}>
+        <header className={clsx(styles.heroBanner, props.cssBackgroundClass)}>
             <div className="container">
-            <p className="hero__subtitle">How can we help you?</p>
+            <p className="hero__subtitle">{props.title}</p>
             <DocSearch
                 apiKey = "9110916aefd88fba0ab1b95c10f4d2f8"
                 indexName = "TreeFort"

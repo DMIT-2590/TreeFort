@@ -19,9 +19,15 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: var(--ifm-color-primary-dark);
-    color: var(--dark-brown);
+    background-color: var(--ifm-color-primary-light);
+    color: var(--text-for-on-green);
     padding: 1rem;
+}
+
+.additionalHelpGrid a:hover {
+    text-decoration: none;
+    background-color: var(--ifm-color-primary-lighter);
+    color: var(--text-for-on-white);
 }
 
 @media(min-width: 640px) {

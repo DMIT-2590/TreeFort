@@ -8,7 +8,7 @@ export default function Resources() {
         <Layout
             title="Resources"
             description="">
-            <HomepageHeader />
+            <HomepageHeader title="How can we help you?" cssBackgroundClass="homePageBanner" />
             <main>
                 <div className={styles.resourcesContainer}>
                     <h1>Resources</h1>

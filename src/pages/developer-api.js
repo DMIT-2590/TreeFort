@@ -8,7 +8,7 @@ export default function DeveloperAPI() {
         <Layout
             title="Developer API"
             description="">
-            <HomepageHeader />
+            <HomepageHeader title="How can we help you?" cssBackgroundClass="homePageBanner"/>
             <main>
                 <div className={styles.developerAPIContainer}>
                     <h1>Developer API</h1>
