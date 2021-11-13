@@ -13,23 +13,23 @@ const contactForm = () => {
           <div className={styles.nameLabel}>
             <div>
               <label>Lastname:</label>
-              <input type='text' placeholder='Lastname' className={styles.lname} />
+              <input type='text' placeholder='Lastname' className={styles.lname} required />
             </div>
             <div>
               <label>Firstname:</label>
-              <input type='text' placeholder='Firstname' className={styles.lname} />
+              <input type='text' placeholder='Firstname' className={styles.lname} required />
             </div>  
           </div>
           <div className={styles.otherLabel}>
             <label>Email:</label>
-            <input type='text' placeholder='Email' />
+            <input type='text' placeholder='Email' required/>
 
 
             <label>Phone:</label>
             <input type='text' placeholder='Phone' />
 
             <label>Message:</label>
-            <textarea type='text' placeholder='Message'></textarea>
+            <textarea type='text' placeholder='Message' required></textarea>
 
             <label>Attachment:</label>
             <input type="file" id="myfile" name="myfile" />
