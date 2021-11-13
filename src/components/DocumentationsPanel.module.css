@@ -31,8 +31,16 @@
 .documentationLinks {
     display: block;
     padding: 0.5rem 0;
+    color: black;
     
 }
+.documentationLinks:hover{
+    
+    color: var(--ifm-color-primary);
+    text-decoration: none;
+
+}
+
 
 .documentationLinks span:first-child {
     padding: 2rem 1rem;
@@ -48,6 +56,10 @@
 
 .documentLogo img {
     width: 1.75rem;
+}
+.documentContent img{
+    width: 16px;
+    height: 16px;
 }
 
 .documentCount {

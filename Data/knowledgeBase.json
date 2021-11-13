@@ -1,7 +1,7 @@
 {
     "knowledgeBase": [
         {
-            "logo" : "knowledge-base.svg",
+            "logo" : "account-setup.svg",
             "title": "Account Setup and Management",
             "documentLinks": [
                 {
@@ -28,7 +28,7 @@
             "id": 1
         },
         {
-            "logo" : "resources.svg",
+            "logo" : "getting-started.svg",
             "title": "Getting Started",
             "documentLinks": [
                 {
@@ -60,7 +60,7 @@
             "id": 2
         },
         {
-            "logo" : "developer-api.svg",
+            "logo" : "manage-your-organization.svg",
             "title": "Managing Your Organization",
             "documentLinks": [
                 {
@@ -87,7 +87,7 @@
             "id": 3
         },
         {
-            "logo" : "support-request.svg",
+            "logo" : "resource.svg",
             "title": "Resources",
             "documentLinks": [
                 {
@@ -114,7 +114,7 @@
             "id": 4
         },
         {
-            "logo" : "faq.svg",
+            "logo" : "video-tutorials.svg",
             "title": "Video Tutorials",
             "documentLinks": [
                 {
