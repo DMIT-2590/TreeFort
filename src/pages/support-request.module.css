@@ -6,18 +6,18 @@
 
 .supportRequestContainer > h1 {
     text-align: center;
-    color: var(--dark-brown);
-}
-.contactContainer
-{
-    display: flex;
-}
-.contactImage
-{
-    display:block;
+    color: var(--dark-grey);
 }
 
-.Banner{
+.contactContainer {
+    display: flex;
+}
+
+.contactImage {
+    display: block;
+}
+
+.Banner {
     background-color: var(--ifm-color-primary);
     margin: 0
 }

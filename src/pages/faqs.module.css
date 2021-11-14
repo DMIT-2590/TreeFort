@@ -20,14 +20,14 @@
     align-items: center;
     justify-content: center;
     background-color: var(--ifm-color-primary-light);
-    color: var(--text-for-on-green);
+    color: var(--dark-grey);
     padding: 1rem;
 }
 
 .additionalHelpGrid a:hover {
     text-decoration: none;
     background-color: var(--ifm-color-primary-lighter);
-    color: var(--text-for-on-white);
+    color: var(--light-grey);
 }
 
 @media(min-width: 640px) {

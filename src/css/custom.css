@@ -30,14 +30,13 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 /* GENERIC STYLES */
 :root {
   --default-container-width: 1200px;
-  --dark-brown: #434343;
   --off-white: #fcfcfc;
   --primary-green: #709f40;
   --dark-green: #417136;
   --light-green: #a1ce60;
   --primary-grey: #5a5b5b;
-  --text-for-on-green: #313232;
-  --text-for-on-white: #878888;
+  --dark-grey: #313232;
+  --light-grey: #878888;
 }
 
 .sr-only{
@@ -72,7 +71,7 @@ video {
 }
 
 .navbar__item, .navbar__brand {
-  color: var(--text-for-on-white);
+  color: var(--light-grey);
   height: 100%;
   width: 100%;
   text-align: center;
@@ -100,7 +99,7 @@ video {
 }
 
 /* DOC SEARCH STYLES */
-.navbar__items button.DocSearch {
+.navbar__items button.DocSearch, footer.DocSearch-Footer {
   display: none;
 }
 
@@ -108,6 +107,10 @@ video {
   margin: 0 auto;
   width: 100%;
   height: 3rem;
+}
+
+.main-wrapper button.DocSearch .DocSearch-Button-Keys {
+  display: none;
 }
 
 @media(min-width: 996px) {

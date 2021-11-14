@@ -1,11 +1,15 @@
 .knowledgeBaseContainer {
     max-width: var(--default-container-width);
-    margin: 0 auto;
+    margin: 5rem auto;
     padding: 1rem;
 }
 
 .knowledgeBaseContainer > h1 {
     text-align: center;
-    color: var(--dark-brown);
+    color: var(--dark-grey);
 }
 
+.loading {
+    max-width: var(--default-container-width);
+    margin: 0 auto;
+}

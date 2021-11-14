@@ -2,3 +2,8 @@
     margin: 5rem 0;
     padding: 1rem;
 }
+
+.loading {
+    max-width: var(--default-container-width);
+    margin: 0 auto;
+}

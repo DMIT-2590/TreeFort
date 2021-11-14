@@ -5,9 +5,11 @@ import HomepageHeader from '../components/HomepageHeader';
 import HomepageSupportRequest from '../components/HomepageSupportRequest';
 import getData from "../components/getData";
 import KnowledgeBasePanel from '../components/KnowledgeBasePanel';
+import SkeletonLoadingDocs from '../components/SkeletonLoadingDocs';
 
 export default function KnowledgeBase() {
     const {data, isPending, error} = getData('/.netlify/functions/getdoctypes');
+    const loadingData = [1, 2, 3, 4, 5];
     return (
         <Layout
             title="Knowledge Base"
@@ -16,7 +18,7 @@ export default function KnowledgeBase() {
             <main>
                 <div className={styles.knowledgeBaseContainer}>
                     {error && <div className="center">{error}</div>}
-                    {isPending && <div className="center">Loading...</div>}
+                    {isPending && <div className={styles.loading}><SkeletonLoadingDocs items={loadingData} /></div>}
                     {data && <KnowledgeBasePanel knowledgeBase={data} />}
                 </div>
             </main>

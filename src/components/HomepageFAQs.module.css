@@ -1,7 +1,7 @@
 .faqContainer {
     margin: 5rem auto;
     padding: 1rem;
-    max-width: 1200px;
+    max-width: var(--default-container-width);
 }
 
 .faqMenu {
@@ -15,8 +15,8 @@
 }
 
 .faqMenuItem {
-    color: #7addb2;
-    border: 2px solid #7addb2;
+    color: var(--ifm-color-primary);
+    border: 2px solid var(--ifm-color-primary);
     border-radius: 0.5rem;
     padding: 0.20rem 1.75rem;
     text-align: center;
@@ -24,10 +24,15 @@
 }
 
 .faqMenuItem:hover, .faqMenuItemActive {
-    background-color: #7addb2;
-    color: #fcfcfc;
+    background-color: var(--ifm-color-primary);
+    color: var(--off-white);
 }
 
 .tabPanel {
     margin-top: 3rem;
+}
+
+.loading {
+    max-width: var(--default-container-width);
+    margin: 0 auto;
 }

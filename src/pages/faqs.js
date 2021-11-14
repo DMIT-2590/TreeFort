@@ -17,15 +17,15 @@ export default function FAQs() {
                 <HomepageFAQs />
                     <div className={styles.additionalHelpGrid}>
                         <Link className={styles.forgotAccountInfo} to="/docs/account-setup-and-management/forgot-account-number-or-password/">
-                            <img src="assets/svg/knowledge-base.svg" alt="" />
+                            <img src="assets/svg/account-setup.svg" alt="" />
                             <h5>Forgot Account Number or Password</h5>
                         </Link>
                         <Link className={styles.verification} to="/docs/getting-started/the-id-verification-process">
-                            <img src="assets/svg/support-request.svg" alt="" />
+                            <img src="assets/svg/the-id-verification.svg" alt="" />
                             <h5>The ID Verification Progress</h5>
                         </Link>
                         <Link className={styles.identifyRisks} to="/docs/resources/identified-risks-quick-reference">
-                            <img src="assets/svg/popular-articles.svg" alt="" />
+                            <img src="assets/svg/resources.svg" alt="" />
                             <h5>How To Identify Risks Quick Reference</h5>
                         </Link>
                         <Link className={styles.manageFiles} to="/docs/getting-started/managing-files">
@@ -33,7 +33,7 @@ export default function FAQs() {
                             <h5>How To Manage Files</h5>
                         </Link>
                         <Link className={styles.resources} to="">
-                            <img src="assets/svg/resources.svg" alt="/docs/resources/section-introduction" />
+                            <img src="assets/svg/knowledge-base.svg" alt="/docs/resources/section-introduction" />
                             <h5>Resources</h5>
                         </Link>
                         <Link className={styles.apiDocs} to="">

@@ -23,14 +23,10 @@ const contactForm = () => {
           <div className={styles.otherLabel}>
             <label>Email:</label>
             <input type='text' placeholder='Email' required/>
-
-
             <label>Phone:</label>
             <input type='text' placeholder='Phone' />
-
             <label>Message:</label>
             <textarea type='text' placeholder='Message' required></textarea>
-
             <label>Attachment:</label>
             <input type="file" id="myfile" name="myfile" />
             <input type="submit" value="Send Support Request" />

@@ -22,42 +22,44 @@
 }
 
 .documentTitle {
-    color: var(--dark-brown);
+    color: var(--dark-grey);
     font-weight: bold;
+}
+
+.documentContent{
+    padding: 0.75rem 0;
 }
 
 .documentationLinks {
     display: block;
     padding: 0.5rem 0;
-    color: black;
-   
-
+    color: var(--dark-grey);  
 }
-.documentationLinks:hover{
-    
+
+.documentationLinks:hover{    
     color: var(--ifm-color-primary);
     text-decoration: none;
-
 }
 
-
 .documentationLinks span:first-child {
-    padding: 2rem 1rem;
+    padding: 1rem;
 }
 
 .documentLogo img {
     width: 1.75rem;
     height: 1.75rem;
 }
+
 .documentationLinks img {
-    width: 15px;
-    height: 15px;
+    width: 1rem;
+    height: 1rem;
 }
 
 .documentCount {
-    background-color: var(--dark-brown);
+    background-color: var(--ifm-color-primary-light);
+    border: 0.25rem solid var(--ifm-color-primary-lightest);
     color: var(--off-white);
-    padding: 0.2rem 0.7rem;
+    padding: 0 0.5rem;
     border-radius: 50%;
     height: 2rem;
     width: 2rem;

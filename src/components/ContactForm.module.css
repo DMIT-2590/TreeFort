@@ -11,12 +11,12 @@
 
 .formHeader {
   text-align: center;
-  color:#655A56;
+  color: var(--primary-grey);
 }
 
 .nameLabel label, .otherLabel label {
   font-weight: 700;
-  color:#655A56;
+  color: var(--primary-grey);
 }
 
 .nameLabel input, .otherLabel input[type=text], .otherLabel input[type=file], textarea {
@@ -26,7 +26,7 @@
   border-radius: 5px;
   padding: 0.8rem;
   border: none;
-  background-color: white;
+  background-color: var(--off-white);
   outline: none;
 }
 
@@ -43,13 +43,13 @@ textarea {
   border-radius: 5px;
   padding: 0.8rem;
   border: none;
-  color: #655A56;
+  color: var(--primary-grey);
   font-weight:700;
-  background-color: aquamarine;
+  background-color: var(--ifm-color-primary-lightest);
 }
 .otherLabel input[type=submit]:hover {
-background-color:#655a56;
-color:white;
+background-color: var(--primary-grey);
+color: var(--off-white);
 }
 
 @media(min-width: 750px) {
@@ -59,16 +59,20 @@ color:white;
     flex-wrap: nowrap;
     flex-basis: 100%;
   }
+
   .contactImage {
     width: 100%;
   }
+
   .contactImage img {
     width: 70%;
   }
+
   .contactForm {
     width: 70%;
     margin: 0 1rem;
   }
+
   .formHeader {
     text-align: left;
     margin-bottom: 1rem;
@@ -80,18 +84,22 @@ color:white;
     margin: auto;
     max-width: 1400px;
   }
+
   .contactImage img {
     width: 50%;
     padding: 0;
   }
+
   .contactForm {
     width: 70%;
     margin-right: 9rem;
   }
+
   .formHeader {
     text-align: left;
     margin-bottom: 1rem;
   }
+  
   .nameLabel {
     display: flex;
     justify-content: space-around;
