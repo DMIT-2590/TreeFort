@@ -23,7 +23,6 @@
 
 .popularItemsContent {
     padding: 1rem;
-    
 }
 
 .popularItemsLogo img {
@@ -35,12 +34,18 @@
     display: block;
     padding: 0.5rem 0.25rem;
     color: var(--dark-brown);
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 500;
 }
+/* Responsive for Iphone 5 */
+@media(max-width: 340px){
+    .popularItemsLinks {
+        font-size: 0.91em;
+    }
+}
+    
 .popularItemsLinks:hover{
     text-decoration: none;
-    padding: 0.5rem 0.25rem;
     font-weight: 700;
     color: #398864;
     
