@@ -23,7 +23,7 @@
     cursor: pointer;
 }
 
-.faqMenuItem:hover, .faqMenuItemActive {
+.faqMenuItem:hover, li.faqMenuItemActive {
     background-color: var(--ifm-color-primary);
     color: var(--off-white);
 }
