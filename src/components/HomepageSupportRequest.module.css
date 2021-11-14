@@ -32,15 +32,13 @@
 
 .supportRequest>button:hover {
   background-color: #398864;
-  border: none;
-  color: var(--off-white);
-  padding: 1rem 2rem;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 1.25rem;
-  border-radius: 10px;
-  width: auto;
-  margin: auto;
-  transition: all 0.5s;
+}
+/* Responsive for Iphone 5/SE */
+@media(max-width: 350px){
+  .supportRequest>button {
+    font-size: 1rem;
+  }
+  .supportRequest>button:hover {
+    background-color: #398864;
+  }
 }
