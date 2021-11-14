@@ -8,16 +8,6 @@
     grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
     grid-template-rows: 1fr 1fr;
 }
-/* Responsive for Iphone 5/SE */
-@media(max-width: 355px){
-    .documentGrid {
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .documentContainer{
-        width: 100%;
-    }
-}
 
 .documentContainer {
     border: 1px solid var(--off-white);
@@ -73,4 +63,16 @@
     border-radius: 50%;
     height: 2rem;
     width: 2rem;
+}
+
+/* Responsive for Iphone 5/SE */
+@media (max-width: 355px){
+    .documentGrid {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .documentContainer{
+        width: 100%;
+    }
 }

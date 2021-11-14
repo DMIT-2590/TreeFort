@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './ContactForm.module.css'
 
-const contactForm = () => {
+const ContactForm = () => {
   return (
     <div className={styles.container}>
       <div className={styles.contactImage}>
@@ -12,23 +12,23 @@ const contactForm = () => {
         <form className={styles.addForm} action="mailto:support@treefort.tech">
           <div className={styles.nameLabel}>
             <div>
-              <label>Lastname:</label>
-              <input type='text' placeholder='Lastname' className={styles.lname} required />
+              <label htmlFor="lname">Last Name:</label>
+              <input type='text' name="lname" id="lname" placeholder='Last Name' className={styles.lname} required />
             </div>
             <div>
-              <label>Firstname:</label>
-              <input type='text' placeholder='Firstname' className={styles.lname} required />
+              <label htmlFor="fname">First Name:</label>
+              <input type='text' name="fname" id="fname" placeholder='First Name' className={styles.lname} required />
             </div>  
           </div>
           <div className={styles.otherLabel}>
-            <label>Email:</label>
-            <input type='text' placeholder='Email' required/>
-            <label>Phone:</label>
-            <input type='text' placeholder='Phone' />
-            <label>Message:</label>
-            <textarea type='text' placeholder='Message' required></textarea>
-            <label>Attachment:</label>
-            <input type="file" id="myfile" name="myfile" />
+            <label htmlFor="email">Email:</label>
+            <input type='text' name="email" id="email" placeholder='Email' required/>
+            <label htmlFor="phone">Phone:</label>
+            <input type='text' name="phone" id="phone" placeholder='Phone' />
+            <label htmlFor="message">Message:</label>
+            <textarea type='text' name="message" id="message" placeholder='Message' required></textarea>
+            <label htmlFor="myFile">Attachment:</label>
+            <input type="file" name="myFile" id="myFile" />
             <input type="submit" value="Send Support Request" />
           </div>
         </form>
@@ -37,4 +37,4 @@ const contactForm = () => {
   )
 }
 
-export default contactForm
+export default ContactForm

@@ -47,6 +47,7 @@ textarea {
   font-weight:700;
   background-color: var(--ifm-color-primary-lightest);
 }
+
 .otherLabel input[type=submit]:hover {
 background-color: var(--primary-grey);
 color: var(--off-white);

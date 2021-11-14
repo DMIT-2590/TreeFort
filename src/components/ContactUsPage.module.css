@@ -1,0 +1,77 @@
+.container {
+    margin: 0 1rem;
+    padding: 3rem 0;
+}
+
+.formHeader {
+    color: var(--primary-grey);
+}
+
+label {
+    font-weight: 700;
+    color: var(--primary-grey);
+}
+
+.nameInput input,
+.otherLabel input[type="text"],
+.otherLabel input[type="file"],
+textarea {
+    width: 100%;
+    line-height: 1.2;
+    margin-bottom: 1.25rem;
+    border-radius: 5px;
+    padding: 0.8rem;
+    border: 1px solid var(--light-grey);
+    background-color: var(--off-white);
+    outline: none;
+}
+
+.otherLabel input[type="file"] {
+    background: none;
+    border: none;
+    padding:  0.8rem 0;
+}
+
+textarea {
+    height: 150px;
+}
+
+.otherLabel input[type="submit"] {
+    cursor: pointer;
+    width: 200px;
+    margin: auto;
+    line-height: 1;
+    margin-top: 1.25rem;
+    border-radius: 5px;
+    padding: 0.8rem;
+    border: none;
+    color: var(--primary-grey);
+    font-weight: 700;
+    background-color: var(--ifm-color-primary-lightest);
+}
+.otherLabel input[type="submit"]:hover {
+    background-color: var(--primary-grey);
+    color: var(--off-white);
+}
+
+@media (min-width: 1200px) {
+    .container {
+        margin: auto;
+        max-width: 1400px;
+    }
+
+    .formHeader {
+        text-align: left;
+        margin-bottom: 1rem;
+    }
+
+    .nameInput {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    .emailPhone {
+        width: 50%;
+    }
+}
