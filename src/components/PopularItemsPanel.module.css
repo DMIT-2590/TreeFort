@@ -18,17 +18,30 @@
 .popularItemsTitle {
     font-weight: bold;
     color: var(--dark-brown);
+    font-size: 1.3rem;
 }
 
 .popularItemsContent {
     padding: 1rem;
+    
 }
 
 .popularItemsLogo img {
-    width: 3.5rem;
+    width: 5rem;
+    height: 5rem;
 }
 
 .popularItemsLinks {
     display: block;
     padding: 0.5rem 0.25rem;
+    color: var(--dark-brown);
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.popularItemsLinks:hover{
+    text-decoration: none;
+    padding: 0.5rem 0.25rem;
+    font-weight: 700;
+    color: #398864;
+    
 }
