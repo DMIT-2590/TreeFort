@@ -13,7 +13,7 @@
 }
 
 .faqItemAnswer {
-    color: var(--dark-grey);
+    color: var(--light-grey);
     padding-top: 1rem;
     width: 75%;
 }
