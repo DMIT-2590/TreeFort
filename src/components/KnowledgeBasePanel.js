@@ -14,7 +14,7 @@ const KnowledgeBasePanel = ({knowledgeBase}) => {
                     </div>
                     <div className={styles.documentContent}>
                         {knowledgeBaseItems.docs.data.map((knowledgeBaseItemsUrl) => (
-                            <Link className={styles.documentationLinks} to={knowledgeBaseItemsUrl.url}>
+                            <Link className={styles.documentationLinks} to={knowledgeBaseItemsUrl.url} key={knowledgeBaseItemsUrl.id}>
                                 <span><img src={`assets/svg/${knowledgeBaseItems.urlLogo}`} alt={knowledgeBaseItemsUrl.urlName} /></span>
                                 <span>{knowledgeBaseItemsUrl.urlName}</span>
                             </Link>

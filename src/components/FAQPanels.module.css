@@ -6,14 +6,15 @@
 }
 
 .faqItemQuestion {
+    display: block;
     position: absolute;
-    font-weight: bold;
-    color: var(--light-grey);
+    font-weight: 600;
+    color: var(--ifm-color-primary-darker);
     width: 65%;
 }
 
 .faqItemAnswer {
-    color: var(--light-grey);
+    color: var(--ifm-color-primary-darker);
     padding-top: 1rem;
     width: 75%;
 }
@@ -21,6 +22,5 @@
 /* HOVER STYLES */
 .faqItemContainer:hover {
     cursor: pointer;
-    color: var(--dark-grey);
     background-color: var(--ifm-color-primary-lightest);
 }

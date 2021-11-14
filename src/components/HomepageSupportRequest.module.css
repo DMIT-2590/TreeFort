@@ -1,52 +1,51 @@
 .supportRequest {
-  margin: 3rem 0;
-  background-color: var(--ifm-color-primary-light);
-  height: auto;
+  margin: 3rem 0 0;
+  background-blend-mode: overlay;
+  background-image:  url(https://secureservercdn.net/198.71.233.31/bgi.c7f.myftpupload.com/wp-content/uploads/2020/08/geometric-bg-overlay-01.jpg),linear-gradient(135deg,var(--ifm-color-primary-light) 0%,var(--ifm-color-primary) 100%)!important;
   padding: 5rem 2rem;
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 0;
 }
 
-.supportRequest>h2 {
+.supportRequest > h2 {
   font-size: 2rem;
   color: var(--dark-grey) ;
-  text-align:center;
+  text-align: center;
+  margin-bottom: 3rem;
 }
 
-.supportRequest>button {
+.supportRequest > a {
+  text-decoration: none;
+}
+
+.supportRequest > a > button > span:last-child svg {
+  opacity: 0;
+  vertical-align: middle;
+  transition: all 0.5s;
+}
+
+.supportRequest > a > button {
   background-color: var(--ifm-color-primary-darkest);
+  border: 0.187rem solid var(--ifm-color-primary-darkest);
+  color: var(--off-white);  
   cursor: pointer;
-  border: none;
-  color: var(--off-white);
-  padding: 1rem 2rem;
+  padding: 0.75rem 1.75rem;
+  display: block;
+  margin: 0 auto;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 1.25rem;
-  border-radius: 0.625rem;
+  border-radius: 0.5rem;
   width: auto;
   margin: auto;
   transition: all 0.5s;
 }
 
-.supportRequest>button:hover {
-  background-color: var(--ifm-color-primary-darker);
-  border: none;
-  color: var(--off-white);
-  padding: 1rem 2rem;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 1.25rem;
-  border-radius: 10px;
-  width: auto;
-  margin: auto;
-  transition: all 0.5s;
+.supportRequest > a > button:hover {
+  background-color: var(--off-white);
+  color: var(--ifm-color-primary-darkest);
 }
 
 @media (max-width: 350px) {
-  .supportRequest>button {
+  .supportRequest > a > button {
     font-size: 1rem;
   }
 }

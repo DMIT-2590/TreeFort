@@ -72,5 +72,3 @@ const HomepageFAQs = () => {
 }
 
 export default HomepageFAQs;
-
-//To run and test api locally: npx json-server --watch data/faqs.json --port 8000

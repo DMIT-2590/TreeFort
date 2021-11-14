@@ -27,7 +27,7 @@
 .additionalHelpGrid a:hover {
     text-decoration: none;
     background-color: var(--ifm-color-primary-lighter);
-    color: var(--light-grey);
+    color: var(--primary-grey);
 }
 
 @media(min-width: 640px) {

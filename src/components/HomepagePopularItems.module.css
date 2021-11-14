@@ -1,11 +1,11 @@
 .popularContainer {
     margin: 4rem 0;
     padding: 4rem 1rem;
-    
 }
 
 .popularBackground {
-    background-color: var(--ifm-color-primary-lightest);
+    background-blend-mode: overlay;
+    background-image:  url(https://secureservercdn.net/198.71.233.31/bgi.c7f.myftpupload.com/wp-content/uploads/2020/08/geometric-bg-overlay-01.jpg),linear-gradient(135deg,var(--ifm-color-primary-lightest) 0%,var(--ifm-color-primary-lighter) 100%)!important;
 }
 
 .loading {

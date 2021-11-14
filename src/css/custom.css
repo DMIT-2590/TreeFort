@@ -75,10 +75,11 @@ video {
   height: 100%;
   width: 100%;
   text-align: center;
+  transition: all 0.5s;
 }
 
 .navbar__item:hover, .navbar__brand:hover{
-  background-color: var(--ifm-color-primary);
+  background-color: var(--ifm-color-primary-light);
   color: var(--off-white);
 }
 

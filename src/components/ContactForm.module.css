@@ -46,6 +46,7 @@ textarea {
   color: var(--primary-grey);
   font-weight:700;
   background-color: var(--ifm-color-primary-lightest);
+  transition: all 0.5s;
 }
 
 .otherLabel input[type=submit]:hover {

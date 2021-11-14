@@ -12,10 +12,7 @@ label {
     color: var(--primary-grey);
 }
 
-.nameInput input,
-.otherLabel input[type="text"],
-.otherLabel input[type="file"],
-textarea {
+.nameInput input, .otherLabel input[type="text"], .otherLabel input[type="file"], textarea {
     width: 100%;
     line-height: 1.2;
     margin-bottom: 1.25rem;
@@ -48,10 +45,11 @@ textarea {
     color: var(--primary-grey);
     font-weight: 700;
     background-color: var(--ifm-color-primary-lightest);
+    transition: all 0.5s;
 }
 .otherLabel input[type="submit"]:hover {
     background-color: var(--primary-grey);
-    color: var(--off-white);
+    color: var(--off-white);    
 }
 
 @media (min-width: 1200px) {
