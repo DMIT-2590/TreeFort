@@ -5,13 +5,13 @@ import styles from './HomepageSupportRequest.module.css';
 
 const HomepageSupportRequest = () => {
     const handleMouseEnter = () => {
-        let svgNode = document.querySelector(".supportRequest_src-components-HomepageSupportRequest-module a button span:last-child svg");
+        let svgNode = document.querySelector("button.submit-support span:last-child svg");
         let svgElement = ReactDOM.findDOMNode(svgNode);
         svgElement.style.opacity = "1";
         svgElement.style.marginLeft = "12px";
     }
     const handleMouseLeave = () => {
-        let svgNode = document.querySelector(".supportRequest_src-components-HomepageSupportRequest-module a button span:last-child svg");
+        let svgNode = document.querySelector("button.submit-support span:last-child svg");
         let svgElement = ReactDOM.findDOMNode(svgNode);
         svgElement.style.opacity = "0";
         svgElement.style.marginLeft = "-12px";
