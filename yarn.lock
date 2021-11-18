@@ -13691,6 +13691,11 @@
   dependencies:
     "prop-types" "^15.5.0"
 
+"react-loading-skeleton@^3.0.1":
+  "integrity" "sha512-YL9tSV7w53HLd5aAPPjUGp9iqUJ5+yj8ZI//E1ES1OHrWy2mSCHTRPSc37u77Di+jWph6evGVNKBr3rpAnKwDQ=="
+  "resolved" "https://registry.npmjs.org/react-loading-skeleton/-/react-loading-skeleton-3.0.1.tgz"
+  "version" "3.0.1"
+
 "react-markdown@^7.1.0":
   "integrity" "sha512-hL8cLLkTydyoKlZWZOjlU6TvMYIw9qKLh1CCzVfnhKt/R/SnKVAqiyugetXY61CkjhBqJl2C5FdU3OwHYo7SrQ=="
   "resolved" "https://registry.npmjs.org/react-markdown/-/react-markdown-7.1.0.tgz"

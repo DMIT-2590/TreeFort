@@ -1,0 +1,384 @@
+[
+    {
+        "id": 1,
+        "riskLevel": "Low Risk",
+        "riskDescription": "The address on the individual’s government-issued photo ID did not match the address provided by the Initiator.",
+        "commonCauses": [
+            {
+                "cause": "1 – The address inputted into TreeFort by a team member at your organization may have been different than the address on the client’s government-issued photo ID. It is possible that the client has recently moved and has not updated the address on their ID document, or has provided you with a previous address.",
+                "id": 11000
+            },
+            {
+                "cause": "2 – The address may have been entered incorrectly into TreeFort by a team member at your organization. Compare the address on the photo of the client’s ID from the TreeFort Report to the address entered into TreeFort and used in the ID verification process.",
+                "id": 12000
+            },
+            {
+                "cause": "3 – It is possible that the client has used a passport for their ID document that does not have an associated address.",
+                "id": 13000
+            },
+            {
+                "cause": "4 – It is possible that the client provided you with an incorrect address.",
+                "id": 14000
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "riskLevel": "Low Risk",
+        "riskDescription": "The individual’s phone plan may be under a family member’s name, or the individual may be using a family member’s phone.",
+        "commonCauses": [
+            {
+                "cause": "1 – The client is likely using a cell phone that is belongs to a family member, or has a phone plan that is under a family member’s name.",
+                "id": 21000
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "riskLevel": "Low Risk",
+        "riskDescription": "The account associated to the individual’s cell phone number could not be found. They may not have a phone plan with Telus, Bell, or Rogers.",
+        "commonCauses": [
+            {
+                "cause": "1 – The client likely does not have a cell phone account with Telus, Bell, or Rogers.",
+                "id": 31
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "riskLevel": "Low Risk",
+        "riskDescription": "The account associated to the individual’s cell phone number did not match the date of birth provided by the Initiator.",
+        "commonCauses": [
+            {
+                "cause": "1 – It is likely that the client’s date of birth is not linked to their account with their cell phone provider.",
+                "id": 41
+            },
+            {
+                "cause": "2 – It is possible the client’s date of birth may be entered incorrectly with their cell phone provider.",
+                "id": 42
+            },
+            {
+                "cause": "3 – It is possible the client is using a cell phone of another individual with the same name and address.",
+                "id": 43
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "riskLevel": "Low Risk",
+        "riskDescription": "The account associated to the individual’s cell phone number did not match the information provided by the Initiator.",
+        "commonCauses": [
+            {
+                "cause": "1 – It is possible the client was recently married and has not updated their last name with their cell phone provider.",
+                "id": 51
+            },
+            {
+                "cause": "2 – It is possible the client used a different variation of their first name with their cell phone provider (e.g. Bob vs Robert).",
+                "id": 52
+            },
+            {
+                "cause": "3 – It is possible that the client is using the cell phone of an individual with the same name.",
+                "id": 53
+            },
+            {
+                "cause": "4 – It is possible that some information (e.g. address and date of birth) are not associated to the client’s account with their cell phone provider.",
+                "id": 54
+            },
+            {
+                "cause": "5 – It is possible that the client is using a cell phone that does not belong to them, or is not in their name.",
+                "id": 55
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "riskLevel": "Low Risk",
+        "riskDescription": "The account associated to the individual’s cell phone number is a business or corporate account.",
+        "commonCauses": [
+            {
+                "cause": "1 – It is likely that the cell phone that the client is using is associated to a business or corporate account.",
+                "id": 61
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "riskLevel": "Low Risk",
+        "riskDescription": "The address on the credit file found for the individual at a Canadian credit bureau did not match the address provided by the Initiator.",
+        "commonCauses": [
+            {
+                "cause": "1 – The address inputted into TreeFort by a team member at your organization may have been different than the address associated to the credit file found for the client. It is possible that the client has recently moved and the new address has not yet been reflected in the client’s credit history, or the client has provided you with a previous address not associated with the client’s credit history.",
+                "id": 71
+            },
+            {
+                "cause": "2 – The address may have been entered incorrectly into TreeFort by a team member at your organization. Compare the address on the photo of the client’s ID from the TreeFort Report to the address entered into TreeFort and used in the ID verification process.",
+                "id": 72
+            },
+            {
+                "cause": "3 – It is possible the client provided you with an incorrect address.",
+                "id": 73
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "riskLevel": "Low Risk",
+        "riskDescription": "The credit file for the individual that matched the information provided by the Initiator does not have a history of at least 3 years.",
+        "commonCauses": [
+            {
+                "cause": "1 – It is likely that the client is a recent immigrant or is too young to have a credit history of at least 3 years.",
+                "id": 81
+            },
+            {
+                "cause": "2 – If it seems unlikely that a certain client would not have a credit history of at least 3 years, it is possible that the client is trying to pass for someone who does not exist (i.e. they have provided you false information about who they are), and they may have recently been creating a trail of false credit history.",
+                "id": 82
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "riskLevel": "Medium Risk",
+        "riskDescription": "There was no credit file found at a Canadian credit bureau that matched the information provided by the Initiator.",
+        "commonCauses": [
+            {
+                "cause": "1 – It is possible that this client does not have any credit history if they are a recent immigrant or are too young to have a credit history.",
+                "id": 91
+            },
+            {
+                "cause": "2 – It is possible that this client’s credit file could not be found due to missing information (e.g. incorrect address).",
+                "id": 92
+            },
+            {
+                "cause": "3 – It is possible the client was recently married and the change in last name has not yet been reflected in the client’s credit history.",
+                "id": 93
+            },
+            {
+                "cause": "4 – It is possible that the client is trying to pass for someone who does not exist (i.e. they have provided you false information about who they are).",
+                "id": 94
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "riskLevel": "High Risk",
+        "riskDescription": "The date of birth on the credit file found for the individual at a Canadian credit bureau did not match the date of birth provided by the Initiator.",
+        "commonCauses": [
+            {
+                "cause": "1 – It is possible that this client’s credit file could not be found due to missing information (e.g. incorrect address).",
+                "id": 101
+            },
+            {
+                "cause": "2 – It is possible that a credit file does not exist for this client with the same name and date of birth. The client may be trying to impersonate someone with the same name who is a different age.",
+                "id": 102
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "riskLevel": "Automatic Failure",
+        "riskDescription": "The individual’s government-issued photo ID did not match the information provided by the Initiator.",
+        "commonCauses": [
+            {
+                "cause": "1 – It is likely that some of the information on the client’s government-issued photo ID does not match the information entered into the TreeFort platform by a team member at your organization. Compare the name and address on the photo of the client’s ID from the TreeFort Report to the name and address entered into TreeFort and used in the ID verification process. This may occur if the client was recently married and has not yet updated their government-issued ID, or if the client has a different variation of their first name on their government-issued ID (e.g. Bob vs Robert).",
+                "id": 111
+            },
+            {
+                "cause": "2 – It is possible that the client’s name may have been entered incorrectly into TreeFort by a team member at your organization.",
+                "id": 112
+            },
+            {
+                "cause": "3 – It is possible that the client was trying to pass as a different person and provided you false information to use in the ID verification process. Compare the name and address on the photo of the client’s ID from the TreeFort Report to the name and address entered into TreeFort and used in the ID verification process.",
+                "id": 113
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "riskLevel": "Automatic Failure",
+        "riskDescription": "The individual used a photocopy of their government-issued photo ID, not the original.",
+        "commonCauses": [
+            {
+                "cause": "1 – It is likely that the client was attempting to use a photocopy of their government-issued photo ID and not the actual ID. An original copy of a government-issued photo ID must be used.",
+                "id": 121
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "riskLevel": "Automatic Failure",
+        "riskDescription": "It appears there is not a valid hologram on the individual’s government-issued photo ID.",
+        "commonCauses": [
+            {
+                "cause": "1 – It is likely that TreeFort could not detect a valid hologram on the client’s government-issued photo ID. It is possible that the hologram could not be detected in the image of the ID document that the client uploaded, possibly due to poor camera quality, however it may be an indication that the ID document uploaded is not authentic.",
+                "id": 131
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "riskLevel": "Automatic Failure",
+        "riskDescription": "The photo on the individual’s government-issued photo ID appears to be tampered with.",
+        "commonCauses": [
+            {
+                "cause": "1 – It is likely that TreeFort found indications that the photo of the client on their government-issued photo ID has been tampered with.",
+                "id": 141
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "riskLevel": "Automatic Failure",
+        "riskDescription": "It appears there is no hologram on the individual’s government-issued photo ID.",
+        "commonCauses": [
+            {
+                "cause": "1 – It is likely that TreeFort could not detect a hologram on the client’s government-issued photo ID while analyzing for security features.",
+                "id": 151
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "riskLevel": "Automatic Failure",
+        "riskDescription": "The individual’s government-issued photo ID appears to be tampered with.",
+        "commonCauses": [
+            {
+                "cause": "1 – It is likely that TreeFort detected inconsistencies while analyzing for security features. This will vary document to document, an example of features checked: Expected data present and in the correct position, microprint, watermarks, optically variable ink, presence of fingerprint / other notable (non-text) features and any visible embossing / engraving.",
+                "id": 161
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "riskLevel": "Automatic Failure",
+        "riskDescription": "The individual’s government-issued photo ID is expired.",
+        "commonCauses": [
+            {
+                "cause": "1 – It is likely that the client’s government-issued photo ID is expired and cannot be used in the ID verification process.",
+                "id": 171
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "riskLevel": "Automatic Failure",
+        "riskDescription": "The individual’s government-issued photo ID is present on a list of known frauds.",
+        "commonCauses": [
+            {
+                "cause": "1 – It is likely that the client’s government-issued photo ID was flagged as being present on a list of known frauds. This feature is currently only available for ID documents from the United Kingdom.",
+                "id": 181
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "riskLevel": "Automatic Failure",
+        "riskDescription": "The individual failed multiple attempts to prove that they were a real person during the face scan process. They may have been holding a photograph, wearing a mask or other disguise, or using an automated program.",
+        "commonCauses": [
+            {
+                "cause": "1 – It is likely that the client could not complete the face scan (liveness detection) process properly within the 3 allowed attempts. Instructions and prompts are provided to assist the client in completing the face scan process, however some clients may still have difficulties.",
+                "id": 191
+            },
+            {
+                "cause": "2 – It is possible that the client may have been trying to manipulate the system by holding a photograph, wearing a mask or other disguise, or using an automated program.",
+                "id": 192
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "riskLevel": "Automatic Failure",
+        "riskDescription": "The individual appears to be a significantly different age from what appears on their government-issued ID.",
+        "commonCauses": [
+            {
+                "cause": "1 – It is likely that TreeFort detected that the client was a significantly different age than what is listed on the client’s government-issued photo ID. The client may be trying to pass for someone of a different age. Compare the date of birth on the photo of the client’s ID from the TreeFort Report to the photo taken of the client during the face scan process.",
+                "id": 201
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "riskLevel": "Automatic Failure",
+        "riskDescription": "The photo on the individual’s government-issued photo ID did not match a face scan of the individual presenting the ID.",
+        "commonCauses": [
+            {
+                "cause": "1 – It is likely that the client is trying to pass for someone else and has used their government-issued photo ID. Compare the photo of the client’s ID from the TreeFort Report to the photo taken of the client during the face scan process.",
+                "id": 211
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "riskLevel": "Automatic Failure",
+        "riskDescription": "The information on the individual’s government-issued photo ID could not be extracted.",
+        "commonCauses": [
+            {
+                "cause": "1 – It is likely that TreeFort could not validate that the data returned from a passport was correct. This will only occur when the client uses a machine-readable passport as their source of government-issued photo ID.",
+                "id": 221
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "riskLevel": "Automatic Failure",
+        "riskDescription": "The individual failed three attempts to upload their ID Document (e.g. driver’s license or passport) and complete a face scan correctly.",
+        "commonCauses": [
+            {
+                "cause": "1 – It is likely that the client was having difficulties uploading their ID document and was not successful after 3 allowed attempts. They may have been unable to take a clear picture, or may not have uploaded both the front and back of their ID document. Review the photo of the client’s ID and the photo taken of the client during the face scan process from the TreeFort Report.",
+                "id": 231
+            },
+            {
+                "cause": "2 – It is possible that the client was trying to bypass the system and avoid having to upload an ID document and complete a face scan. Review the photo of the client’s ID and the photo taken of the client during the face scan process from the TreeFort Report.",
+                "id": 232
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "riskLevel": "Automatic Failure",
+        "riskDescription": "The individual’s government-issued photo ID was rejected. It may have been expired, a photocopy, appeared to be tampered with, or present on a list of known frauds.",
+        "commonCauses": [
+            {
+                "cause": "1 – TreeFort rejected the client’s ID document for an unknown reason. It is likely that the ID document was either expired, a photocopy, or appeared to be tampered with in some way.",
+                "id": 241
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "riskLevel": "Automatic Failure",
+        "riskDescription": "The photo on the individual’s government-issued photo ID did not match a face scan of the individual presenting the ID, or they may have been trying to manipulate the program (e.g. they may have been holding a photograph, wearing a mask or other disguise, or using an automated program).",
+        "commonCauses": [
+            {
+                "cause": "1 – TreeFort could not validate that the photo on the client’s government-issued ID matched the photo taken during the face scan process, and therefore rejected the client’s ID document.",
+                "id": 251
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "riskLevel": "Automatic Failure",
+        "riskDescription": "The account that the individual was able to access at a Canadian financial institution did not match the information provided by the Initiator.",
+        "commonCauses": [
+            {
+                "cause": "1 – It is likely that the address inputted into TreeFort by a team member at your organization was different than the address associated with the client’s financial institution. It is possible that the client has recently moved and has not updated the address at their bank, or has provided you with a previous address.",
+                "id": 261
+            },
+            {
+                "cause": "2 – It is possible the client was recently married and has not updated their last name with their financial institution.",
+                "id": 262
+            },
+            {
+                "cause": "3 – It is possible the client used a different variation of their first name with their financial institution (e.g. Bob vs Robert).",
+                "id": 263
+            },
+            {
+                "cause": "4 – The client information may have been entered incorrectly into TreeFort by a team member at your organization. Compare the information on the photo of the client’s ID from the TreeFort Report to the information entered into TreeFort and used in the ID verification process.",
+                "id": 264
+            },
+            {
+                "cause": "5 – It is possible the client is impersonating another individual and does not have access to their banking information.",
+                "id": 265
+            }
+        ]
+    }
+]
