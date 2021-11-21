@@ -13,20 +13,20 @@ const ContactForm = () => {
           <div className={styles.nameLabel}>
             <div>
               <label htmlFor="lname">Last Name:</label>
-              <input type='text' name="lname" id="lname" placeholder='Last Name' autocomplete="none" className={styles.lname} required />
+              <input type='text' name="lname" id="lname" placeholder='Last Name' autocomplete="off" className={styles.lname} required />
             </div>
             <div>
               <label htmlFor="fname">First Name:</label>
-              <input type='text' name="fname" id="fname" placeholder='First Name' autocomplete="none" className={styles.lname} required />
+              <input type='text' name="fname" id="fname" placeholder='First Name' autocomplete="off" className={styles.lname} required />
             </div>  
           </div>
           <div className={styles.otherLabel}>
             <label htmlFor="email">Email:</label>
-            <input type='text' name="email" id="email" placeholder='Email' autocomplete="none" required/>
+            <input type='text' name="email" id="email" placeholder='Email' autocomplete="off" required/>
             <label htmlFor="phone">Phone:</label>
-            <input type='text' name="phone" id="phone" placeholder='Phone' autocomplete="none" />
+            <input type='text' name="phone" id="phone" placeholder='Phone' autocomplete="off" />
             <label htmlFor="message">Message:</label>
-            <textarea type='text' name="message" id="message" placeholder='Message' autocomplete="none" required></textarea>
+            <textarea type='text' name="message" id="message" placeholder='Message' autocomplete="off" required></textarea>
             <label htmlFor="myFile">Attachment:</label>
             <input type="file" name="myFile" id="myFile" />
             <input type="submit" value="Send Support Request" />
