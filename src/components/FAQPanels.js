@@ -6,7 +6,7 @@ const FAQPanels = ({faqs}) => {
     return (
         <div>
             {faqs.map((faq) => (
-                <div className={styles.faqItemContainer}>
+                <div className={styles.faqItemContainer} key={faq._id}>
                     <h4 className={styles.faqItemQuestion}>{faq.question}</h4>
                     <Collapsible trigger="">
                         <p className={styles.faqItemAnswer}>{faq.answer}</p>

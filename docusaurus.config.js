@@ -125,7 +125,7 @@ const config = {
             items: [
               {
                 label: "Terms & Conditions",
-                href: "#",
+                href: "mailto:support@treefort.ca",
               },
               {
                 label: "Website Privacy Statement",
@@ -142,7 +142,7 @@ const config = {
             items: [
               {
                 label: "Forum: Ask a question",
-                to: "#",
+                to: "/faqs",
               },
               {
                 label: "Email: info@treefort.ca",
@@ -150,7 +150,7 @@ const config = {
               },
               {
                 label: "Chat: Offline",
-                href: "#",
+                href: "https://www.zendesk.com/",
               },
             ],
           },

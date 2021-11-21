@@ -7,7 +7,7 @@ const SkeletonLoadingFAQ = ({items}) => {
     return (
         <div className={styles.containLoad}>
             {items.map((item) => (
-                <SkeletonTheme color="#202020" highlightColor="#dcdcdc">
+                <SkeletonTheme color="#202020" highlightColor="#dcdcdc" key={item}>
                     <section>
                         <Skeleton animation="wave" variant="rectangular" height={15} />
                     </section>
