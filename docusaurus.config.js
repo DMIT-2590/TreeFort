@@ -55,12 +55,12 @@ const config = {
             position: "left",
           },
           {
-            to: "/docs/account-setup-and-management/section-introduction",
+            to: "/resources",
             label: "Resources",
             position: "left",
           },
           {
-            to: "https://treefort-api.readme.io/reference/getting-started-with-your-api",
+            to: "/developer-api",
             label: "Developer API",
             position: "left",
           },

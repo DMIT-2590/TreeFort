@@ -6,13 +6,13 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #7addb2;
-  --ifm-color-primary-dark: #5fd6a2;
-  --ifm-color-primary-darker: #51d39a;
-  --ifm-color-primary-darkest: #31bf81;
-  --ifm-color-primary-light: #95e4c2;
-  --ifm-color-primary-lighter: #a3e7ca;
-  --ifm-color-primary-lightest: #ccf2e1;
+  --ifm-color-primary: #709f40;
+  --ifm-color-primary-dark: #658f3a;
+  --ifm-color-primary-darker: #5f8736;
+  --ifm-color-primary-darkest: #4e6f2d;
+  --ifm-color-primary-light: #7baf46;
+  --ifm-color-primary-lighter: #81b64a;
+  --ifm-color-primary-lightest: #91c062;
   --ifm-code-font-size: 95%;
 }
 
@@ -30,7 +30,7 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 /* GENERIC STYLES */
 :root {
   --default-container-width: 1200px;
-  --off-white: #fcfcfc;
+  --off-white: #f2f4f7;
   --primary-green: #709f40;
   --dark-green: #417136;
   --light-green: #a1ce60;
@@ -128,7 +128,7 @@ video {
 
 /* BANNER STYLES */
 .homePageBanner {
-  background-image: url(../../static/Assets/svg/homePageBanner.png);
+  background-image: url(../../static/Assets/svg/homePageBanner.svg);
 }
 
 .homePageBannerOther {

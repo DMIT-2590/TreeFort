@@ -1,19 +1,11 @@
 import React from 'react';
-import Layout from '@theme/Layout';
-import styles from './developer-api.module.css'
-import HomepageHeader from '../components/HomepageHeader';
+import { Route } from 'react-router';
 
 export default function DeveloperAPI() {
     return (
-        <Layout
-            title="Developer API"
-            description="">
-            <HomepageHeader title="How can we help you?" cssBackgroundClass="homePageBanner"/>
-            <main>
-                <div className={styles.developerAPIContainer}>
-                    <h1>Developer API</h1>
-                </div>                
-            </main>
-        </Layout>
+        <Route path='/developer-api' component={() => { 
+            window.location.replace('https://treefort-api.readme.io/reference/getting-started-with-your-api'); 
+            return null;
+        }}/>
     );
 }

@@ -4,11 +4,6 @@
     padding: 1rem;
 }
 
-.knowledgeBaseContainer > h1 {
-    text-align: center;
-    color: var(--dark-grey);
-}
-
 .loading {
     max-width: var(--default-container-width);
     margin: 0 auto;

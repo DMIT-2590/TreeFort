@@ -1,14 +1,8 @@
 type HelpDeskSections {
     sectionName: String
     sectionLogo: String
-    sectionUrlLogo: String
-    helpDeskSectionIntroLinks: [HelpDeskSectionIntroLinks!] @relation
-}
-
-type HelpDeskSectionIntroLinks {
-    url: String
-    urlName: String
-    helpDeskSection: HelpDeskSections!
+    sectionLink: String
+    sectionDescription: String
 }
 
 type PopularItemType {
@@ -47,9 +41,23 @@ type Docs {
     docType: DocType!
 }
 
+type ResourceType {
+    resourceType: String
+    resourceLogo: String
+    urlLogo: String
+    resources: [Resources!] @relation
+}
+
+type Resources {
+    url: String
+    urlName: String
+    resourceType: ResourceType!
+}
+
 type Query {
     allHelpDeskSections: [HelpDeskSections!]!
     allPopularItemType: [PopularItemType!]!
     allFAQType: [FAQType!]!
     allDocType: [DocType!]!
+    allResourceType: [ResourceType!]!
 }

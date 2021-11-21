@@ -10,58 +10,48 @@
 }
 
 .documentContainer {
-    border: 1px solid var(--off-white);
+    border: 1px solid var(--ifm-color-primary-darkest);
+    border-radius: 1rem;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .documentHeader {
     display: flex;
-    justify-content: space-between;
-    background-blend-mode: overlay;
-    background-image:  url(https://secureservercdn.net/198.71.233.31/bgi.c7f.myftpupload.com/wp-content/uploads/2020/08/geometric-bg-overlay-01.jpg),linear-gradient(135deg,var(--ifm-color-primary-lightest) 0%,var(--ifm-color-primary) 100%)!important;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid var(--off-white);
+    border-radius: 1rem 1rem 0 0;
+    background-color: var(--off-white);
+    gap: 1rem;
     padding: 1rem;
+    transition: all 0.3s;
+}
+
+.documentHeader:hover {
+    text-decoration: none;
+    background-color: var(--ifm-color-primary-lightest);
 }
 
 .documentTitle {
     color: var(--primary-grey);
-    font-weight: 600;
-}
-
-.documentContent{
-    padding: 0.75rem 0;
-}
-
-.documentationLinks {
-    display: block;
-    padding: 0.5rem 0;
-    color: var(--dark-grey);    
-}
-
-.documentationLinks:hover{    
-    color: var(--ifm-color-primary);
-    text-decoration: none;
-}
-
-.documentationLinks span:first-child {
-    padding: 1rem;
+    font-weight: 700;
 }
 
 .documentLogo img {
-    width: 1.75rem;
-    height: 1.75rem;
-}
-
-.documentContent img{
-    width: 1rem;
-    height: 1rem;
-}
-
-.documentCount {
-    background-color: var(--ifm-color-primary-light);
-    border: 0.25rem solid var(--ifm-color-primary-lightest);
-    color: var(--off-white);
-    padding: 0 0.5rem;
+    width: 6rem;
+    height: 6rem;
     border-radius: 50%;
-    height: 2rem;
-    width: 2rem;
+    background-color: var(--ifm-color-primary-lightest);
+    border: 0.25rem solid var(--ifm-color-primary-light);
+    padding: 1rem;
+}
+
+.documentContent{
+    color: var(--light-grey);
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+.documentContent p {
+    margin: 0;
 }

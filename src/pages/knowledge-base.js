@@ -18,7 +18,7 @@ export default function KnowledgeBase() {
             <main>
                 <div className={styles.knowledgeBaseContainer}>
                     {error && <div className="center">{error}</div>}
-                    {isPending && <div className={styles.loading}><SkeletonLoadingDocs items={loadingData} /></div>}
+                    {isPending && <div className={styles.loading}><SkeletonLoadingDocs items={loadingData} height={300} /></div>}
                     {data && <KnowledgeBasePanel knowledgeBase={data} />}
                 </div>
             </main>

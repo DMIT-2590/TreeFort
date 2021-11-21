@@ -43,14 +43,8 @@ query {
             _id
             sectionName
             sectionLogo
-            sectionUrlLogo
-            helpDeskSectionIntroLinks {
-                data {
-                    _id
-                    url
-                    urlName
-                }
-            }
+            sectionLink
+            sectionDescription
         }
     }
 }`;
@@ -75,9 +69,30 @@ query {
     }
 }`;
 
+/* RESOURCE TYPE QUERIES */
+const GET_RESOURCE_TYPES = `
+query {
+    allResourceType {
+        data {
+            _id
+            resourceType
+            resourceLogo
+            urlLogo
+            resources {
+                data {
+                    _id
+                    url
+                    urlName
+                }
+            }
+        }
+    }
+}`;
+
 module.exports = {
     GET_FAQS,
     GET_POPULAR_ITEMS,
     GET_HELP_DESK_SECTIONS,
     GET_DOC_TYPES,
+    GET_RESOURCE_TYPES,
 };

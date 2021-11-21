@@ -37,7 +37,7 @@
 }
 
 .popularItemsLinks:hover {
-    color: var(--ifm-color-primary-darker);
+    color: var(--off-white);
     text-decoration: none;
     font-weight: 500;
 }

@@ -7,18 +7,12 @@ const DocumentationsPanel = ({helpDeskSections}) => {
         <div className={styles.documentGrid}>
             {helpDeskSections.map((helpDeskSection) => (
                 <div className={styles.documentContainer} key={helpDeskSection.id}>
-                    <div className={styles.documentHeader}>
+                    <Link className={styles.documentHeader} to={helpDeskSection.sectionLink}>
                         <span className={styles.documentLogo}><img src={`assets/svg/${helpDeskSection.sectionLogo}`} alt={helpDeskSection.sectionName} /></span>
                         <span className={styles.documentTitle}>{helpDeskSection.sectionName}</span>
-                        <span className={styles.documentCount}>{helpDeskSection.helpDeskSectionIntroLinks.data.length}</span>
-                    </div>
+                    </Link>
                     <div className={styles.documentContent}>
-                        {helpDeskSection.helpDeskSectionIntroLinks.data.map((sectionIntroLink) => (
-                            <Link className={styles.documentationLinks} to={sectionIntroLink.url} key={sectionIntroLink.id}>
-                                <span><img src={`assets/svg/${helpDeskSection.sectionUrlLogo}`} alt={sectionIntroLink.urlName} /></span>
-                                <span>{sectionIntroLink.urlName}</span>
-                            </Link>
-                        ))}
+                        <p>{helpDeskSection.sectionDescription}</p>
                     </div>
                 </div>
             ))}

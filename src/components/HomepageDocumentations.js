@@ -10,7 +10,7 @@ const HomepageDocumentations = () => {
     return (
       <div className={styles.documentationsContainer}>
         {error && <div className="center">{error}</div>}
-        {isPending && <div className={styles.loading}><SkeletonLoadingDocs items={loadingData} /></div>}
+        {isPending && <div className={styles.loading}><SkeletonLoadingDocs items={loadingData} height={320} /></div>}
         {data && <DocumentationsPanel helpDeskSections={data} />}
       </div>
     );
