@@ -1,0 +1,59 @@
+[
+    {
+       "_id":"315280782573699137",
+       "popularType":"Popular Articles",
+       "popularTypeLogo":"doc.svg",
+       "popularUrls":{
+          "data":[
+             {
+                "_id":"315280782584184897",
+                "url":"/docs/account-setup-and-management/forgot-account-number-or-password",
+                "urlName":"Forgot Account Number or Password"
+             },
+             {
+                "_id":"315280782594670657",
+                "url":"/docs/account-setup-and-management/creating-your-account",
+                "urlName":"Creating Your Account"
+             },
+             {
+                "_id":"315280782598864961",
+                "url":"/docs/getting-started/the-id-verification-process",
+                "urlName":"The ID Verification Process"
+             }
+          ]
+       }
+    },
+    {
+       "_id":"315281022739546176",
+       "popularType":"Popular Resources",
+       "popularTypeLogo":"resources.svg",
+       "popularUrls":{
+          "data":[
+             {
+                "_id":"315281022752129088",
+                "url":"/docs/resources/identified-risks-quick-reference",
+                "urlName":"Identified Risks Quick Reference"
+             },
+             {
+                "_id":"315281022758420544",
+                "url":"/docs/resources/client-information-sheet",
+                "urlName":"Client Information Sheet"
+             }
+          ]
+       }
+    },
+    {
+       "_id":"315281135574712385",
+       "popularType":"Popular Videos",
+       "popularTypeLogo":"video-tutorials.svg",
+       "popularUrls":{
+          "data":[
+             {
+                "_id":"315281135596732481",
+                "url":"/",
+                "urlName":"Coming Soon"
+             }
+          ]
+       }
+    }
+ ]

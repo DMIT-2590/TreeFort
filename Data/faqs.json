@@ -1,112 +1,142 @@
-{
-    "pricing": [
-        {
-            "question" : "What is the price of this item?",
-            "answer": "This item consist of a lot of this so it cost $00.00.",
-            "id": 1
-        },
-        {
-            "question": "Why is this item so much money?",
-            "answer": "This item is so much money because I said so.",
-            "id": 2
-        },
-        {
-            "question" : "Do you accept international credit cards?",
-            "answer": "We accept all credits except for some so be careful.",
-            "id": 3
-        },
-        {
-            "question": "What can cause my order to be delayed?",
-            "answer": "Orders can be delayed from all sorts of reasons.",
-            "id": 4
-        }
-    ],
-    "support": [
-        {
-            "question" : "Where can I find support for my problem?",
-            "answer": "I'm not sure, have you checked our home page.",
-            "id": 1
-        },
-        {
-            "question": "Who should I contact when I need help?",
-            "answer": "You can find our contact page here.",
-            "id": 2
-        },
-        {
-            "question" : "Where are you located?",
-            "answer": "We are location in this region.",
-            "id": 3
-        },
-        {
-            "question": "How do I make sure I order the right thing?",
-            "answer": "You can check right here to make sure.",
-            "id": 4
-        }
-    ],
-    "returns": [
-        {
-            "question" : "What is the return policy?",
-            "answer": "We have a type of return policy but we don't.",
-            "id": 1
-        },
-        {
-            "question": "Can I return this online?",
-            "answer": "Some products can be returned online, but some can't.",
-            "id": 2
-        },
-        {
-            "question" : "Where can I return this product?",
-            "answer": "This product is nun-refundable.",
-            "id": 3
-        },
-        {
-            "question": "When will be get my return?",
-            "answer": "You will receive an email right here.",
-            "id": 4
-        }
-    ],
-    "technical": [
-        {
-            "question" : "Where can I find in-person technical help?",
-            "answer": "You can find that on our home page.",
-            "id": 1
-        },
-        {
-            "question": "Why can I find the technical help page?",
-            "answer": "Please call us here for help.",
-            "id": 2
-        },
-        {
-            "question" : "When are your maintenance schedules?",
-            "answer": "We will notify you so be on the look out.",
-            "id": 3
-        },
-        {
-            "question": "I have trouble watching the video, what should I do?",
-            "answer": "Please refresh your browser and clear your cookies and try again.",
-            "id": 4
-        }
-    ],
-    "license": [
-        {
-            "question" : "Why is the site not available in my location?",
-            "answer": "This is because of license.",
-            "id": 1
-        },
-        {
-            "question": "Where did you get your license?",
-            "answer": "We got it from the place right here.",
-            "id": 2
-        },
-        {
-            "question" : "What is a product key?",
-            "answer": "The product key is here on our licensing.",
-            "id": 3
-        },
-        {
-            "question": "I need more information about installing your services?",
-            "answer": "You can find all that information here.",
-            "id": 4
-        }
-    ]
-}
+[
+    {
+       "_id":"315279957089583172",
+       "faqType":"Pricing",
+       "faqs":{
+          "data":[
+             {
+                "_id":"315279957103214660",
+                "question":"How are prices distributed among your products?",
+                "answer":"Prices are distributed based on sales and customer demand."
+             },
+             {
+                "_id":"315279957123137604",
+                "question":"Why is this item so much money?",
+                "answer":"This item is so much money because I said so."
+             },
+             {
+                "_id":"315279957129429060",
+                "question":"Do you accept international credit cards?",
+                "answer":"We accept all credits except for some so be careful."
+             },
+             {
+                "_id":"315279957136769092",
+                "question":"What can cause my order to be delayed?",
+                "answer":"Orders can be delayed from all sorts of reasons."
+             }
+          ]
+       }
+    },
+    {
+       "_id":"315280034515386437",
+       "faqType":"Support",
+       "faqs":{
+          "data":[
+             {
+                "_id":"315280034532163653",
+                "question":"Where can I find support for my problem?",
+                "answer":"I'm not sure, have you checked our home page."
+             },
+             {
+                "_id":"315280034545795141",
+                "question":"Who should I contact when I need help?",
+                "answer":"You can find our contact page here."
+             },
+             {
+                "_id":"315280034551038021",
+                "question":"Where are you located?",
+                "answer":"We are location in this region."
+             },
+             {
+                "_id":"315280034556280901",
+                "question":"How do I make sure I order the right thing?",
+                "answer":"You can check right here to make sure."
+             }
+          ]
+       }
+    },
+    {
+       "_id":"315280071219740737",
+       "faqType":"Returns",
+       "faqs":{
+          "data":[
+             {
+                "_id":"315280071233372225",
+                "question":"What is the return policy?",
+                "answer":"We have a type of return policy but we don't."
+             },
+             {
+                "_id":"315280071242809409",
+                "question":"Can I return this online?",
+                "answer":"Some products can be returned online, but some can't."
+             },
+             {
+                "_id":"315280071249100865",
+                "question":"Where can I return this product?",
+                "answer":"This product is nun-refundable."
+             },
+             {
+                "_id":"315280071254343745",
+                "question":"When will be get my return?",
+                "answer":"You will receive an email right here."
+             }
+          ]
+       }
+    },
+    {
+       "_id":"315280102715818050",
+       "faqType":"Technical",
+       "faqs":{
+          "data":[
+             {
+                "_id":"315280102727352386",
+                "question":"Where can I find in-person technical help?",
+                "answer":"You can find that on our home page."
+             },
+             {
+                "_id":"315280102735740994",
+                "question":"Why can I find the technical help page?",
+                "answer":"Please call us here for help."
+             },
+             {
+                "_id":"315280102746226754",
+                "question":"When are your maintenance schedules?",
+                "answer":"We will notify you so be on the look out."
+             },
+             {
+                "_id":"315280102750421058",
+                "question":"I have trouble watching the video, what should I do?",
+                "answer":"Please refresh your browser and clear your cookies and try again."
+             }
+          ]
+       }
+    },
+    {
+       "_id":"315280132648468544",
+       "faqType":"License",
+       "faqs":{
+          "data":[
+             {
+                "_id":"315280132658954304",
+                "question":"Why is the site not available in my location?",
+                "answer":"This is because of license."
+             },
+             {
+                "_id":"315280132754374720",
+                "question":"Where did you get your license?",
+                "answer":"We got it from the place right here."
+             },
+             {
+                "_id":"315280132759617600",
+                "question":"What is a product key?",
+                "answer":"The product key is here on our licensing."
+             },
+             {
+                "_id":"315280132763811904",
+                "question":"I need more information about installing your services?",
+                "answer":"You can find all that information here."
+             }
+          ]
+       }
+    }
+ ]

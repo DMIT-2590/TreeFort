@@ -1,0 +1,37 @@
+[
+    {
+       "_id":"315809780927037509",
+       "sectionName":"Knowledge Base",
+       "sectionLogo":"knowledge-base.svg",
+       "sectionLink":"/knowledge-base",
+       "sectionDescription":"This describes our very knowledgeable knowledge base."
+    },
+    {
+       "_id":"315809867743887428",
+       "sectionName":"Resource Base",
+       "sectionLogo":"resources.svg",
+       "sectionLink":"/resources",
+       "sectionDescription":"This describes our very resourceful resource base."
+    },
+    {
+       "_id":"315809976210686017",
+       "sectionName":"Developer API",
+       "sectionLogo":"developer-api.svg",
+       "sectionLink":"/developer-api",
+       "sectionDescription":"This points to our very descriptive developer api."
+    },
+    {
+       "_id":"315810094338015301",
+       "sectionName":"Support Request",
+       "sectionLogo":"support-request.svg",
+       "sectionLink":"/support-request",
+       "sectionDescription":"This describes to our very supportive support team."
+    },
+    {
+       "_id":"315810245724078144",
+       "sectionName":"FAQ",
+       "sectionLogo":"faq.svg",
+       "sectionLink":"/faqs",
+       "sectionDescription":"This describes to our very frequently asked questions by our very frequent clients."
+    }
+ ]

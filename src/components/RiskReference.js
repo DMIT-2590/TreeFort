@@ -1,8 +1,6 @@
 import React, { useState } from 'react'
-import './RiskReference.css'
+import styles from './RiskReference.module.css'
 import data from "../../Data/risk.json"
-
-
 
 
 const RiskReference = () => {
@@ -20,7 +18,7 @@ const RiskReference = () => {
                 <tbody>
                     {risks.map((risk) => (
                         <tr key={risk.id}>
-                            <td>
+                            <td className={styles.riskLevel}>
                                 {risk.riskLevel}
                             </td>
                             <td>
