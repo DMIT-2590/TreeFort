@@ -7,7 +7,7 @@ const ContactUsPage = () => {
       <div className={styles.formHeader}>
         <h2>Contact Us</h2>
       </div>
-      <form className={styles.addForm} action="mailto:support@treefort.tech">
+      <form className={styles.addForm} name="contact" netlify>
         <label htmlFor="name">Name</label>
         <div className={styles.nameInput}>
           <div>

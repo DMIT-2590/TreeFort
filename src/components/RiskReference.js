@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import styles from './RiskReference.module.css'
 import data from "../../Data/risk.json"
 
-
 const RiskReference = () => {
     const [risks, setRisks] = useState(data)
     return (
@@ -17,21 +16,20 @@ const RiskReference = () => {
                 </thead>
                 <tbody>
                     {risks.map((risk) => (
-                        <tr key={risk.id}>
-                            <td className={styles.riskLevel}>
-                                {risk.riskLevel}
-                            </td>
-                            <td>
-                                {risk.riskDescription}
-                            </td>
-                            <td  >
-                                {risk.commonCauses.map((cause)=>(
-                                   <p key={cause.id} >{cause.cause}</p>
-                                ))}
-                            </td>
-                        </tr>
-                    )
-
+                            <tr key={risk.id}>
+                                <td className={styles.riskLevel}>
+                                    {risk.riskLevel}
+                                </td>
+                                <td>
+                                    {risk.riskDescription}
+                                </td>
+                                <td  >
+                                    {risk.commonCauses.map((cause)=>(
+                                        <p key={cause.id} >{cause.cause}</p>
+                                    ))}
+                                </td>
+                            </tr>
+                        )
                     )}
                 </tbody>
             </table>

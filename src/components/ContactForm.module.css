@@ -45,7 +45,7 @@ textarea {
   border: none;
   color: var(--primary-grey);
   font-weight:700;
-  background-color: var(--ifm-color-primary-lightest);
+  background-color: var(--ifm-color-primary);
   transition: all 0.5s;
 }
 

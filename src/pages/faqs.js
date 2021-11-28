@@ -21,7 +21,7 @@ export default function FAQs() {
                             <h5>Forgot Account Number or Password</h5>
                         </Link>
                         <Link className={styles.verification} to="/docs/getting-started/the-id-verification-process">
-                            <img src="assets/svg/the-id-verification.svg" alt="" />
+                            <img src="assets/svg/manage-your-organization.svg" alt="" />
                             <h5>The ID Verification Progress</h5>
                         </Link>
                         <Link className={styles.identifyRisks} to="/docs/resources/identified-risks-quick-reference">
@@ -32,11 +32,11 @@ export default function FAQs() {
                             <img src="assets/svg/doc.svg" alt="" />
                             <h5>How To Manage Files</h5>
                         </Link>
-                        <Link className={styles.resources} to="">
+                        <Link className={styles.resources} to="/resources">
                             <img src="assets/svg/knowledge-base.svg" alt="/docs/resources/section-introduction" />
                             <h5>Resources</h5>
                         </Link>
-                        <Link className={styles.apiDocs} to="">
+                        <Link className={styles.apiDocs} to="/developer-api">
                             <img src="assets/svg/developer-api.svg" alt="/developer-api" />
                             <h5>API Documentation</h5>
                         </Link>

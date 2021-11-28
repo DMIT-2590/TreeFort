@@ -12,7 +12,7 @@ const config = {
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/favicon_treefort.ico",
+  favicon: "img/treefort_favicon.ico",
   organizationName: "TreeFort", // Usually your GitHub org/user name.
   projectName: "TreeFort", // Usually your repo name.
 
@@ -46,7 +46,7 @@ const config = {
         title: "Home",
         logo: {
           alt: "TreeFort Logo",
-          src: "img/logo_treefort.png",
+          src: "img/treefort_logo.png",
         },
         items: [
           {

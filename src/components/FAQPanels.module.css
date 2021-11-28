@@ -24,4 +24,5 @@
 .faqItemContainer:hover {
     cursor: pointer;
     background-color: var(--ifm-color-primary-lightest);
+    filter: brightness(1.1675);
 }

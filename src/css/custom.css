@@ -83,6 +83,11 @@ video {
   color: var(--off-white);
 }
 
+/* FOOTER STYLES */
+.footer__copyright {
+  margin-top: 5rem;
+}
+
 /* FAQ Collapse */
 .Collapsible__trigger {
   cursor: pointer;

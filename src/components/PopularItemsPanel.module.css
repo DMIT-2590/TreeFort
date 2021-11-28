@@ -32,6 +32,7 @@
 
 .popularItemsLinks {
     display: block;
+    font-weight: 500;
     padding: 0.5rem 0.25rem;
     color: var(--ifm-color-primary-darkest);
 }
@@ -39,5 +40,5 @@
 .popularItemsLinks:hover {
     color: var(--off-white);
     text-decoration: none;
-    font-weight: 500;
+    font-size: 1.025rem;
 }

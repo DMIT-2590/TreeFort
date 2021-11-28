@@ -6,7 +6,7 @@ import getData from "./getData";
 
 const HomepageDocumentations = () => {
     const {data, isPending, error} = getData('/.netlify/functions/gethelpdesksections');
-    const loadingData = [1, 2, 3, 4, 5];
+    const loadingData = [1, 2, 3, 4, 5, 6];
     return (
       <div className={styles.documentationsContainer}>
         {error && <div className="center">{error}</div>}

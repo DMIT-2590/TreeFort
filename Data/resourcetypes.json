@@ -1,32 +1,32 @@
 [
-    {
-       "_id":"315813303394762821",
-       "resourceType":"Team Resource",
-       "resourceLogo":"resources.svg",
-       "urlLogo":"doc.svg",
-       "resources":{
-          "data":[
-             {
-                "_id":"315813303418880069",
-                "url":"/docs/resources/identified-risks-quick-reference",
-                "urlName":"Identified Risks Quick Reference"
-             }
-          ]
-       }
-    },
-    {
-       "_id":"315813358850801732",
-       "resourceType":"Client Resource",
-       "resourceLogo":"resources.svg",
-       "urlLogo":"doc.svg",
-       "resources":{
-          "data":[
-             {
-                "_id":"315813358863384644",
-                "url":"/docs/resources/client-information-sheet",
-                "urlName":"Client Information Sheet"
-             }
-          ]
-       }
-    }
- ]
+   {
+      "_id": "315813303394762821",
+      "resourceType": "Team Resource",
+      "resourceLogo": "resources.svg",
+      "urlLogo": "doc.svg",
+      "resources": {
+         "data": [
+            {
+               "_id": "315813303418880069",
+               "url": "/docs/resources/identified-risks-quick-reference",
+               "urlName": "Identified Risks Quick Reference"
+            }
+         ]
+      }
+   },
+   {
+      "_id": "315813358850801732",
+      "resourceType": "Client Resource",
+      "resourceLogo": "resources.svg",
+      "urlLogo": "doc.svg",
+      "resources": {
+         "data": [
+            {
+               "_id": "315813358863384644",
+               "url": "/docs/resources/client-information-sheet",
+               "urlName": "Client Information Sheet"
+            }
+         ]
+      }
+   }
+]
