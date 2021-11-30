@@ -11,6 +11,7 @@
 .resourcesContainer {
     border: 1px solid var(--off-white);
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 4rem;
 }
 
 .resourcesHeader {
@@ -64,3 +65,25 @@
     height: 2rem;
     width: 2rem;
 }
+
+/* .resourcesSection {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.resourcesImage {
+    margin-bottom: 6rem;
+}
+
+.resourcesSection > div {
+    width: 50%;
+}
+
+.resourcesGrid > div:last-child > div:last-child {
+    order: 1;
+}
+
+.resourcesGrid > div:last-child > div:first-child {
+    order: 2;
+} */
