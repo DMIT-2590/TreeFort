@@ -1,5 +1,6 @@
 import React from "react";
 import Collapsible from 'react-collapsible';
+import Linkify from 'react-linkify';
 import styles from './FAQPanels.module.css';
 
 const FAQPanels = ({faqs}) => {
@@ -9,7 +10,9 @@ const FAQPanels = ({faqs}) => {
                 <div className={styles.faqItemContainer} key={faq._id}>
                     <h4 className={styles.faqItemQuestion}>{faq.question}</h4>
                     <Collapsible trigger="">
-                        <p className={styles.faqItemAnswer}>{faq.answer}</p>
+                        <Linkify>
+                            <p className={styles.faqItemAnswer}>{faq.answer}</p>
+                        </Linkify>                        
                     </Collapsible>
                 </div>
             ))}

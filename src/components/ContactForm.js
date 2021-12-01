@@ -9,7 +9,7 @@ const ContactForm = () => {
       </div>
       <div className={styles.contactForm}>
         <div className={styles.formHeader}><h1>Contact Us</h1></div>
-        <form className={styles.addForm}  name="contactForm" method="POST" netlify> 
+        <form className={styles.addForm}  name="contactForm"> 
           <div className={styles.nameLabel}>
             <div>
               <label htmlFor="lname">Last Name:</label>
