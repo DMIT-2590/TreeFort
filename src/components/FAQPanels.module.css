@@ -16,7 +16,7 @@
 
 .faqItemAnswer {
     color: var(--ifm-color-primary-darkest);
-    padding-top: 1rem;
+    margin-top: 2rem;
     width: 75%;
 }
 

@@ -16,9 +16,10 @@ export default function Resources() {
             description="">
             <HomepageHeader title="Search our resources here" cssBackgroundClass="resourcePageBanner" />
             <main>
+                <h2 className={styles.title}>Welcome to our Resources for your Teams and Clients'</h2>
                 <div className={styles.resourcesContainer}>
                     {error && <div className="center">{error}</div>}
-                    {isPending && <div className={styles.loading}><SkeletonLoadingDocs items={loadingData} height={135} /></div>}
+                    {isPending && <div className={styles.loading}><SkeletonLoadingDocs items={loadingData} height={350} /></div>}
                     {data && <ResourcesPanel resources={data} />}
                 </div>
             </main>
