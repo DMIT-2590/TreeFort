@@ -24,6 +24,28 @@ export default function Home() {
       </Head>
       <HomepageHeader title="How can we help you?" cssBackgroundClass="homePageBannerOther" />
       <main>
+        <form name="contactForm" netlify netlify-honeypot="bot-field" action="/" hidden>
+          <div>
+            <div>
+              <label htmlFor="lname">Last Name:</label>
+              <input type='text' name="lname" id="lname" />
+            </div>
+            <div>
+              <label htmlFor="fname">First Name:</label>
+              <input type='text' name="fname" id="fname" />
+            </div>  
+          </div>
+          <div className={styles.otherLabel}>
+            <label htmlFor="email">Email:</label>
+            <input type='text' name="email" id="email" />
+            <label htmlFor="phone">Phone:</label>
+            <input type='text' name="phone" id="phone" />
+            <label htmlFor="message">Message:</label>
+            <textarea type='text' name="message" id="message" ></textarea>
+            <label htmlFor="myFile">Attachment:</label>
+            <input type="file" name="myFile" id="myFile" />
+          </div>
+        </form>
         <HomepageDocumentations />
         <HomepagePopularItems />
         <HomepageFAQs />

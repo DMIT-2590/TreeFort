@@ -9,7 +9,8 @@ const ContactForm = () => {
       </div>
       <div className={styles.contactForm}>
         <div className={styles.formHeader}><h1>Contact Us</h1></div>
-        <form className={styles.addForm}  name="contactForm"> 
+        <form className={styles.addForm}  name="contactForm" method="POST" data-netlify="true">
+          <input type="hidden" name="form-name" value="contactForm" />
           <div className={styles.nameLabel}>
             <div>
               <label htmlFor="lname">Last Name:</label>
