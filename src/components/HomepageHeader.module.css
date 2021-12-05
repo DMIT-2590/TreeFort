@@ -1,5 +1,5 @@
 .heroBanner {
-    --ifm-hero-background-color: #d3ede3;
+    --ifm-hero-background-color: #709f40;
     --ifm-hero-text-color: var(--ifm-font-color-base-inverse);
     background-color: var(--ifm-hero-background-color);
     color: var(--ifm-hero-text-color);
