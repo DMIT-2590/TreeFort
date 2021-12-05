@@ -1,140 +1,127 @@
 [
    {
       "_id": "315279957089583172",
-      "faqType": "Pricing",
+      "faqType": "ID Verifications",
       "faqs": {
          "data": [
             {
                "_id": "315279957103214660",
-               "question": "How are prices distributed among your products?",
-               "answer": "Prices are distributed based on sales and customer demand."
+               "question": "How long does a client have to complete an ID verification once the request has been sent?",
+               "answer": "The client has 72 hours to complete the ID verification process once they have received the request."
             },
             {
                "_id": "315279957123137604",
-               "question": "Why is this item so much money?",
-               "answer": "This item is so much money because I said so."
+               "question": "Are the TreeFort ID verifications compliant with FINTRAC and Law Society legislation?",
+               "answer": "Yes, TreeFort ID verifications are compliant with FINTRAC and Law Society legislation. Depending on your organization’s legislative requirements and organization settings, TreeFort complies with one or more of the Government-issued Photo Identification Method, the Credit File Method, and the Dual Process Method."
             },
             {
                "_id": "315279957129429060",
-               "question": "Do you accept international credit cards?",
-               "answer": "We accept all credits except for some so be careful."
+               "question": "Why is a client’s ID Verification report no longer available to download?",
+               "answer": "Depending on your organization’s settings, you will have up to 14 days to download a client’s ID verification report from TreeFort and store it in your document management system. After this, the report will only be available for audit purposes."
             },
             {
                "_id": "315279957136769092",
-               "question": "What can cause my order to be delayed?",
-               "answer": "Orders can be delayed from all sorts of reasons."
+               "question": "Which address should be used in the ID verification process?",
+               "answer": "For the best results, use the address as it is listed on the client’s ID document (e.g., driver's license). If the client has recently changed addresses and has not updated their address on their ID document and at their financial institution, the client should use a previous address."
+            },
+            {
+               "_id": "315280034532163653",
+               "question": "How do I read the TreeFort ID Verification Report?",
+               "answer": "You can find a guide on how to read the TreeFort ID Verification Reports https://treefort.netlify.app/docs/getting-started/understanding-the-treefort-report. For more assistance, please contact support@treefort.tech or your customer success representative."
             }
          ]
       }
    },
    {
       "_id": "315280034515386437",
-      "faqType": "Support",
+      "faqType": "Signing Documents",
       "faqs": {
          "data": [
             {
-               "_id": "315280034532163653",
-               "question": "Where can I find support for my problem?",
-               "answer": "I'm not sure, have you checked our home page."
-            },
-            {
                "_id": "315280034545795141",
-               "question": "Who should I contact when I need help?",
-               "answer": "You can find our contact page here."
+               "question": "Can I send documents for electronic signing in TreeFort?",
+               "answer": "Yes! You can create a signing package, tag signature lines, and send for signing electronically, or schedule an online video conference to meet and sign documents with your clients."
             },
             {
                "_id": "315280034551038021",
-               "question": "Where are you located?",
-               "answer": "We are location in this region."
+               "question": "Can I schedule a video signing meeting with clients?",
+               "answer": "Yes! You can schedule a video signing meeting with clients, where you will be able to witness each individual signing the documents. Only individuals who have previously had their identity verified in TreeFort will be allowed into the video signing meeting after a confirmation of each individual's identity, so you can guarantee you are meeting with the right person."
             },
             {
                "_id": "315280034556280901",
-               "question": "How do I make sure I order the right thing?",
-               "answer": "You can check right here to make sure."
+               "question": "How do I know I am meeting with the same person I identified earlier with a TreeFort ID Verification report?",
+               "answer": "Prior to entering the video signing meeting, we verify clients using facial recognition and liveness detection technology to ensure they are the same person that you identified previously using the TreeFort ID Verification report."
+            },
+            {
+               "_id": "315280071233372225",
+               "question": "Can I schedule a video signing meeting with clients before they are verified in TreeFort?",
+               "answer": "Yes, you can schedule the video signing meeting in advance, however the clients will not be allowed to enter the video meeting until they have completed their ID Verification Report and are marked as “verified” in TreeFort."
+            },
+            {
+               "_id": "315280071242809409",
+               "question": "Can multiple clients share one device during a video signing meeting?",
+               "answer": "No, to ensure you are meeting with verified individuals, each signer must join the meeting from their own device using the link that was sent to their email address."
             }
          ]
       }
    },
    {
       "_id": "315280071219740737",
-      "faqType": "Returns",
+      "faqType": "Support",
       "faqs": {
          "data": [
             {
-               "_id": "315280071233372225",
-               "question": "What is the return policy?",
-               "answer": "We have a type of return policy but we don't."
-            },
-            {
-               "_id": "315280071242809409",
-               "question": "Can I return this online?",
-               "answer": "Some products can be returned online, but some can't."
-            },
-            {
                "_id": "315280071249100865",
-               "question": "Where can I return this product?",
-               "answer": "This product is nun-refundable."
+               "question": "How do I get in contact with a TreeFort team member for support?",
+               "answer": "You can contact us via live chat, by sending an email to support@treefort.tech, by filling out a support request https://treefort.netlify.app/support-request/, or by contacting your customer success representative. A member of our team will get back to you as soon as possible."
             },
             {
                "_id": "315280071254343745",
-               "question": "When will be get my return?",
-               "answer": "You will receive an email right here."
+               "question": "Do you provide support to our clients when they use the TreeFort service?",
+               "answer": "Yes, if a client requires assistance, we provide live chat support, or when not online, allow the client to submit a support ticket."
+            },
+            {
+               "_id": "315280102727352386",
+               "question": "I notice an issue with your system, how do I report this?",
+               "answer": "To report an issue with the TreeFort system, please send an email to support@treefort.tech or fill out a support request https://treefort.netlify.app/support-request/. We will review and correct any issues as soon as possible based on priority."
+            },
+            {
+               "_id": "315280102735740994",
+               "question": "How do I submit a feature enhancement request?",
+               "answer": "We would love to hear from you! If you have an idea for a future feature enhancement request, please fill out this form https://forms.clickup.com/f/a1rre-3427/WTIM04QDFDI4S615OP. We prioritize updates based on request demand and may follow-up with you for more clarification."
             }
          ]
       }
    },
    {
       "_id": "315280102715818050",
-      "faqType": "Technical",
+      "faqType": "Privacy & Security",
       "faqs": {
          "data": [
             {
-               "_id": "315280102727352386",
-               "question": "Where can I find in-person technical help?",
-               "answer": "You can find that on our home page."
-            },
-            {
-               "_id": "315280102735740994",
-               "question": "Why can I find the technical help page?",
-               "answer": "Please call us here for help."
-            },
-            {
                "_id": "315280102746226754",
-               "question": "When are your maintenance schedules?",
-               "answer": "We will notify you so be on the look out."
+               "question": "How is client data used?",
+               "answer": "When you initiate an ID verification with a client using TreeFort, you provide us with basic personal information such as a client’s name, address, and cell phone number. This information is then used, with client participation and only after acceptance of a comprehensive Privacy Notice and Privacy Policy, to compare against data held by third-party reliable sources (e.g., government-issued photo ID uploaded by the client, Equifax, etc.). All data returned from this process from third-party sources about a client is encrypted in transit and stored by TreeFort in an encrypted database on AWS servers in accordance with our Privacy Policy and applicable legislation."
             },
             {
                "_id": "315280102750421058",
-               "question": "I have trouble watching the video, what should I do?",
-               "answer": "Please refresh your browser and clear your cookies and try again."
-            }
-         ]
-      }
-   },
-   {
-      "_id": "315280132648468544",
-      "faqType": "License",
-      "faqs": {
-         "data": [
+               "question": "Do you share clients’ personal data with third parties?",
+               "answer": "We only share clients' personal data with reliable third-party service providers with strict privacy policies and data security measures in place, for the sole purpose of conducting the services (e.g., ID Verification), as outlined by our Privacy Policy that the client must agree to in order to begin the process."
+            },
             {
                "_id": "315280132658954304",
-               "question": "Why is the site not available in my location?",
-               "answer": "This is because of license."
+               "question": "How long is client information stored?",
+               "answer": "How long we retain Personal Data depends on the type of data, what it is being used for, and if there is a business need to retain it (e.g., to comply with legal or accounting regulations). We have a detailed Data Retention Policy describing the type, location, and retention period for all Personal Data stored in connection with the use of the services, and this policy can be made available by submitting a request to info@treefort.tech."
             },
             {
                "_id": "315280132754374720",
-               "question": "Where did you get your license?",
-               "answer": "We got it from the place right here."
+               "question": "Where do you store data?",
+               "answer": "All Personal Data will be stored using a cloud-hosted server on the Amazon Web Services platform. Our web applications use the Canada Central (Toronto and Montreal) locations to store all data. Amazon may copy customer data between regions within Canada (Toronto or Montreal) for data redundancy or other operational purposes but will not transfer data outside of Canada."
             },
             {
                "_id": "315280132759617600",
-               "question": "What is a product key?",
-               "answer": "The product key is here on our licensing."
-            },
-            {
-               "_id": "315280132763811904",
-               "question": "I need more information about installing your services?",
-               "answer": "You can find all that information here."
+               "question": "Can we request a copy of our data?",
+               "answer": "If you or your organization decides to discontinue use of our services at any time, you have the right to download all related Personal Data in a timely manner in accordance with our Standard Licensing Agreement. You also have the right to request a copy of your data, and know what Personal Data we are retaining, at any point in time."
             }
          ]
       }

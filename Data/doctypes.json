@@ -95,36 +95,6 @@
       }
    },
    {
-      "_id": "315296457074671684",
-      "docType": "Resources",
-      "docLogo": "resources.svg",
-      "urlLogo": "doc.svg",
-      "docs": {
-         "data": [
-            {
-               "_id": "315296457086206020",
-               "url": "/docs/resources/section-introduction",
-               "urlName": "Section Introduction"
-            },
-            {
-               "_id": "315296457092497476",
-               "url": "/docs/resources/contact-us",
-               "urlName": "Contact Us"
-            },
-            {
-               "_id": "315296457098788932",
-               "url": "/docs/resources/identified-risks-quick-reference",
-               "urlName": "Identified Risks Quick Reference"
-            },
-            {
-               "_id": "315296457102983236",
-               "url": "/docs/resources/client-information-sheet",
-               "urlName": "Client Information Sheet"
-            }
-         ]
-      }
-   },
-   {
       "_id": "315296531496304705",
       "docType": "Video Tutorials",
       "docLogo": "video-tutorials.svg",

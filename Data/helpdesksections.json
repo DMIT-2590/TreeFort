@@ -1,44 +1,44 @@
 [
    {
-      "_id":"315809780927037509",
-      "sectionName":"Knowledge Base",
-      "sectionLogo":"knowledge-base.svg",
-      "sectionLink":"/knowledge-base",
-      "sectionDescription":"This describes our very knowledgeable knowledge base."
+      "_id": "315809780927037509",
+      "sectionName": "Knowledge Base",
+      "sectionLogo": "knowledge-base.svg",
+      "sectionLink": "/knowledge-base",
+      "sectionDescription": "Get started using TreeFort or learn more about how to get the most out of TreeFort by searching our knowledge base articles."
    },
    {
-      "_id":"315809867743887428",
-      "sectionName":"Resource Base",
-      "sectionLogo":"resources.svg",
-      "sectionLink":"/resources",
-      "sectionDescription":"This describes our very resourceful resource base."
+      "_id": "315809867743887428",
+      "sectionName": "Resources",
+      "sectionLogo": "resources.svg",
+      "sectionLink": "/resources",
+      "sectionDescription": "View helpful references for your team and resources to improve your clients' experience using TreeFort."
    },
    {
-      "_id":"316486100247904324",
-      "sectionName":"Video Base",
-      "sectionLogo":"video-tutorials-light.svg",
-      "sectionLink":"/",
-      "sectionDescription":"Coming Soon"
+      "_id": "316486100247904324",
+      "sectionName": "Video Tutorials",
+      "sectionLogo": "video-tutorials-light.svg",
+      "sectionLink": "/",
+      "sectionDescription": "Coming Soon"
    },
    {
-      "_id":"316486142174167105",
-      "sectionName":"Developer API",
-      "sectionLogo":"developer-api.svg",
-      "sectionLink":"/developer-api",
-      "sectionDescription":"This points to our very descriptive developer api."
+      "_id": "316486142174167105",
+      "sectionName": "Developer API",
+      "sectionLogo": "developer-api.svg",
+      "sectionLink": "https://treefort-api.readme.io/reference/getting-started-with-your-api",
+      "sectionDescription": "View our developer API documentation to integrate TreeFort into your existing applications."
    },
    {
-      "_id":"316486177891811397",
-      "sectionName":"Support Request",
-      "sectionLogo":"support-request.svg",
-      "sectionLink":"/support-request",
-      "sectionDescription":"This describes to our very supportive support team."
+      "_id": "316486177891811397",
+      "sectionName": "Support Request",
+      "sectionLogo": "support-request.svg",
+      "sectionLink": "/support-request",
+      "sectionDescription": "Have questions? Submit a support request to get in touch with a TreeFort team member."
    },
    {
-      "_id":"316486209932099649",
-      "sectionName":"FAQ",
-      "sectionLogo":"faq.svg",
-      "sectionLink":"/faqs",
-      "sectionDescription":"This describes to our very frequently asked questions by our very frequent clients."
+      "_id": "316486209932099649",
+      "sectionName": "FAQ",
+      "sectionLogo": "faq.svg",
+      "sectionLink": "/faqs",
+      "sectionDescription": "View our answers to some of the most frequently asked questions."
    }
 ]

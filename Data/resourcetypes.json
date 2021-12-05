@@ -1,8 +1,8 @@
 [
    {
       "_id": "315813303394762821",
-      "resourceType": "Team Resource",
-      "resourceLogo": "resources.svg",
+      "resourceType": "Team Resources",
+      "resourceLogo": "team-resource.svg",
       "urlLogo": "doc.svg",
       "resources": {
          "data": [
@@ -16,8 +16,8 @@
    },
    {
       "_id": "315813358850801732",
-      "resourceType": "Client Resource",
-      "resourceLogo": "resources.svg",
+      "resourceType": "Client Resources",
+      "resourceLogo": "client-resource.svg",
       "urlLogo": "doc.svg",
       "resources": {
          "data": [
