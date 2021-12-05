@@ -19,7 +19,7 @@
   color: var(--dark-grey);
 }
 
-.nameLabel input, .otherLabel input[type=text], .otherLabel input[type=file], textarea {
+.nameLabel input, .otherLabel input, textarea {
   width: 100%;
   line-height: 1.2;
   margin-bottom: 1.25rem;
