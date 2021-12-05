@@ -25,13 +25,21 @@ export default function Home() {
       <HomepageHeader title="How can we help you?" cssBackgroundClass="homePageBannerOther" />
       <main>
         {/* Hidden form for spam submissions */}
-        <form name="contactForm" netlify netlify-honeypot="bot-field" action="/" hidden>
-            <input type='text' name="lname" id="lname" />
-            <input type='text' name="fname" id="fname" />
-            <input type='text' name="email" id="email" />
-            <input type='text' name="phone" id="phone" />
-            <textarea type='text' name="message" id="message" ></textarea>
-            <input type="file" name="myFile" id="myFile" />
+        <form name="supportRequestForm" netlify netlify-honeypot="bot-field" action="/" hidden>
+          <input type='text' name="lname" id="lname" />
+          <input type='text' name="fname" id="fname" />
+          <input type='text' name="email" id="email" />
+          <input type='text' name="phone" id="phone" />
+          <textarea type='text' name="message" id="message" ></textarea>
+          <input type="file" name="myFile" id="myFile" />
+        </form>
+        <form name="contactUsForm" netlify netlify-honeypot="bot-field" action="/" hidden>
+          <input type="text" name="lname" id="lname" />
+          <input type="text" name="fname" id="fname" />
+          <input type="text" name="email" id="email" />
+          <input type="text" name="phone" id="phone" />
+          <textarea type="text" name="message" id="message"></textarea>
+          <input type="file" name="myFile" id="myFile" />
         </form>
         <HomepageDocumentations />
         <HomepagePopularItems />

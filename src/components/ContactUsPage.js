@@ -7,7 +7,8 @@ const ContactUsPage = () => {
       <div className={styles.formHeader}>
         <h2>Contact Us</h2>
       </div>
-      <form className={styles.addForm} name="contact">
+      <form className={styles.addForm} name="contactUsForm" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="contactUsForm" />
         <label htmlFor="name">Name</label>
         <div className={styles.nameInput}>
           <div>
