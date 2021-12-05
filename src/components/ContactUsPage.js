@@ -27,8 +27,8 @@ const ContactUsPage = () => {
           </div>
           <label htmlFor="message">Tell us how we can help?</label>
           <textarea type="text" name="message" id="message" placeholder="Message"></textarea>
-          <label htmlFor="attachment">File</label>
-          <input type="file" name="attachment" id="attachment" />
+          <label htmlFor="myFile">File</label>
+          <input type="file" name="myFile" id="myFile" />
           <input type="submit" value="Submit" />
         </div>
       </form>
