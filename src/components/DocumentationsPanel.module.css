@@ -9,7 +9,7 @@
 }
 
 .documentContainer {
-    border: 1px solid var(--ifm-color-primary-darkest);
+    border: 1px solid var(--ifm-color-primary-lightest);
     border-radius: 1rem;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }

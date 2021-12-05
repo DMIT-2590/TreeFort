@@ -22,7 +22,7 @@ export default function Home() {
       <Head>
         <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=0ebd3c6b-4cc4-477e-a0bf-0a4c226458f1"> </script>
       </Head>
-      <HomepageHeader title="How can we help you?" cssBackgroundClass="homePageBanner" />
+      <HomepageHeader title="How can we help you?" cssBackgroundClass="homePageBannerOther" />
       <main>
         <HomepageDocumentations />
         <HomepagePopularItems />

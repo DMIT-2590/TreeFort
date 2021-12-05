@@ -14,9 +14,9 @@ export default function Resources() {
         <Layout
             title="Resources"
             description="">
-            <HomepageHeader title="Search our resources here" cssBackgroundClass="resourcePageBanner" />
+            <HomepageHeader title="Search our resources here" cssBackgroundClass="homePageBannerOther" />
             <main>
-                <h2 className={styles.title}>Welcome to our Resources for your Teams and Clients'</h2>
+                <h2 className={styles.title}>View our helpful resources for your Team and Clients</h2>
                 <div className={styles.resourcesContainer}>
                     {error && <div className="center">{error}</div>}
                     {isPending && <div className={styles.loading}><SkeletonLoadingDocs items={loadingData} height={350} /></div>}

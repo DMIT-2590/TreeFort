@@ -1,23 +1,26 @@
 .faqItemContainer {
     border: 1px solid var(--off-white);
     box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.05);
-    padding: 1rem 3rem 2rem 1rem;
+    padding: 1.25rem;
     margin-bottom: 2rem;
     transition: all 0.25s;
 }
 
 .faqItemQuestion {
     display: block;
-    position: absolute;
     font-weight: 600;
     color: var(--ifm-color-primary-darkest);
-    width: 65%;
 }
 
 .faqItemAnswer {
     color: var(--ifm-color-primary-darkest);
-    margin-top: 2rem;
-    width: 75%;
+    margin-top: 1rem;
+    width: 80%;
+}
+
+.linkifyText {
+    font-weight: 600;
+    color: var(--ifm-color-primary-darkest);
 }
 
 /* HOVER STYLES */
@@ -25,4 +28,8 @@
     cursor: pointer;
     background-color: var(--ifm-color-primary-lightest);
     filter: brightness(1.1675);
+}
+
+.linkifyText:hover {
+    color: var(--ifm-color-primary-darker);
 }

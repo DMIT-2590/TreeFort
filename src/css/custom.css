@@ -93,18 +93,23 @@ video {
 
 /* FAQ Collapse */
 .Collapsible__trigger {
-  cursor: pointer;
-  position: relative;    
-  left: calc(96.5%);
-  padding: 1.5rem;
-  background-image: url(../../static/Assets/svg/plus-lg.svg);
-  background-repeat: no-repeat;
-  background-size: 1.5rem;
-  background-position: center left 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
 }
 
 .Collapsible__trigger.is-open{
-  background-image: url(../../static/Assets/svg/dash-lg.svg);
+  font-weight: 600;
+  color: var(--ifm-color-primary-darkest);
+}
+
+.Collapsible__trigger.is-open svg{
+  transform: rotate(180deg);
+}
+
+.Collapsible__contentOuter {
+  font-weight: 400;
 }
 
 /* DOC SEARCH STYLES */
