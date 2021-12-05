@@ -9,12 +9,12 @@ const DocumentationsPanel = ({ helpDeskSections }) => {
                 <div className={styles.documentContainer} key={helpDeskSection._id}>
                     {helpDeskSection.sectionName == "Developer API" ? (
                         <a className={styles.documentHeader} href={helpDeskSection.sectionLink} target="_blank">
-                            <span className={styles.documentLogo}><img src={`assets/svg/${helpDeskSection.sectionLogo}`} alt={helpDeskSection.sectionName}/></span>
+                            <span className={styles.documentLogo}><img src={`/assets/svg/${helpDeskSection.sectionLogo}`} alt={helpDeskSection.sectionName}/></span>
                             <span className={styles.documentTitle}>{helpDeskSection.sectionName}</span>
                         </a>
                     ) : (
                         <Link className={styles.documentHeader} to={helpDeskSection.sectionLink}>
-                            <span className={styles.documentLogo}><img src={`assets/svg/${helpDeskSection.sectionLogo}`} alt={helpDeskSection.sectionName}/></span>
+                            <span className={styles.documentLogo}><img src={`/assets/svg/${helpDeskSection.sectionLogo}`} alt={helpDeskSection.sectionName}/></span>
                             <span className={styles.documentTitle}>{helpDeskSection.sectionName}</span>
                         </Link>
                     )}
