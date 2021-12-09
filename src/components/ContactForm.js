@@ -5,11 +5,12 @@ const ContactForm = () => {
   return (
     <div className={styles.container}>
       <div className={styles.contactImage}>
-        <img src="assets/svg/contact.svg" alt="" className={styles.imgCenter} />
+        <img src="/assets/svg/contact.svg" alt="" className={styles.imgCenter} />
       </div>
       <div className={styles.contactForm}>
         <div className={styles.formHeader}><h1>Contact Us</h1></div>
-        <form className={styles.addForm}  name="contactForm" enctype="multipart/form-data"  autocomplete="off" role="presentation"> 
+        <form className={styles.addForm}  name="supportRequestForm" method="POST" data-netlify="true">
+          <input type="hidden" name="form-name" value="supportRequestForm" />
           <div className={styles.nameLabel}>
             <div>
               <label htmlFor="lname">Last Name:</label>

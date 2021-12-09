@@ -36,10 +36,6 @@ const HomepageFAQs = () => {
                         {isPending && <div className="center">Loading...</div>}
                         {faqTypes[3] !== undefined && faqTypes[3]}
                     </Tab>
-                    <Tab className={styles.faqMenuItem}>
-                        {isPending && <div className="center">Loading...</div>}
-                        {faqTypes[4] !== undefined && faqTypes[4]}
-                    </Tab>
                 </TabList>
                 <TabPanel className={styles.tabPanel}>
                     {error && <div className="center">{error}</div>}
@@ -60,11 +56,6 @@ const HomepageFAQs = () => {
                     {error && <div className="center">{error}</div>}
                     {isPending && <div className={styles.loading}><SkeletonLoadingFAQ items={loadingData} /></div>}
                     {faqs[3] !== undefined && <FAQPanels faqs={faqs[3]} />}                    
-                </TabPanel>
-                <TabPanel>
-                    {error && <div className="center">{error}</div>}
-                    {isPending && <div className={styles.loading}><SkeletonLoadingFAQ items={loadingData} /></div>}
-                    {faqs[4] !== undefined && <FAQPanels faqs={faqs[4]} />}                    
                 </TabPanel>
             </Tabs>
         </div>

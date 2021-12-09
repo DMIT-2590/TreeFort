@@ -1,147 +1,112 @@
 [
-    {
-       "_id":"315295980176015428",
-       "docType":"Account Setup and Management",
-       "docLogo":"account-setup.svg",
-       "urlLogo":"doc.svg",
-       "docs":{
-          "data":[
-             {
-                "_id":"315295980189646916",
-                "url":"/docs/account-setup-and-management/section-introduction",
-                "urlName":"Section Introduction"
-             },
-             {
-                "_id":"315295980199084100",
-                "url":"/docs/account-setup-and-management/creating-your-account",
-                "urlName":"Creating Your Account"
-             },
-             {
-                "_id":"315295980205375556",
-                "url":"/docs/account-setup-and-management/user-settings",
-                "urlName":"User Settings"
-             },
-             {
-                "_id":"315295980215861316",
-                "url":"/docs/account-setup-and-management/forgot-account-number-or-password",
-                "urlName":"Forgot Account Number or Password"
-             }
-          ]
-       }
-    },
-    {
-       "_id":"315296153608388673",
-       "docType":"Getting Started",
-       "docLogo":"getting-started.svg",
-       "urlLogo":"doc.svg",
-       "docs":{
-          "data":[
-             {
-                "_id":"315296153619923009",
-                "url":"/docs/getting-started/section-introduction",
-                "urlName":"Section Introduction"
-             },
-             {
-                "_id":"315296153628311617",
-                "url":"/docs/getting-started/managing-files",
-                "urlName":"Managing Files"
-             },
-             {
-                "_id":"315296153639845953",
-                "url":"/docs/getting-started/managing-clients",
-                "urlName":"Managing Clients"
-             },
-             {
-                "_id":"315296153645088833",
-                "url":"/docs/getting-started/the-id-verification-process",
-                "urlName":"The ID Verification Process"
-             },
-             {
-                "_id":"315296153650331713",
-                "url":"/docs/getting-started/understanding-the-treefort-report",
-                "urlName":"Understanding the Treefort Report"
-             }
-          ]
-       }
-    },
-    {
-       "_id":"315296324393107525",
-       "docType":"Managing Your Organization",
-       "docLogo":"manage-your-organization.svg",
-       "urlLogo":"doc.svg",
-       "docs":{
-          "data":[
-             {
-                "_id":"315296324409884741",
-                "url":"/docs/managing-your-organization/section-introduction",
-                "urlName":"Section Introduction"
-             },
-             {
-                "_id":"315296324419321925",
-                "url":"/docs/managing-your-organization/managing-organization-settings",
-                "urlName":"Managing Organization Settings"
-             },
-             {
-                "_id":"315296324425613381",
-                "url":"/docs/managing-your-organization/managing-suborganizations",
-                "urlName":"Managing Suborganization"
-             },
-             {
-                "_id":"315296324430856261",
-                "url":"/docs/managing-your-organization/managing-users",
-                "urlName":"Managing Users"
-             }
-          ]
-       }
-    },
-    {
-       "_id":"315296457074671684",
-       "docType":"Resources",
-       "docLogo":"resources.svg",
-       "urlLogo":"doc.svg",
-       "docs":{
-          "data":[
-             {
-                "_id":"315296457086206020",
-                "url":"/docs/resources/section-introduction",
-                "urlName":"Section Introduction"
-             },
-             {
-                "_id":"315296457092497476",
-                "url":"/docs/resources/contact-us",
-                "urlName":"Contact Us"
-             },
-             {
-                "_id":"315296457098788932",
-                "url":"/docs/resources/identified-risks-quick-reference",
-                "urlName":"Identified Risks Quick Reference"
-             },
-             {
-                "_id":"315296457102983236",
-                "url":"/docs/resources/client-information-sheet",
-                "urlName":"Client Information Sheet"
-             }
-          ]
-       }
-    },
-    {
-       "_id":"315296531496304705",
-       "docType":"Video Tutorials",
-       "docLogo":"video-tutorials.svg",
-       "urlLogo":"doc.svg",
-       "docs":{
-          "data":[
-             {
-                "_id":"315296531506790465",
-                "url":"#",
-                "urlName":"Section Introduction"
-             },
-             {
-                "_id":"315296531514130497",
-                "url":"#",
-                "urlName":"Help With Questions"
-             }
-          ]
-       }
-    }
- ]
+   {
+      "_id": "315295980176015428",
+      "docType": "Account Setup and Management",
+      "docLogo": "account-setup.svg",
+      "urlLogo": "doc.svg",
+      "docs": {
+         "data": [
+            {
+               "_id": "315295980189646916",
+               "url": "/docs/account-setup-and-management/section-introduction",
+               "urlName": "Section Introduction"
+            },
+            {
+               "_id": "315295980199084100",
+               "url": "/docs/account-setup-and-management/creating-your-account",
+               "urlName": "Creating Your Account"
+            },
+            {
+               "_id": "315295980205375556",
+               "url": "/docs/account-setup-and-management/user-settings",
+               "urlName": "User Settings"
+            },
+            {
+               "_id": "315295980215861316",
+               "url": "/docs/account-setup-and-management/forgot-account-number-or-password",
+               "urlName": "Forgot Account Number or Password"
+            }
+         ]
+      }
+   },
+   {
+      "_id": "315296153608388673",
+      "docType": "Getting Started",
+      "docLogo": "getting-started.svg",
+      "urlLogo": "doc.svg",
+      "docs": {
+         "data": [
+            {
+               "_id": "315296153619923009",
+               "url": "/docs/getting-started/section-introduction",
+               "urlName": "Section Introduction"
+            },
+            {
+               "_id": "315296153628311617",
+               "url": "/docs/getting-started/managing-files",
+               "urlName": "Managing Files"
+            },
+            {
+               "_id": "315296153639845953",
+               "url": "/docs/getting-started/managing-clients",
+               "urlName": "Managing Clients"
+            },
+            {
+               "_id": "315296153645088833",
+               "url": "/docs/getting-started/the-id-verification-process",
+               "urlName": "The ID Verification Process"
+            },
+            {
+               "_id": "315296153650331713",
+               "url": "/docs/getting-started/understanding-the-treefort-report",
+               "urlName": "Understanding the Treefort Report"
+            }
+         ]
+      }
+   },
+   {
+      "_id": "315296324393107525",
+      "docType": "Managing Your Organization",
+      "docLogo": "manage-your-organization.svg",
+      "urlLogo": "doc.svg",
+      "docs": {
+         "data": [
+            {
+               "_id": "315296324409884741",
+               "url": "/docs/managing-your-organization/section-introduction",
+               "urlName": "Section Introduction"
+            },
+            {
+               "_id": "315296324419321925",
+               "url": "/docs/managing-your-organization/managing-organization-settings",
+               "urlName": "Managing Organization Settings"
+            },
+            {
+               "_id": "315296324425613381",
+               "url": "/docs/managing-your-organization/managing-suborganizations",
+               "urlName": "Managing Suborganization"
+            },
+            {
+               "_id": "315296324430856261",
+               "url": "/docs/managing-your-organization/managing-users",
+               "urlName": "Managing Users"
+            }
+         ]
+      }
+   },
+   {
+      "_id": "315296531496304705",
+      "docType": "Video Tutorials",
+      "docLogo": "video-tutorials.svg",
+      "urlLogo": "doc.svg",
+      "docs": {
+         "data": [
+            {
+               "_id": "315296531506790465",
+               "url": "/knowledge-base",
+               "urlName": "Coming Soon"
+            }
+         ]
+      }
+   }
+]

@@ -9,7 +9,7 @@ import SkeletonLoadingDocs from '../components/SkeletonLoadingDocs';
 
 export default function KnowledgeBase() {
     const {data, isPending, error} = getData('/.netlify/functions/getdoctypes');
-    const loadingData = [1, 2, 3, 4, 5];
+    const loadingData = [1, 2, 3, 4];
     return (
         <Layout
             title="Knowledge Base"

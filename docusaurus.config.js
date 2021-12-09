@@ -12,7 +12,7 @@ const config = {
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/favicon_treefort.ico",
+  favicon: "img/treefort_favicon.ico",
   organizationName: "TreeFort", // Usually your GitHub org/user name.
   projectName: "TreeFort", // Usually your repo name.
 
@@ -46,7 +46,7 @@ const config = {
         title: "Home",
         logo: {
           alt: "TreeFort Logo",
-          src: "img/logo_treefort.png",
+          src: "img/treefort_logo.png",
         },
         items: [
           {
@@ -60,7 +60,7 @@ const config = {
             position: "left",
           },
           {
-            to: "/developer-api",
+            to: "https://treefort-api.readme.io/reference/getting-started-with-your-api",
             label: "Developer API",
             position: "left",
           },
@@ -124,8 +124,8 @@ const config = {
             title: "INFORMATION",
             items: [
               {
-                label: "Terms & Conditions",
-                href: "mailto:support@treefort.ca",
+                label: "Privacy Policy",
+                href: "https://treefort.tech/privacy-policy/",
               },
               {
                 label: "Website Privacy Statement",
@@ -141,17 +141,9 @@ const config = {
             title: "SUPPORT",
             items: [
               {
-                label: "Forum: Ask a question",
-                to: "/faqs",
-              },
-              {
-                label: "Email: info@treefort.ca",
-                href: "mailto:info@treefort.ca",
-              },
-              {
-                label: "Chat: Offline",
-                href: "https://www.zendesk.com/",
-              },
+                label: "Email: support@treefort.tech",
+                href: "mailto:support@treefort.tech",
+              }
             ],
           },
         ],

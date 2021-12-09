@@ -7,7 +7,8 @@ const ContactUsPage = () => {
       <div className={styles.formHeader}>
         <h2>Contact Us</h2>
       </div>
-      <form className={styles.addForm} action="mailto:support@treefort.tech">
+      <form className={styles.addForm} name="contactUsForm" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="contactUsForm" />
         <label htmlFor="name">Name</label>
         <div className={styles.nameInput}>
           <div>
@@ -26,8 +27,8 @@ const ContactUsPage = () => {
           </div>
           <label htmlFor="message">Tell us how we can help?</label>
           <textarea type="text" name="message" id="message" placeholder="Message"></textarea>
-          <label htmlFor="attachment">File</label>
-          <input type="file" name="attachment" id="attachment" />
+          <label htmlFor="myFile">File</label>
+          <input type="file" name="myFile" id="myFile" />
           <input type="submit" value="Submit" />
         </div>
       </form>

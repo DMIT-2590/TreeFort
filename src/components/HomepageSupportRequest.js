@@ -18,7 +18,7 @@ const HomepageSupportRequest = () => {
     }
     return ( 
         <div className={styles.supportRequest}>
-            <h2>Didn't find what you want?</h2>
+            <h2>Didn't find what you were looking for?</h2>
             <Link to="/support-request">
                 <button className="submit-support" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                     <span>Submit Support Request</span>
